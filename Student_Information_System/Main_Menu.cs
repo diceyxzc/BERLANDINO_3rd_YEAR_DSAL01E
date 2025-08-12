@@ -141,13 +141,15 @@ namespace Student_Information_System
         private void pictureBox14_Click(object sender, EventArgs e)
         {
             // Code for inserting or assigning a value to the Text property of a textbox 2
-            itemnameTextbox.Text = "Lunch Value Meal 1";
-            priceTextbox.Text = "199.10";
+            itemnameTextbox.Text = "Breakfast Meal B";
+            priceTextbox.Text = "133.30";
         }
 
         private void pictureBox15_Click(object sender, EventArgs e)
         {
-
+            // Code for inserting or assigning a value to the Text property of a textbox 2
+            itemnameTextbox.Text = "Lunch Value Meal B";
+            priceTextbox.Text = "191.30";
         }
     }
 }
