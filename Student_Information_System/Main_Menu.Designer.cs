@@ -69,11 +69,15 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.ImageLocation = "C:\\Users\\fla10\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informati" +
+    "on_System\\Images\\Breakfast Meal B.jpg";
             this.pictureBox1.Location = new System.Drawing.Point(95, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(179, 142);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.WaitOnLoad = true;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
@@ -84,6 +88,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(179, 142);
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.WaitOnLoad = true;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox3
@@ -94,6 +99,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(179, 142);
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.WaitOnLoad = true;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox4
@@ -104,6 +110,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(179, 142);
             this.pictureBox4.TabIndex = 8;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.WaitOnLoad = true;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox5
@@ -114,6 +121,7 @@
             this.pictureBox5.Size = new System.Drawing.Size(179, 142);
             this.pictureBox5.TabIndex = 10;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.WaitOnLoad = true;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // extBtn
@@ -142,6 +150,7 @@
             this.pictureBox6.Size = new System.Drawing.Size(179, 142);
             this.pictureBox6.TabIndex = 17;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.WaitOnLoad = true;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox7
@@ -152,6 +161,7 @@
             this.pictureBox7.Size = new System.Drawing.Size(179, 142);
             this.pictureBox7.TabIndex = 16;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.WaitOnLoad = true;
             this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox8
@@ -162,6 +172,7 @@
             this.pictureBox8.Size = new System.Drawing.Size(179, 142);
             this.pictureBox8.TabIndex = 15;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.WaitOnLoad = true;
             this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox9
@@ -172,6 +183,7 @@
             this.pictureBox9.Size = new System.Drawing.Size(179, 142);
             this.pictureBox9.TabIndex = 14;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.WaitOnLoad = true;
             this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox10
@@ -182,6 +194,7 @@
             this.pictureBox10.Size = new System.Drawing.Size(179, 142);
             this.pictureBox10.TabIndex = 13;
             this.pictureBox10.TabStop = false;
+            this.pictureBox10.WaitOnLoad = true;
             this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
             // pictureBox11
@@ -192,6 +205,7 @@
             this.pictureBox11.Size = new System.Drawing.Size(179, 142);
             this.pictureBox11.TabIndex = 22;
             this.pictureBox11.TabStop = false;
+            this.pictureBox11.WaitOnLoad = true;
             this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
             // 
             // pictureBox12
@@ -202,6 +216,7 @@
             this.pictureBox12.Size = new System.Drawing.Size(179, 142);
             this.pictureBox12.TabIndex = 21;
             this.pictureBox12.TabStop = false;
+            this.pictureBox12.WaitOnLoad = true;
             this.pictureBox12.Click += new System.EventHandler(this.pictureBox12_Click);
             // 
             // pictureBox13
@@ -212,6 +227,7 @@
             this.pictureBox13.Size = new System.Drawing.Size(179, 142);
             this.pictureBox13.TabIndex = 20;
             this.pictureBox13.TabStop = false;
+            this.pictureBox13.WaitOnLoad = true;
             this.pictureBox13.Click += new System.EventHandler(this.pictureBox13_Click);
             // 
             // pictureBox14
@@ -222,6 +238,7 @@
             this.pictureBox14.Size = new System.Drawing.Size(179, 142);
             this.pictureBox14.TabIndex = 19;
             this.pictureBox14.TabStop = false;
+            this.pictureBox14.WaitOnLoad = true;
             this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click);
             // 
             // pictureBox15
@@ -232,6 +249,7 @@
             this.pictureBox15.Size = new System.Drawing.Size(179, 142);
             this.pictureBox15.TabIndex = 18;
             this.pictureBox15.TabStop = false;
+            this.pictureBox15.WaitOnLoad = true;
             this.pictureBox15.Click += new System.EventHandler(this.pictureBox15_Click);
             // 
             // label1
@@ -274,7 +292,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
-            this.ClientSize = new System.Drawing.Size(1091, 573);
+            this.ClientSize = new System.Drawing.Size(1111, 557);
             this.Controls.Add(this.priceTextbox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.itemnameTextbox);
