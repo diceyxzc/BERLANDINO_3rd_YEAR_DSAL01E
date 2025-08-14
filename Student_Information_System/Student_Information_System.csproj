@@ -80,7 +80,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Breakfast Meal A.png" />
     <Content Include="Images\Breakfast Meal B.jpg" />
+    <Content Include="Images\Breakfast Meal B.png" />
+    <Content Include="Images\Breakfast Meal C.png" />
+    <Content Include="Images\Breakfast Meal D.png" />
+    <Content Include="Images\Chicken Meal 2.png" />
+    <Content Include="Images\Chicken Meal A.png" />
+    <Content Include="Images\Double Palaboc Meal.png" />
+    <Content Include="Images\Double Value Meal A.jpg" />
+    <Content Include="Images\Double Value Meal A.png" />
+    <Content Include="Images\Family Combo Meal A.png" />
+    <Content Include="Images\Family Combo Meal B.png" />
+    <Content Include="Images\Friend Meal A%281%29.png" />
+    <Content Include="Images\Friend Meal A.jpg" />
+    <Content Include="Images\Friend Meal A.png" />
+    <Content Include="Images\Lunch Value Meal 1.png" />
+    <Content Include="Images\Lunch Value Meal B.png" />
+    <Content Include="Images\Pancake Value Meal A.jpg" />
+    <Content Include="Images\Pasta Meal 101.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

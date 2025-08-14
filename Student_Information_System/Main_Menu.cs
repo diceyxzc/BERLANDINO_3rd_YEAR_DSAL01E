@@ -85,8 +85,8 @@ namespace Student_Information_System
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             // Code for inserting or assigning a value to the Text property of a textbox 2
-            itemnameTextbox.Text = "Breakfast Meal A";
-            priceTextbox.Text = "91.30";
+            itemnameTextbox.Text = "Breakfast Meal C";
+            priceTextbox.Text = "191.30";
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
@@ -141,7 +141,7 @@ namespace Student_Information_System
         private void pictureBox14_Click(object sender, EventArgs e)
         {
             // Code for inserting or assigning a value to the Text property of a textbox 2
-            itemnameTextbox.Text = "Breakfast Meal B";
+            itemnameTextbox.Text = "Breakfast Meal D";
             priceTextbox.Text = "133.30";
         }
 
