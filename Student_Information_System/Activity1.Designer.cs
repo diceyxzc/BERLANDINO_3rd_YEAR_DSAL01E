@@ -1,6 +1,6 @@
 ﻿namespace Student_Information_System
 {
-    partial class Main_Menu
+    partial class Activity1
     {
         /// <summary>
         /// Required designer variable.
@@ -144,6 +144,7 @@
             this.extBtn.TabIndex = 12;
             this.extBtn.Text = "Exit";
             this.extBtn.UseVisualStyleBackColor = true;
+            this.extBtn.Click += new System.EventHandler(this.extBtn_Click);
             // 
             // newBtn
             // 
@@ -153,6 +154,7 @@
             this.newBtn.TabIndex = 11;
             this.newBtn.Text = "New";
             this.newBtn.UseVisualStyleBackColor = true;
+            this.newBtn.Click += new System.EventHandler(this.newBtn_Click);
             // 
             // pictureBox6
             // 
@@ -329,7 +331,7 @@
             this.label2.Text = "Price:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // Main_Menu
+            // Activity1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -356,7 +358,7 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Main_Menu";
+            this.Name = "Activity1";
             this.Text = "Example 1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

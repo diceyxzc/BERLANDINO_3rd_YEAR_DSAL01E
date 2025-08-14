@@ -10,41 +10,25 @@ using System.Windows.Forms;
 
 namespace Student_Information_System
 {
-    public partial class Main_Menu : Form
+    public partial class Activity2 : Form
     {
-        public Main_Menu()
+        public Activity2()
         {
             InitializeComponent();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void Activity2_Load(object sender, EventArgs e)
         {
-            
-        }
+            // Codes for disabling the textboxes
+            itemnameTextbox.Enabled = false;
+            priceTextbox.Enabled = false;
+            discountedtxtbox.Enabled = false;
+            qty_totaltxtbox.Enabled = false;
+            discount_totaltxtbox.Enabled = false;
+            discounted_totaltxtbox.Enabled = false;
+            changetxtbox.Enabled = false;
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_MouseClick(object sender, MouseEventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
+            // Codes for inserting picture or image inside the picturebox tool
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -150,6 +134,94 @@ namespace Student_Information_System
             // Code for inserting or assigning a value to the Text property of a textbox 2
             itemnameTextbox.Text = "Lunch Value Meal B";
             priceTextbox.Text = "191.30";
+        }
+
+        private void newBtn_Click(object sender, EventArgs e)
+        {
+            // Code for clearing or emptying the value of the Text property of a textbox
+            itemnameTextbox.Clear();
+            priceTextbox.Clear();
+        }
+
+        private void extBtn_Click(object sender, EventArgs e)
+        {
+            // Code for closing the execution of the Windows Form Application
+            this.Close();
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox17_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label24_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label25_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label26_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
