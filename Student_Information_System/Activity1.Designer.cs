@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Activity1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -69,6 +70,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Breakfast Meal B.png";
             this.pictureBox1.Location = new System.Drawing.Point(95, 12);
@@ -83,6 +85,7 @@
             // pictureBox2
             // 
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Friend Meal A(1).png";
             this.pictureBox2.Location = new System.Drawing.Point(280, 12);
@@ -97,6 +100,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Double Value Meal A.png";
             this.pictureBox3.Location = new System.Drawing.Point(464, 12);
@@ -111,6 +115,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Family Combo Meal B.png";
             this.pictureBox4.Location = new System.Drawing.Point(649, 12);
@@ -125,6 +130,7 @@
             // pictureBox5
             // 
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Breakfast Meal A.png";
             this.pictureBox5.Location = new System.Drawing.Point(834, 12);
@@ -159,6 +165,7 @@
             // pictureBox6
             // 
             this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
             this.pictureBox6.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Breakfast Meal C.png";
             this.pictureBox6.Location = new System.Drawing.Point(95, 160);
@@ -173,6 +180,7 @@
             // pictureBox7
             // 
             this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
             this.pictureBox7.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Pasta Meal 101.png";
             this.pictureBox7.Location = new System.Drawing.Point(280, 160);
@@ -187,6 +195,7 @@
             // pictureBox8
             // 
             this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
             this.pictureBox8.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Family Combo Meal A.png";
             this.pictureBox8.Location = new System.Drawing.Point(464, 160);
@@ -201,6 +210,7 @@
             // pictureBox9
             // 
             this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
             this.pictureBox9.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Chicken Meal A.png";
             this.pictureBox9.Location = new System.Drawing.Point(649, 160);
@@ -215,6 +225,7 @@
             // pictureBox10
             // 
             this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox10.Image")));
             this.pictureBox10.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Lunch Value Meal 1.png";
             this.pictureBox10.Location = new System.Drawing.Point(834, 160);
@@ -229,6 +240,7 @@
             // pictureBox11
             // 
             this.pictureBox11.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox11.Image")));
             this.pictureBox11.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Double Palaboc Meal.png";
             this.pictureBox11.Location = new System.Drawing.Point(95, 308);
@@ -243,6 +255,7 @@
             // pictureBox12
             // 
             this.pictureBox12.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
             this.pictureBox12.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Chicken Meal 2.png";
             this.pictureBox12.Location = new System.Drawing.Point(279, 308);
@@ -257,6 +270,7 @@
             // pictureBox13
             // 
             this.pictureBox13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
             this.pictureBox13.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Pancake Value Meal A.jpg";
             this.pictureBox13.Location = new System.Drawing.Point(464, 308);
@@ -271,6 +285,7 @@
             // pictureBox14
             // 
             this.pictureBox14.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
             this.pictureBox14.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Breakfast Meal D.png";
             this.pictureBox14.Location = new System.Drawing.Point(649, 308);
@@ -285,6 +300,7 @@
             // pictureBox15
             // 
             this.pictureBox15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
             this.pictureBox15.ImageLocation = "C:\\Users\\C203-03\\source\\repos\\diceyxzc\\Student_Information_System\\Student_Informa" +
     "tion_System\\Images\\Lunch Value Meal B.png";
             this.pictureBox15.Location = new System.Drawing.Point(834, 308);
