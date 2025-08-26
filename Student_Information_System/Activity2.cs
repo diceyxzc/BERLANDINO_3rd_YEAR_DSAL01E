@@ -28,7 +28,8 @@ namespace Student_Information_System
             discounted_totaltxtbox.Enabled = false;
             changetxtbox.Enabled = false;
 
-            // Codes for inserting picture or image inside the picturebox tool
+            // Codes for inserting name of the image inside the label tool
+            label14.Text = "Breakfast Meal B";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
