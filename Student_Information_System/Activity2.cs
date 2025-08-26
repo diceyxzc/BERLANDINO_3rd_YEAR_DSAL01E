@@ -30,6 +30,25 @@ namespace Student_Information_System
 
             // Codes for inserting name of the image inside the label tool
             label14.Text = "Breakfast Meal B";
+            label15.Text = "Friend Meal A";
+            label16.Text = "Double Value Meal A";
+            label17.Text = "Family Combo Meal B";
+            label18.Text = "Breakfast Meal A";
+            label19.Text = "Breakfast Meal C";
+            label20.Text = "Pasta Meal 101";
+            label21.Text = "Family Combo Meal A";
+            label22.Text = "Chicken Meal A";
+            label23.Text = "Lunch Value Meal 1";
+            label24.Text = "Double Palaboc Meal";
+            label25.Text = "Chicken Meal 2";
+            label26.Text = "Pancake Value Meal A";
+            label27.Text = "Breakfast Meal D";
+            label28.Text = "Lunch Value Meal B";
+            label29.Text = "Ceasar Salad";
+            label30.Text = "Tuna Ceasar Salad";
+            label31.Text = "Chicken Two Piece";
+            label32.Text = "Mojos Meal";
+            label33.Text = "Full Creamy Pizza";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -137,45 +156,42 @@ namespace Student_Information_System
             priceTextbox.Text = "191.30";
         }
 
-        private void newBtn_Click(object sender, EventArgs e)
+        private void pictureBox16_Click(object sender, EventArgs e)
         {
-            // Code for clearing or emptying the value of the Text property of a textbox
-            itemnameTextbox.Clear();
-            priceTextbox.Clear();
-        }
-
-        private void extBtn_Click(object sender, EventArgs e)
-        {
-            // Code for closing the execution of the Windows Form Application
-            this.Close();
-        }
-
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox20_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox19_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox18_Click(object sender, EventArgs e)
-        {
-
+            // Code for inserting or assigning a value to the Text property of a textbox 2
+            itemnameTextbox.Text = "Ceasar Salad";
+            priceTextbox.Text = "151.00";
         }
 
         private void pictureBox17_Click(object sender, EventArgs e)
         {
-
+            // Code for inserting or assigning a value to the Text property of a textbox 2
+            itemnameTextbox.Text = "Tuna Ceasar Salad";
+            priceTextbox.Text = "160.30";
         }
 
-        private void pictureBox16_Click(object sender, EventArgs e)
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            // Code for inserting or assigning a value to the Text property of a textbox 2
+            itemnameTextbox.Text = "Chicken Two Piece";
+            priceTextbox.Text = "231.00";
+        }
+
+        private void pictureBox19_Click(object sender, EventArgs e)
+        {
+            // Code for inserting or assigning a value to the Text property of a textbox 2
+            itemnameTextbox.Text = "Mojos Meal";
+            priceTextbox.Text = "120.60";
+        }
+
+        private void pictureBox20_Click(object sender, EventArgs e)
+        {
+            // Code for inserting or assigning a value to the Text property of a textbox 2
+            itemnameTextbox.Text = "Full Creamy Pizza";
+            priceTextbox.Text = "350.30";
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
         {
 
         }
@@ -223,6 +239,16 @@ namespace Student_Information_System
         private void button13_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void itemnameTextbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

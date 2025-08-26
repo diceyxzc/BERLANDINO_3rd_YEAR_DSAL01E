@@ -99,6 +99,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Default Image.png" />
     <Content Include="Images\Breakfast Meal A.png" />
     <Content Include="Images\Breakfast Meal B.jpg" />
     <Content Include="Images\Breakfast Meal B.png" />
@@ -113,6 +114,8 @@
     <Content Include="Images\Double Value Meal A.png" />
     <Content Include="Images\Family Combo Meal A.png" />
     <Content Include="Images\Family Combo Meal B.png" />
+    <Content Include="Images\Food Bundle A.jpeg" />
+    <Content Include="Images\Food Bundle B.jpg" />
     <Content Include="Images\Friend Meal A%281%29.png" />
     <Content Include="Images\Friend Meal A.jpg" />
     <Content Include="Images\Friend Meal A.png" />
