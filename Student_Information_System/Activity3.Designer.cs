@@ -351,7 +351,7 @@
             this.Controls.Add(this.foodARdbtn);
             this.Controls.Add(this.label3);
             this.Name = "Activity3";
-            this.Text = "Example 4";
+            this.Text = ".";
             this.Load += new System.EventHandler(this.Activity3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DisplayPictureBox)).EndInit();
             this.ResumeLayout(false);

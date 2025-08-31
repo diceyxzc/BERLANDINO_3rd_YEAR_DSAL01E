@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Student_Information_System
@@ -16,7 +13,7 @@ namespace Student_Information_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Activity3());
+            Application.Run(new Lesson_2_Activity());
         }
     }
 }

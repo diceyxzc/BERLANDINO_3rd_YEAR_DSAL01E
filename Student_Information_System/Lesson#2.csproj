@@ -64,6 +64,12 @@
     <Compile Include="Activity3.Designer.cs">
       <DependentUpon>Activity3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lesson_2_Activity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lesson_2_Activity.Designer.cs">
+      <DependentUpon>Lesson_2_Activity.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Activity1.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Activity3.resx">
       <DependentUpon>Activity3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lesson_2_Activity.resx">
+      <DependentUpon>Lesson_2_Activity.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -109,6 +118,7 @@
     <Content Include="Images\Chicken Meal 2.png" />
     <Content Include="Images\Chicken Meal A.png" />
     <Content Include="Images\Chicken Two Piece.png" />
+    <Content Include="Images\default_user.jpg" />
     <Content Include="Images\Double Palaboc Meal.png" />
     <Content Include="Images\Double Value Meal A.jpg" />
     <Content Include="Images\Double Value Meal A.png" />

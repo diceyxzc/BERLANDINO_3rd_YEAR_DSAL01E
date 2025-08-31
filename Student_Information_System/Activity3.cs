@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Student_Information_System
@@ -104,7 +98,7 @@ namespace Student_Information_System
             // Code for inserting the default image inside the picturebox
             DisplayPictureBox.Image = Image.FromFile("C:\\Users\\fla10\\source\\repos\\diceyxzc\\" +
                 "Student_Information_System\\Student_Information_System\\Images\\Default Image.png");
-            
+
             // Codes to uncheck checkboxes food bundle A
             A_FriedChickenCheckBox.Checked = false;
             A_FriesCheckBox.Checked = false;
