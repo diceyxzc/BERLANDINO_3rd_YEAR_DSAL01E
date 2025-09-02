@@ -13,7 +13,7 @@ namespace Student_Information_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Lesson_2_Activity());
+            Application.Run(new Activity2());
         }
     }
 }

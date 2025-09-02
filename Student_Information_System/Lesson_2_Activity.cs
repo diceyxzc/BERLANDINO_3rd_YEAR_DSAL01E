@@ -7,6 +7,18 @@ namespace Student_Information_System
     public partial class Lesson_2_Activity : Form
     {
 
+        private void Lesson_2_Activity_Load(object sender, EventArgs e)
+        {
+            total_tuition_txt2.Enabled = false;
+            total_misc_txt2.Enabled = false;
+            cisco_lab_txt2.Enabled = false;
+            comp_lab_fee_txt.Enabled = false;
+            total_other_fees_txt.Enabled = false;
+            exam_booklet_txt2.Enabled = false;
+            total_num_units_txt2.Enabled = false;
+            total_tuition_fees_txt2.Enabled = false;
+        }
+
         private void browse_button_Click(object sender, EventArgs e)
         {
             student_picture.Image = Image.FromFile(browse_txtbox.Text);
@@ -66,6 +78,19 @@ namespace Student_Information_System
             credit_units_list.Items.Add(credit_units_txt.Text);
             time_list.Items.Add(time_txt.Text);
             day_list.Items.Add(day_txt.Text);
+
+            total_tuition_txt2.Text = total_tuition_txt.Text;
+            total_misc_txt2.Text = total_misc_txt.Text;
+            comp_lab_fee_txt.Text = lab_fee_txt.Text;
+            cisco_lab_txt2.Text = cisco_lab_txt.Text;
+            exam_booklet_txt2.Text = exam_booklet_txt.Text;
+            total_num_units_txt2.Text = total_num_units_txt.Text;
+            total_tuition_fees_txt2.Text = total_tuition_fees_txt.Text;
+        }
+
+        private void course_number_txt_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

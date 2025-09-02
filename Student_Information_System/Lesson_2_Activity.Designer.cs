@@ -234,6 +234,7 @@
             this.course_number_txt.Name = "course_number_txt";
             this.course_number_txt.Size = new System.Drawing.Size(220, 20);
             this.course_number_txt.TabIndex = 17;
+            this.course_number_txt.TextChanged += new System.EventHandler(this.course_number_txt_TextChanged);
             // 
             // course_code_txt
             // 
@@ -889,6 +890,7 @@
             this.Controls.Add(this.student_picture);
             this.Name = "Lesson_2_Activity";
             this.Text = "Lesson_2_Activity";
+            this.Load += new System.EventHandler(this.Lesson_2_Activity_Load);
             ((System.ComponentModel.ISupportInitialize)(this.student_picture)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
