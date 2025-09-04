@@ -74,6 +74,7 @@
             this.calculateBtn = new System.Windows.Forms.Button();
             this.button21 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.senior_radio_button = new System.Windows.Forms.RadioButton();
             this.nodisc_radio_button = new System.Windows.Forms.RadioButton();
             this.emp_radio_button = new System.Windows.Forms.RadioButton();
             this.disc_radio_button = new System.Windows.Forms.RadioButton();
@@ -92,11 +93,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.discounted_totaltxtbox = new System.Windows.Forms.TextBox();
-            this.discount_totaltxtbox = new System.Windows.Forms.TextBox();
-            this.qty_totaltxtbox = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
@@ -117,12 +114,14 @@
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.label30 = new System.Windows.Forms.Label();
-            this.senior_radio_button = new System.Windows.Forms.RadioButton();
+            this.label11 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.discounted_totaltxtbox = new System.Windows.Forms.TextBox();
+            this.discount_totaltxtbox = new System.Windows.Forms.TextBox();
+            this.qty_totaltxtbox = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
@@ -143,6 +142,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // button11
@@ -605,6 +605,18 @@
             this.panel1.Size = new System.Drawing.Size(629, 136);
             this.panel1.TabIndex = 78;
             // 
+            // senior_radio_button
+            // 
+            this.senior_radio_button.AutoSize = true;
+            this.senior_radio_button.Location = new System.Drawing.Point(377, 36);
+            this.senior_radio_button.Name = "senior_radio_button";
+            this.senior_radio_button.Size = new System.Drawing.Size(89, 17);
+            this.senior_radio_button.TabIndex = 52;
+            this.senior_radio_button.TabStop = true;
+            this.senior_radio_button.Text = "Senior Citizen";
+            this.senior_radio_button.UseVisualStyleBackColor = true;
+            this.senior_radio_button.CheckedChanged += new System.EventHandler(this.senior_radio_button_CheckedChanged);
+            // 
             // nodisc_radio_button
             // 
             this.nodisc_radio_button.AutoSize = true;
@@ -650,6 +662,7 @@
             this.extiBtn.TabIndex = 13;
             this.extiBtn.Text = "EXIT";
             this.extiBtn.UseVisualStyleBackColor = true;
+            this.extiBtn.Click += new System.EventHandler(this.extiBtn_Click);
             // 
             // cancelBtn
             // 
@@ -660,6 +673,7 @@
             this.cancelBtn.TabIndex = 12;
             this.cancelBtn.Text = "CANCEL";
             this.cancelBtn.UseVisualStyleBackColor = true;
+            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
             // 
             // newBtn
             // 
@@ -670,6 +684,7 @@
             this.newBtn.TabIndex = 11;
             this.newBtn.Text = "NEW";
             this.newBtn.UseVisualStyleBackColor = true;
+            this.newBtn.Click += new System.EventHandler(this.newBtn_Click);
             // 
             // discountedtxtbox
             // 
@@ -812,51 +827,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Items Display";
             // 
-            // label11
+            // label30
             // 
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(6, 98);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(232, 20);
-            this.label11.TabIndex = 7;
-            this.label11.Text = "Total Discounted Amount:";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.discounted_totaltxtbox);
-            this.groupBox2.Controls.Add(this.discount_totaltxtbox);
-            this.groupBox2.Controls.Add(this.qty_totaltxtbox);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(19, 234);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(630, 134);
-            this.groupBox2.TabIndex = 79;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Summary";
-            // 
-            // discounted_totaltxtbox
-            // 
-            this.discounted_totaltxtbox.Location = new System.Drawing.Point(197, 96);
-            this.discounted_totaltxtbox.Name = "discounted_totaltxtbox";
-            this.discounted_totaltxtbox.Size = new System.Drawing.Size(420, 22);
-            this.discounted_totaltxtbox.TabIndex = 16;
-            // 
-            // discount_totaltxtbox
-            // 
-            this.discount_totaltxtbox.Location = new System.Drawing.Point(197, 57);
-            this.discount_totaltxtbox.Name = "discount_totaltxtbox";
-            this.discount_totaltxtbox.Size = new System.Drawing.Size(420, 22);
-            this.discount_totaltxtbox.TabIndex = 15;
-            // 
-            // qty_totaltxtbox
-            // 
-            this.qty_totaltxtbox.Location = new System.Drawing.Point(197, 18);
-            this.qty_totaltxtbox.Name = "qty_totaltxtbox";
-            this.qty_totaltxtbox.Size = new System.Drawing.Size(420, 22);
-            this.qty_totaltxtbox.TabIndex = 14;
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label30.Location = new System.Drawing.Point(118, 525);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(103, 31);
+            this.label30.TabIndex = 93;
+            this.label30.Text = "label30";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // pictureBox5
             // 
@@ -1128,27 +1107,51 @@
             this.pictureBox13.WaitOnLoad = true;
             this.pictureBox13.Click += new System.EventHandler(this.pictureBox13_Click);
             // 
-            // label30
+            // label11
             // 
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(118, 525);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(103, 31);
-            this.label30.TabIndex = 93;
-            this.label30.Text = "label30";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(6, 98);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(232, 20);
+            this.label11.TabIndex = 7;
+            this.label11.Text = "Total Discounted Amount:";
             // 
-            // senior_radio_button
+            // groupBox2
             // 
-            this.senior_radio_button.AutoSize = true;
-            this.senior_radio_button.Location = new System.Drawing.Point(377, 36);
-            this.senior_radio_button.Name = "senior_radio_button";
-            this.senior_radio_button.Size = new System.Drawing.Size(89, 17);
-            this.senior_radio_button.TabIndex = 52;
-            this.senior_radio_button.TabStop = true;
-            this.senior_radio_button.Text = "Senior Citizen";
-            this.senior_radio_button.UseVisualStyleBackColor = true;
-            this.senior_radio_button.CheckedChanged += new System.EventHandler(this.senior_radio_button_CheckedChanged);
+            this.groupBox2.Controls.Add(this.discounted_totaltxtbox);
+            this.groupBox2.Controls.Add(this.discount_totaltxtbox);
+            this.groupBox2.Controls.Add(this.qty_totaltxtbox);
+            this.groupBox2.Controls.Add(this.label11);
+            this.groupBox2.Controls.Add(this.label10);
+            this.groupBox2.Controls.Add(this.label9);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Location = new System.Drawing.Point(19, 234);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(630, 134);
+            this.groupBox2.TabIndex = 79;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Summary";
+            // 
+            // discounted_totaltxtbox
+            // 
+            this.discounted_totaltxtbox.Location = new System.Drawing.Point(197, 96);
+            this.discounted_totaltxtbox.Name = "discounted_totaltxtbox";
+            this.discounted_totaltxtbox.Size = new System.Drawing.Size(420, 22);
+            this.discounted_totaltxtbox.TabIndex = 16;
+            // 
+            // discount_totaltxtbox
+            // 
+            this.discount_totaltxtbox.Location = new System.Drawing.Point(197, 57);
+            this.discount_totaltxtbox.Name = "discount_totaltxtbox";
+            this.discount_totaltxtbox.Size = new System.Drawing.Size(420, 22);
+            this.discount_totaltxtbox.TabIndex = 15;
+            // 
+            // qty_totaltxtbox
+            // 
+            this.qty_totaltxtbox.Location = new System.Drawing.Point(197, 18);
+            this.qty_totaltxtbox.Name = "qty_totaltxtbox";
+            this.qty_totaltxtbox.Size = new System.Drawing.Size(420, 22);
+            this.qty_totaltxtbox.TabIndex = 14;
             // 
             // Activity2_Part2
             // 
@@ -1186,8 +1189,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
@@ -1208,6 +1209,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
