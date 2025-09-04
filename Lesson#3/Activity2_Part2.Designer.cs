@@ -63,7 +63,6 @@
             this.button14 = new System.Windows.Forms.Button();
             this.changetxtbox = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.cashrenderedtxtbox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button19 = new System.Windows.Forms.Button();
@@ -119,6 +118,7 @@
             this.discounted_totaltxtbox = new System.Windows.Forms.TextBox();
             this.discount_totaltxtbox = new System.Windows.Forms.TextBox();
             this.qty_totaltxtbox = new System.Windows.Forms.TextBox();
+            this.cashrenderedtxtbox = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -474,22 +474,14 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.changetxtbox);
             this.panel2.Controls.Add(this.cashrenderedtxtbox);
+            this.panel2.Controls.Add(this.changetxtbox);
             this.panel2.Controls.Add(this.label13);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Location = new System.Drawing.Point(19, 374);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(630, 104);
             this.panel2.TabIndex = 80;
-            // 
-            // cashrenderedtxtbox
-            // 
-            this.cashrenderedtxtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cashrenderedtxtbox.Location = new System.Drawing.Point(6, 36);
-            this.cashrenderedtxtbox.Name = "cashrenderedtxtbox";
-            this.cashrenderedtxtbox.Size = new System.Drawing.Size(331, 56);
-            this.cashrenderedtxtbox.TabIndex = 17;
             // 
             // label10
             // 
@@ -1153,6 +1145,14 @@
             this.qty_totaltxtbox.Size = new System.Drawing.Size(420, 22);
             this.qty_totaltxtbox.TabIndex = 14;
             // 
+            // cashrenderedtxtbox
+            // 
+            this.cashrenderedtxtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cashrenderedtxtbox.Location = new System.Drawing.Point(6, 37);
+            this.cashrenderedtxtbox.Name = "cashrenderedtxtbox";
+            this.cashrenderedtxtbox.Size = new System.Drawing.Size(331, 56);
+            this.cashrenderedtxtbox.TabIndex = 19;
+            // 
             // Activity2_Part2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1252,7 +1252,6 @@
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.TextBox changetxtbox;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox cashrenderedtxtbox;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button19;
@@ -1308,5 +1307,6 @@
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.RadioButton senior_radio_button;
+        private System.Windows.Forms.TextBox cashrenderedtxtbox;
     }
 }

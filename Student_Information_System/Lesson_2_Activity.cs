@@ -48,10 +48,6 @@ namespace Student_Information_System
 
         private void new_button_Click(object sender, EventArgs e)
         {
-            student_name_txt.Clear();
-            student_num_txt.Clear();
-            yr_level_txt.Clear();
-            scholar_txt.Clear();
             course_number_txt.Clear();
             course_code_txt.Clear();
             course_desc_txt.Clear();
@@ -67,14 +63,6 @@ namespace Student_Information_System
             cisco_lab_txt.Clear();
             exam_booklet_txt.Clear();
             total_tuition_fees_txt.Clear();
-            total_tuition_txt2.Clear();
-            total_misc_txt2.Clear();
-            comp_lab_fee_txt.Clear();
-            cisco_lab_txt2.Clear();
-            exam_booklet_txt2.Clear();
-            total_other_fees_txt.Clear();
-            total_num_units_txt2.Clear();
-            total_tuition_fees_txt2.Clear();
         }
 
         int total_units;

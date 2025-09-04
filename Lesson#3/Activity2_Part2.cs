@@ -324,6 +324,8 @@ namespace Lesson_3
             priceTextbox.Clear();
             discountamounttxtbox.Clear();
             discountedtxtbox.Clear();
+            cashrenderedtxtbox.Clear();
+            changetxtbox.Clear();
         }
 
         private void cancelBtn_Click(object sender, EventArgs e)
