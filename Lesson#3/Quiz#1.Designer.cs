@@ -107,6 +107,7 @@
             this.browse_txtbox = new System.Windows.Forms.TextBox();
             this.course_desc_List = new System.Windows.Forms.ListBox();
             this.course_number_txt = new System.Windows.Forms.TextBox();
+            this.calc_tuition_fee_btn = new System.Windows.Forms.Button();
             this.total_num_units_txt = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.student_picture)).BeginInit();
             this.SuspendLayout();
@@ -795,6 +796,17 @@
             this.course_number_txt.Size = new System.Drawing.Size(220, 20);
             this.course_number_txt.TabIndex = 86;
             // 
+            // calc_tuition_fee_btn
+            // 
+            this.calc_tuition_fee_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calc_tuition_fee_btn.Location = new System.Drawing.Point(595, 119);
+            this.calc_tuition_fee_btn.Name = "calc_tuition_fee_btn";
+            this.calc_tuition_fee_btn.Size = new System.Drawing.Size(125, 41);
+            this.calc_tuition_fee_btn.TabIndex = 87;
+            this.calc_tuition_fee_btn.Text = "Calculate Fees";
+            this.calc_tuition_fee_btn.UseVisualStyleBackColor = true;
+            this.calc_tuition_fee_btn.Click += new System.EventHandler(this.calc_tuition_fee_btn_Click);
+            // 
             // total_num_units_txt
             // 
             this.total_num_units_txt.Location = new System.Drawing.Point(500, 233);
@@ -808,6 +820,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(732, 768);
             this.Controls.Add(this.total_num_units_txt);
+            this.Controls.Add(this.calc_tuition_fee_btn);
             this.Controls.Add(this.course_number_txt);
             this.Controls.Add(this.course_desc_List);
             this.Controls.Add(this.browse_txtbox);
@@ -977,6 +990,7 @@
         private System.Windows.Forms.TextBox browse_txtbox;
         private System.Windows.Forms.ListBox course_desc_List;
         private System.Windows.Forms.TextBox course_number_txt;
+        private System.Windows.Forms.Button calc_tuition_fee_btn;
         private System.Windows.Forms.TextBox total_num_units_txt;
     }
 }
