@@ -56,13 +56,9 @@ namespace Student_Information_System
             time_txt.Clear();
             day_txt.Clear();
             credit_units_txt.Clear();
-            total_num_units_txt.Clear();
             lab_fee_txt.Clear();
-            total_tuition_txt.Clear();
-            total_misc_txt.Clear();
             cisco_lab_txt.Clear();
             exam_booklet_txt.Clear();
-            total_tuition_fees_txt.Clear();
         }
 
         int total_units;
