@@ -63,6 +63,7 @@
             this.button14 = new System.Windows.Forms.Button();
             this.changetxtbox = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.cashrenderedtxtbox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.button19 = new System.Windows.Forms.Button();
@@ -118,7 +119,6 @@
             this.discounted_totaltxtbox = new System.Windows.Forms.TextBox();
             this.discount_totaltxtbox = new System.Windows.Forms.TextBox();
             this.qty_totaltxtbox = new System.Windows.Forms.TextBox();
-            this.cashrenderedtxtbox = new System.Windows.Forms.TextBox();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -482,6 +482,14 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(630, 104);
             this.panel2.TabIndex = 80;
+            // 
+            // cashrenderedtxtbox
+            // 
+            this.cashrenderedtxtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cashrenderedtxtbox.Location = new System.Drawing.Point(6, 37);
+            this.cashrenderedtxtbox.Name = "cashrenderedtxtbox";
+            this.cashrenderedtxtbox.Size = new System.Drawing.Size(331, 56);
+            this.cashrenderedtxtbox.TabIndex = 19;
             // 
             // label10
             // 
@@ -1144,14 +1152,6 @@
             this.qty_totaltxtbox.Name = "qty_totaltxtbox";
             this.qty_totaltxtbox.Size = new System.Drawing.Size(420, 22);
             this.qty_totaltxtbox.TabIndex = 14;
-            // 
-            // cashrenderedtxtbox
-            // 
-            this.cashrenderedtxtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cashrenderedtxtbox.Location = new System.Drawing.Point(6, 37);
-            this.cashrenderedtxtbox.Name = "cashrenderedtxtbox";
-            this.cashrenderedtxtbox.Size = new System.Drawing.Size(331, 56);
-            this.cashrenderedtxtbox.TabIndex = 19;
             // 
             // Activity2_Part2
             // 

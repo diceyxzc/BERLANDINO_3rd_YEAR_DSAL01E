@@ -16,7 +16,6 @@ namespace Student_Information_System
             total_misc_txt.Enabled = false;
             total_tuition_fees_txt.Enabled = false;
             credit_units_txt.Enabled = false;
-
             
             total_tuition_txt2.Enabled = false;
             total_misc_txt2.Enabled = false;
@@ -65,7 +64,6 @@ namespace Student_Information_System
         double lab_fee_sum, cisco_fee_sum, booklet_fee_sum;
         private void submit_button_Click(object sender, EventArgs e)
         {
-
             int total_credits, unit_lec, unit_lab, credit_units;
             double lab_fee, cisco_fee, booklet_fee;
 
