@@ -317,5 +317,10 @@ namespace Lesson_3
             changetxtbox.Text = change.ToString("n");
             cashrenderedtxtbox.Text = cash_rendered.ToString("n");
         }
+
+        private void extiBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
