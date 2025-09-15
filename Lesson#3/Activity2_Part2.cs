@@ -289,14 +289,13 @@ namespace Lesson_3
             emp_radio_button.Checked = false;
         }
 
+        double qty_total, discount_totalgiven, discounted_total;
         private void calculateBtn_Click(object sender, EventArgs e)
         {
             // Declaration of varaibles with data types
-            int qty, qty_total;
-            double discount_amt, discounted_amt, cash_rendered, change, discount_totalgiven, discounted_total;
-            qty_total = 0;
-            discount_totalgiven = 0;
-            discounted_total = 0;
+            int qty;
+            double discount_amt, discounted_amt, cash_rendered, change;
+            
 
             qty = Convert.ToInt32(itemquantitytxtbox.Text);
             discount_amt = Convert.ToDouble(discountamounttxtbox.Text);
@@ -318,9 +317,36 @@ namespace Lesson_3
             cashrenderedtxtbox.Text = cash_rendered.ToString("n");
         }
 
+<<<<<<< HEAD
+=======
+        private void newBtn_Click(object sender, EventArgs e)
+        {
+            itemnameTextbox.Clear();
+            itemquantitytxtbox.Clear();
+            priceTextbox.Clear();
+            discountamounttxtbox.Clear();
+            discountedtxtbox.Clear();
+            cashrenderedtxtbox.Clear();
+            changetxtbox.Clear();
+        }
+
+        private void cancelBtn_Click(object sender, EventArgs e)
+        {
+            qty_totaltxtbox.Clear();
+            discount_totaltxtbox.Clear();
+            discounted_totaltxtbox.Clear();
+            cashrenderedtxtbox.Clear();
+            changetxtbox.Clear();
+        }
+
+>>>>>>> 8c8d07a62a20b590c10ae45aabdd68079ee29de6
         private void extiBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8c8d07a62a20b590c10ae45aabdd68079ee29de6
     }
 }

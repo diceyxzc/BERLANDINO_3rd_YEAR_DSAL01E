@@ -58,6 +58,36 @@
     <Compile Include="Activity2_Part2.Designer.cs">
       <DependentUpon>Activity2_Part2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Example#5\Example_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example#5\Example_5.Designer.cs">
+      <DependentUpon>Example_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Example#5\Example_5_Prnt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Example#5\Example_5_Prnt.Designer.cs">
+      <DependentUpon>Example_5_Prnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hands_On\Hands_ON_Exam_Prnt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hands_On\Hands_ON_Exam_Prnt.Designer.cs">
+      <DependentUpon>Hands_ON_Exam_Prnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hands_On\Hands_ON_Exam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hands_On\Hands_ON_Exam.Designer.cs">
+      <DependentUpon>Hands_ON_Exam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz#1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quiz#1.Designer.cs">
+      <DependentUpon>Quiz#1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Activity1.resx">
@@ -65,6 +95,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Activity2_Part2.resx">
       <DependentUpon>Activity2_Part2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Example#5\Example_5.resx">
+      <DependentUpon>Example_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Example#5\Example_5_Prnt.resx">
+      <DependentUpon>Example_5_Prnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hands_On\Hands_ON_Exam.resx">
+      <DependentUpon>Hands_ON_Exam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hands_On\Hands_ON_Exam_Prnt.resx">
+      <DependentUpon>Hands_ON_Exam_Prnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quiz#1.resx">
+      <DependentUpon>Quiz#1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -118,5 +163,6 @@
     <Content Include="Images\Pasta Meal 101.png" />
     <Content Include="Images\Tuna Ceasar Salad Meal.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

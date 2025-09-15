@@ -474,8 +474,8 @@
             // panel2
             // 
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.changetxtbox);
             this.panel2.Controls.Add(this.cashrenderedtxtbox);
+            this.panel2.Controls.Add(this.changetxtbox);
             this.panel2.Controls.Add(this.label13);
             this.panel2.Controls.Add(this.label12);
             this.panel2.Location = new System.Drawing.Point(19, 374);
@@ -486,10 +486,10 @@
             // cashrenderedtxtbox
             // 
             this.cashrenderedtxtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 32F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cashrenderedtxtbox.Location = new System.Drawing.Point(6, 36);
+            this.cashrenderedtxtbox.Location = new System.Drawing.Point(6, 37);
             this.cashrenderedtxtbox.Name = "cashrenderedtxtbox";
             this.cashrenderedtxtbox.Size = new System.Drawing.Size(331, 56);
-            this.cashrenderedtxtbox.TabIndex = 17;
+            this.cashrenderedtxtbox.TabIndex = 19;
             // 
             // label10
             // 
@@ -673,6 +673,7 @@
             this.cancelBtn.TabIndex = 12;
             this.cancelBtn.Text = "CANCEL";
             this.cancelBtn.UseVisualStyleBackColor = true;
+            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
             // 
             // newBtn
             // 
@@ -683,6 +684,7 @@
             this.newBtn.TabIndex = 11;
             this.newBtn.Text = "NEW";
             this.newBtn.UseVisualStyleBackColor = true;
+            this.newBtn.Click += new System.EventHandler(this.newBtn_Click);
             // 
             // discountedtxtbox
             // 
@@ -1250,7 +1252,6 @@
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.TextBox changetxtbox;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox cashrenderedtxtbox;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button19;
@@ -1306,5 +1307,6 @@
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.RadioButton senior_radio_button;
+        private System.Windows.Forms.TextBox cashrenderedtxtbox;
     }
 }

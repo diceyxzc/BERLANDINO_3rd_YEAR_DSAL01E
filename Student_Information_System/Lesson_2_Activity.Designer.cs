@@ -41,7 +41,6 @@
             this.scholar_txt = new System.Windows.Forms.TextBox();
             this.new_button = new System.Windows.Forms.Button();
             this.submit_button = new System.Windows.Forms.Button();
-            this.course_number_txt = new System.Windows.Forms.TextBox();
             this.course_code_txt = new System.Windows.Forms.TextBox();
             this.course_desc_txt = new System.Windows.Forms.TextBox();
             this.unit_lec_txt = new System.Windows.Forms.TextBox();
@@ -67,7 +66,6 @@
             this.total_misc_txt = new System.Windows.Forms.TextBox();
             this.total_tuition_txt = new System.Windows.Forms.TextBox();
             this.lab_fee_txt = new System.Windows.Forms.TextBox();
-            this.total_num_units_txt = new System.Windows.Forms.TextBox();
             this.credit_units_txt = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.total_tuition_fees_txt = new System.Windows.Forms.TextBox();
@@ -108,6 +106,8 @@
             this.browse_button = new System.Windows.Forms.Button();
             this.browse_txtbox = new System.Windows.Forms.TextBox();
             this.course_desc_List = new System.Windows.Forms.ListBox();
+            this.course_number_txt = new System.Windows.Forms.TextBox();
+            this.total_num_units_txt = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.student_picture)).BeginInit();
             this.SuspendLayout();
             // 
@@ -227,14 +227,6 @@
             this.submit_button.Text = "Submit";
             this.submit_button.UseVisualStyleBackColor = true;
             this.submit_button.Click += new System.EventHandler(this.submit_button_Click);
-            // 
-            // course_number_txt
-            // 
-            this.course_number_txt.Location = new System.Drawing.Point(119, 232);
-            this.course_number_txt.Name = "course_number_txt";
-            this.course_number_txt.Size = new System.Drawing.Size(220, 20);
-            this.course_number_txt.TabIndex = 17;
-            this.course_number_txt.TextChanged += new System.EventHandler(this.course_number_txt_TextChanged);
             // 
             // course_code_txt
             // 
@@ -452,13 +444,6 @@
             this.lab_fee_txt.Name = "lab_fee_txt";
             this.lab_fee_txt.Size = new System.Drawing.Size(220, 20);
             this.lab_fee_txt.TabIndex = 33;
-            // 
-            // total_num_units_txt
-            // 
-            this.total_num_units_txt.Location = new System.Drawing.Point(500, 233);
-            this.total_num_units_txt.Name = "total_num_units_txt";
-            this.total_num_units_txt.Size = new System.Drawing.Size(220, 20);
-            this.total_num_units_txt.TabIndex = 32;
             // 
             // credit_units_txt
             // 
@@ -803,11 +788,27 @@
             this.course_desc_List.Size = new System.Drawing.Size(164, 108);
             this.course_desc_List.TabIndex = 85;
             // 
+            // course_number_txt
+            // 
+            this.course_number_txt.Location = new System.Drawing.Point(119, 233);
+            this.course_number_txt.Name = "course_number_txt";
+            this.course_number_txt.Size = new System.Drawing.Size(220, 20);
+            this.course_number_txt.TabIndex = 86;
+            // 
+            // total_num_units_txt
+            // 
+            this.total_num_units_txt.Location = new System.Drawing.Point(500, 233);
+            this.total_num_units_txt.Name = "total_num_units_txt";
+            this.total_num_units_txt.Size = new System.Drawing.Size(220, 20);
+            this.total_num_units_txt.TabIndex = 88;
+            // 
             // Lesson_2_Activity
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(732, 768);
+            this.Controls.Add(this.total_num_units_txt);
+            this.Controls.Add(this.course_number_txt);
             this.Controls.Add(this.course_desc_List);
             this.Controls.Add(this.browse_txtbox);
             this.Controls.Add(this.browse_button);
@@ -858,7 +859,6 @@
             this.Controls.Add(this.total_misc_txt);
             this.Controls.Add(this.total_tuition_txt);
             this.Controls.Add(this.lab_fee_txt);
-            this.Controls.Add(this.total_num_units_txt);
             this.Controls.Add(this.credit_units_txt);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -873,7 +873,6 @@
             this.Controls.Add(this.unit_lec_txt);
             this.Controls.Add(this.course_desc_txt);
             this.Controls.Add(this.course_code_txt);
-            this.Controls.Add(this.course_number_txt);
             this.Controls.Add(this.submit_button);
             this.Controls.Add(this.new_button);
             this.Controls.Add(this.scholar_txt);
@@ -913,7 +912,6 @@
         private System.Windows.Forms.TextBox scholar_txt;
         private System.Windows.Forms.Button new_button;
         private System.Windows.Forms.Button submit_button;
-        private System.Windows.Forms.TextBox course_number_txt;
         private System.Windows.Forms.TextBox course_code_txt;
         private System.Windows.Forms.TextBox course_desc_txt;
         private System.Windows.Forms.TextBox unit_lec_txt;
@@ -939,7 +937,6 @@
         private System.Windows.Forms.TextBox total_misc_txt;
         private System.Windows.Forms.TextBox total_tuition_txt;
         private System.Windows.Forms.TextBox lab_fee_txt;
-        private System.Windows.Forms.TextBox total_num_units_txt;
         private System.Windows.Forms.TextBox credit_units_txt;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox total_tuition_fees_txt;
@@ -979,5 +976,7 @@
         private System.Windows.Forms.Button browse_button;
         private System.Windows.Forms.TextBox browse_txtbox;
         private System.Windows.Forms.ListBox course_desc_List;
+        private System.Windows.Forms.TextBox course_number_txt;
+        private System.Windows.Forms.TextBox total_num_units_txt;
     }
 }
