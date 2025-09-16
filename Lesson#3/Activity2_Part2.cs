@@ -316,37 +316,5 @@ namespace Lesson_3
             changetxtbox.Text = change.ToString("n");
             cashrenderedtxtbox.Text = cash_rendered.ToString("n");
         }
-
-<<<<<<< HEAD
-=======
-        private void newBtn_Click(object sender, EventArgs e)
-        {
-            itemnameTextbox.Clear();
-            itemquantitytxtbox.Clear();
-            priceTextbox.Clear();
-            discountamounttxtbox.Clear();
-            discountedtxtbox.Clear();
-            cashrenderedtxtbox.Clear();
-            changetxtbox.Clear();
-        }
-
-        private void cancelBtn_Click(object sender, EventArgs e)
-        {
-            qty_totaltxtbox.Clear();
-            discount_totaltxtbox.Clear();
-            discounted_totaltxtbox.Clear();
-            cashrenderedtxtbox.Clear();
-            changetxtbox.Clear();
-        }
-
->>>>>>> 8c8d07a62a20b590c10ae45aabdd68079ee29de6
-        private void extiBtn_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-<<<<<<< HEAD
-=======
-
->>>>>>> 8c8d07a62a20b590c10ae45aabdd68079ee29de6
     }
 }
