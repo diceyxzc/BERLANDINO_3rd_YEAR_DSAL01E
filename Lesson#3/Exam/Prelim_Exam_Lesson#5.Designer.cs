@@ -69,7 +69,7 @@
             this.middle_name_txtbox = new System.Windows.Forms.TextBox();
             this.first_name_txtbox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.qual_dependents_txtbox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.emp_status_txtbox = new System.Windows.Forms.TextBox();
             this.pay_date_picker = new System.Windows.Forms.DateTimePicker();
@@ -102,11 +102,11 @@
             this.net_income_button = new System.Windows.Forms.Button();
             this.save_button = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.label34 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.designation_txtbox = new System.Windows.Forms.TextBox();
             this.gross_income_btn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.new_btn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -513,13 +513,13 @@
             this.label8.TabIndex = 61;
             this.label8.Text = "Qualified Dependets Status:";
             // 
-            // textBox1
+            // qual_dependents_txtbox
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(521, 174);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(197, 20);
-            this.textBox1.TabIndex = 62;
+            this.qual_dependents_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.qual_dependents_txtbox.Location = new System.Drawing.Point(521, 174);
+            this.qual_dependents_txtbox.Name = "qual_dependents_txtbox";
+            this.qual_dependents_txtbox.Size = new System.Drawing.Size(197, 20);
+            this.qual_dependents_txtbox.TabIndex = 62;
             // 
             // label9
             // 
@@ -824,6 +824,7 @@
             this.save_button.TabIndex = 71;
             this.save_button.Text = "SAVE";
             this.save_button.UseVisualStyleBackColor = true;
+            this.save_button.Click += new System.EventHandler(this.save_button_Click);
             // 
             // button4
             // 
@@ -834,15 +835,6 @@
             this.button4.Text = "UPDATE";
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(696, 707);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(41, 23);
-            this.button5.TabIndex = 73;
-            this.button5.Text = "NEW";
-            this.button5.UseVisualStyleBackColor = true;
             // 
             // label34
             // 
@@ -855,12 +847,12 @@
             this.label34.Text = "Designation:";
             this.label34.Click += new System.EventHandler(this.label34_Click);
             // 
-            // textBox2
+            // designation_txtbox
             // 
-            this.textBox2.Location = new System.Drawing.Point(521, 262);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(197, 20);
-            this.textBox2.TabIndex = 74;
+            this.designation_txtbox.Location = new System.Drawing.Point(521, 262);
+            this.designation_txtbox.Name = "designation_txtbox";
+            this.designation_txtbox.Size = new System.Drawing.Size(197, 20);
+            this.designation_txtbox.TabIndex = 74;
             // 
             // gross_income_btn
             // 
@@ -883,16 +875,26 @@
             this.pictureBox1.TabIndex = 44;
             this.pictureBox1.TabStop = false;
             // 
+            // new_btn
+            // 
+            this.new_btn.Location = new System.Drawing.Point(696, 707);
+            this.new_btn.Name = "new_btn";
+            this.new_btn.Size = new System.Drawing.Size(41, 23);
+            this.new_btn.TabIndex = 77;
+            this.new_btn.Text = "NEW";
+            this.new_btn.UseVisualStyleBackColor = true;
+            this.new_btn.Click += new System.EventHandler(this.new_btn_Click);
+            // 
             // Prelim_Lesson_5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(754, 747);
+            this.Controls.Add(this.new_btn);
             this.Controls.Add(this.gross_income_btn);
             this.Controls.Add(this.label34);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button5);
+            this.Controls.Add(this.designation_txtbox);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.save_button);
             this.Controls.Add(this.net_income_button);
@@ -903,7 +905,7 @@
             this.Controls.Add(this.emp_status_txtbox);
             this.Controls.Add(this.pay_date_picker);
             this.Controls.Add(this.label20);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.qual_dependents_txtbox);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -991,7 +993,7 @@
         private System.Windows.Forms.TextBox middle_name_txtbox;
         private System.Windows.Forms.TextBox first_name_txtbox;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox qual_dependents_txtbox;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox emp_status_txtbox;
         private System.Windows.Forms.DateTimePicker pay_date_picker;
@@ -1024,9 +1026,9 @@
         private System.Windows.Forms.Button net_income_button;
         private System.Windows.Forms.Button save_button;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox designation_txtbox;
         private System.Windows.Forms.Button gross_income_btn;
+        private System.Windows.Forms.Button new_btn;
     }
 }
