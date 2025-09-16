@@ -1,4 +1,5 @@
-﻿using Student_Information_System;
+﻿using Lesson_3.Exam;
+using Student_Information_System;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace Lesson_3
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Example5());
+            Application.Run(new Prelim_Lesson_5());
         }
     }
 }

@@ -662,7 +662,6 @@
             this.extiBtn.TabIndex = 13;
             this.extiBtn.Text = "EXIT";
             this.extiBtn.UseVisualStyleBackColor = true;
-            this.extiBtn.Click += new System.EventHandler(this.extiBtn_Click);
             // 
             // cancelBtn
             // 
@@ -673,7 +672,6 @@
             this.cancelBtn.TabIndex = 12;
             this.cancelBtn.Text = "CANCEL";
             this.cancelBtn.UseVisualStyleBackColor = true;
-            this.cancelBtn.Click += new System.EventHandler(this.cancelBtn_Click);
             // 
             // newBtn
             // 
@@ -684,7 +682,6 @@
             this.newBtn.TabIndex = 11;
             this.newBtn.Text = "NEW";
             this.newBtn.UseVisualStyleBackColor = true;
-            this.newBtn.Click += new System.EventHandler(this.newBtn_Click);
             // 
             // discountedtxtbox
             // 

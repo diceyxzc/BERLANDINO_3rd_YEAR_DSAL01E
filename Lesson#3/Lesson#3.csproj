@@ -52,12 +52,6 @@
     <Compile Include="Activity1.Designer.cs">
       <DependentUpon>Activity1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Activity2_Part2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Activity2_Part2.Designer.cs">
-      <DependentUpon>Activity2_Part2.cs</DependentUpon>
-    </Compile>
     <Compile Include="Example#5\Example_5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +63,12 @@
     </Compile>
     <Compile Include="Example#5\Example_5_Prnt.Designer.cs">
       <DependentUpon>Example_5_Prnt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exam\Prelim_Exam_Lesson#5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exam\Prelim_Exam_Lesson#5.Designer.cs">
+      <DependentUpon>Prelim_Exam_Lesson#5.cs</DependentUpon>
     </Compile>
     <Compile Include="Hands_On\Hands_ON_Exam_Prnt.cs">
       <SubType>Form</SubType>
@@ -93,14 +93,14 @@
     <EmbeddedResource Include="Activity1.resx">
       <DependentUpon>Activity1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Activity2_Part2.resx">
-      <DependentUpon>Activity2_Part2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Example#5\Example_5.resx">
       <DependentUpon>Example_5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Example#5\Example_5_Prnt.resx">
       <DependentUpon>Example_5_Prnt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam\Prelim_Exam_Lesson#5.resx">
+      <DependentUpon>Prelim_Exam_Lesson#5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hands_On\Hands_ON_Exam.resx">
       <DependentUpon>Hands_ON_Exam.cs</DependentUpon>

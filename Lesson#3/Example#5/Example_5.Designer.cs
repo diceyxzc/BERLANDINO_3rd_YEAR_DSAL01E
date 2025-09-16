@@ -49,12 +49,14 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.hono_numhrs_txtbox = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.hono_net_income_txtbox = new System.Windows.Forms.TextBox();
             this.hono_rate_txtbox = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.other_numhrs_txtbox = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.other_net_income_txtbox = new System.Windows.Forms.TextBox();
@@ -109,8 +111,6 @@
             this.label12 = new System.Windows.Forms.Label();
             this.basic_numhrs_txtbox = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.hono_numhrs_txtbox = new System.Windows.Forms.TextBox();
-            this.other_numhrs_txtbox = new System.Windows.Forms.TextBox();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -312,11 +312,20 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "HONORARIUM";
             // 
+            // hono_numhrs_txtbox
+            // 
+            this.hono_numhrs_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hono_numhrs_txtbox.Location = new System.Drawing.Point(205, 56);
+            this.hono_numhrs_txtbox.Name = "hono_numhrs_txtbox";
+            this.hono_numhrs_txtbox.Size = new System.Drawing.Size(260, 20);
+            this.hono_numhrs_txtbox.TabIndex = 26;
+            this.hono_numhrs_txtbox.TextChanged += new System.EventHandler(this.hono_numhrs_txtbox_TextChanged);
+            // 
             // label14
             // 
             this.label14.AutoSize = true;
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(42, 84);
+            this.label14.Location = new System.Drawing.Point(40, 84);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(150, 17);
             this.label14.TabIndex = 25;
@@ -376,11 +385,20 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "OTHER INCOME";
             // 
+            // other_numhrs_txtbox
+            // 
+            this.other_numhrs_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.other_numhrs_txtbox.Location = new System.Drawing.Point(205, 53);
+            this.other_numhrs_txtbox.Name = "other_numhrs_txtbox";
+            this.other_numhrs_txtbox.Size = new System.Drawing.Size(260, 20);
+            this.other_numhrs_txtbox.TabIndex = 26;
+            this.other_numhrs_txtbox.TextChanged += new System.EventHandler(this.other_numhrs_txtbox_TextChanged);
+            // 
             // label17
             // 
             this.label17.AutoSize = true;
             this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.Location = new System.Drawing.Point(39, 84);
+            this.label17.Location = new System.Drawing.Point(39, 82);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(161, 17);
             this.label17.TabIndex = 25;
@@ -884,7 +902,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(42, 84);
+            this.label13.Location = new System.Drawing.Point(39, 85);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(131, 17);
             this.label13.TabIndex = 25;
@@ -918,24 +936,6 @@
             this.label11.Size = new System.Drawing.Size(85, 17);
             this.label11.TabIndex = 21;
             this.label11.Text = "Rate / Hour:";
-            // 
-            // hono_numhrs_txtbox
-            // 
-            this.hono_numhrs_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hono_numhrs_txtbox.Location = new System.Drawing.Point(205, 56);
-            this.hono_numhrs_txtbox.Name = "hono_numhrs_txtbox";
-            this.hono_numhrs_txtbox.Size = new System.Drawing.Size(260, 20);
-            this.hono_numhrs_txtbox.TabIndex = 26;
-            this.hono_numhrs_txtbox.TextChanged += new System.EventHandler(this.hono_numhrs_txtbox_TextChanged);
-            // 
-            // other_numhrs_txtbox
-            // 
-            this.other_numhrs_txtbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.other_numhrs_txtbox.Location = new System.Drawing.Point(205, 53);
-            this.other_numhrs_txtbox.Name = "other_numhrs_txtbox";
-            this.other_numhrs_txtbox.Size = new System.Drawing.Size(260, 20);
-            this.other_numhrs_txtbox.TabIndex = 26;
-            this.other_numhrs_txtbox.TextChanged += new System.EventHandler(this.other_numhrs_txtbox_TextChanged);
             // 
             // Example5
             // 
