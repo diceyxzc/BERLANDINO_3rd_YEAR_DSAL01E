@@ -12,6 +12,12 @@ namespace Lesson_3.Exam
 {
     public partial class Prelim_Lesson_5 : Form
     {
+
+        public Prelim_Lesson_5()
+        {
+            InitializeComponent();
+        }
+
         // Declaration of Global Variables
         private Double basic_netincome = 0.00,
             basic_numhrs = 0.00,
@@ -29,33 +35,9 @@ namespace Lesson_3.Exam
             philhealth_contrib = 0.00,
             tax_contrib = 0.00;
 
-        private void new_btn_Click(object sender, EventArgs e)
-        {
-            basic_numhrs_txtbox.Clear();
-            basic_rate_txtbox.Clear();
-            hono_numhrs_txtbox.Clear();
-            hono_rate_txtbox.Clear();
-            other_numhrs_txtbox.Clear();
-            other_rate_txtbox.Clear();
-            sss_loan_txtbox.Clear();
-            pagibig_loan_txtbox.Clear();
-            FS_loan_txtbox.Clear();
-            FSD_loan_txtbox.Clear();
-            sal_loan_txtbox.Clear();
-            other_loan_txtbox.Clear();
-            employee_num_txtbox.Clear();
-            qual_dependents_txtbox.Clear();
-        }
-
-        private void save_button_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private Double sss_loan = 0.00,
             pagibig_loan = 0.00,
             salary_loan = 0.00,
-            salary_savings = 0.00,
             faculty_sav_loan = 0.00,
             faculty_sav_dep = 0.00,
             other_deduction = 0.00,
@@ -72,49 +54,14 @@ namespace Lesson_3.Exam
             basic_net_income_txtbox.Enabled = false;
             hono_net_income_txtbox.Enabled = false;
             other_net_income_txtbox.Enabled = false;
-            first_name_txtbox.Enabled = false;
-            middle_name_txtbox.Enabled = false;
-            surname_txtbox.Enabled = false;
-            civil_status_txtbox.Enabled = false;
-            emp_status_txtbox.Enabled = false;
             net_income_txtbox.Enabled = false;
             gross_income_txtbox.Enabled = false;
             total_deduc_txtbox.Enabled = false;
-            designation_txtbox.Enabled = false;
-            department_txtbox.Enabled = false;
-
-        }
-
-        private void net_income_button_Click(object sender, EventArgs e)
-        {
-            /* codes for converting input data from textboxes as string to numeric
-               codes for putting data from textboxes to variables */
-            sss_contrib = Convert.ToDouble(sss_contrib_txtbox.Text);
-            pagibig_contrib = Convert.ToDouble(pagibig_contrib_txtbox.Text);
-            philhealth_contrib = Convert.ToDouble(philhealth_contrib_txtbox.Text);
-            tax_contrib = Convert.ToDouble(tax_contrib_txtbox.Text);
-
-            sss_loan = Convert.ToDouble(sss_loan_txtbox.Text);
-            pagibig_loan = Convert.ToDouble(pagibig_contrib_txtbox.Text);
-            faculty_sav_loan = Convert.ToDouble(FS_loan_txtbox.Text);
-            faculty_sav_dep = Convert.ToDouble(FSD_loan_txtbox.Text);
-            salary_loan = Convert.ToDouble(sal_loan_txtbox.Text);
-            other_deduction = Convert.ToDouble(other_loan_txtbox.Text);
-
-            // formula to compute the desired data to be computed
-            total_loan = sss_loan + pagibig_loan + faculty_sav_loan + faculty_sav_dep + salary_loan + other_deduction;
-            total_deduc_txtbox.Text = total_loan.ToString("n");
-
-            total_contrib = sss_contrib + pagibig_contrib + philhealth_contrib + tax_contrib;
-            total_deduction = total_contrib + total_loan;
-            total_deduc_txtbox.Text = total_deduction.ToString("n");
-
-            netincome = gross_income - total_deduction;
-            net_income_txtbox.Text = netincome.ToString("n");
         }
 
         private void gross_income_btn_Click(object sender, EventArgs e)
         {
+            // convert into numeric variables
             basic_rate = Convert.ToDouble(basic_rate_txtbox.Text);
             basic_numhrs = Double.Parse(basic_numhrs_txtbox.Text);
             basic_netincome = basic_numhrs * basic_rate;
@@ -136,31 +83,32 @@ namespace Lesson_3.Exam
             pagibig_contrib_txtbox.Text = pagibig_contrib.ToString("n");
 
             // tax contrib
-            if (gross_income <= 250000)
+            if (gross_income <= 250000 / 24)
             {
                 tax_contrib = 0.00;
             }
-            else if (gross_income > 250000 && gross_income <= 400000)
+            else if (gross_income > 10416.67 && gross_income <= 16666.67)
             {
-                tax_contrib = (gross_income - 250000) * 0.15;
+                tax_contrib = (((gross_income * 24) - 250000) * 0.20) / 24;
             }
-            else if (gross_income > 400000 && gross_income <= 800000)
+            else if (gross_income > 16666.67 && gross_income <= 33333.33)
             {
-                tax_contrib = (gross_income - 400000) * .20 + 22500;
+                tax_contrib = ((((gross_income * 24) - 400000) * 0.25) + 30000) / 24;
             }
-            else if (gross_income > 800000 && gross_income <= 2000000)
+            else if (gross_income > 33333.33 && gross_income <= 83333.33)
             {
-                tax_contrib = (gross_income - 800000) * 0.25 + 102500;
+                tax_contrib = ((((gross_income * 24) - 800000) * 0.30) + 130000) / 24;
             }
-            else if (gross_income > 2000000 && gross_income <= 8000000)
+            else if (gross_income > 83333.33 && gross_income <= 333333.33)
             {
-                tax_contrib = (gross_income - 2000000) * 0.30 + 402500;
+                tax_contrib = ((((gross_income * 24) - 2000000) * 0.32) + 490000) / 24;
             }
             else
             {
-                tax_contrib = (gross_income - 8000000) + 2202500;
+                tax_contrib = ((((gross_income * 24) - 8000000) * 0.35) + 2410000) / 24;
             }
-            tax_contrib_txtbox.Text = tax_contrib.ToString("n");
+            tax_contrib_txtbox.Text = tax_contrib.ToString("N");
+
 
             // philhealth contrib
             if (gross_income <= 10000)
@@ -423,52 +371,109 @@ namespace Lesson_3.Exam
                 sss_contrib = 5280.00;
             }
             sss_contrib_txtbox.Text = sss_contrib.ToString("n");
+
+            /* codes for converting input data from textboxes as string to numeric
+               codes for putting data from textboxes to variables */
+            sss_contrib = Convert.ToDouble(sss_contrib_txtbox.Text);
+            philhealth_contrib = Convert.ToDouble(philhealth_contrib_txtbox.Text);
+            tax_contrib = Convert.ToDouble(tax_contrib_txtbox.Text);
+
+            sss_loan = Convert.ToDouble(sss_loan_txtbox.Text);
+            pagibig_loan = Convert.ToDouble(pagibig_loan_txtbox.Text);
+            faculty_sav_loan = Convert.ToDouble(FS_loan_txtbox.Text);
+            faculty_sav_dep = Convert.ToDouble(FSD_loan_txtbox.Text);
+            salary_loan = Convert.ToDouble(sal_loan_txtbox.Text);
+            other_deduction = Convert.ToDouble(other_loan_txtbox.Text);
+
+            total_loan = sss_loan + pagibig_loan + faculty_sav_loan + faculty_sav_dep + salary_loan + other_deduction;
+            total_contrib = sss_contrib + pagibig_contrib + philhealth_contrib + tax_contrib;
+            total_deduction = total_contrib + total_loan;
+            total_deduc_txtbox.Text = total_deduction.ToString("n");
         }
 
-        private void net_income_txtbox_TextChanged(object sender, EventArgs e)
+        private void net_income_button_Click(object sender, EventArgs e)
         {
-
+            // formula to compute the desired data to be computed
+            netincome = gross_income - total_deduction;
+            net_income_txtbox.Text = netincome.ToString("n");
         }
 
-        private void label34_Click(object sender, EventArgs e)
+        private void save_button_Click(object sender, EventArgs e)
         {
-
+            Prelim_Exam_Prnt print = new Prelim_Exam_Prnt();
+            print.employee_code.Text = employee_num_txtbox.Text;
+            print.employee_name.Text = first_name_txtbox.Text + " " + middle_name_txtbox.Text + " " + surname_txtbox.Text;
+            print.department_name.Text = department_txtbox.Text;
+            print.cut_off_name.Text = pay_date_picker.Text;
+            print.pay_period.Text = pay_date_picker.Text;
+            print.basic_pay.Text = basic_net_income_txtbox.Text;
+            print.overtime_pay.Text = other_net_income_txtbox.Text;
+            print.hono_pay.Text = hono_net_income_txtbox.Text;
+            print.tax_deduc.Text = tax_contrib_txtbox.Text;
+            print.sss_contrib.Text = sss_contrib_txtbox.Text;
+            print.hdmf_contrib.Text = pagibig_contrib_txtbox.Text;
+            print.philhealth_contrib.Text = philhealth_contrib_txtbox.Text;
+            print.total_earnings.Text = gross_income_txtbox.Text;
+            print.total_deductions.Text = total_deduc_txtbox.Text;
+            print.gross_earnings.Text = gross_income_txtbox.Text;
+            print.deductions.Text = total_deduc_txtbox.Text;
+            print.net_pay.Text = net_income_txtbox.Text;
+            print.Show();
         }
 
-
-        public Prelim_Lesson_5()
+        private void update_btn_Click(object sender, EventArgs e)
         {
-            InitializeComponent();
+            basic_numhrs_txtbox.Clear();
+            basic_rate_txtbox.Clear();
+            hono_numhrs_txtbox.Clear();
+            hono_rate_txtbox.Clear();
+            other_numhrs_txtbox.Clear();
+            other_rate_txtbox.Clear();
+            sss_loan_txtbox.Clear();
+            pagibig_loan_txtbox.Clear();
+            FS_loan_txtbox.Clear();
+            FSD_loan_txtbox.Clear();
+            sal_loan_txtbox.Clear();
+            other_loan_txtbox.Clear();
+            employee_num_txtbox.Clear();
+            qual_dependents_txtbox.Clear();
         }
 
-        private void first_name_txtbox_TextChanged(object sender, EventArgs e)
+        private void new_btn_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void groupBox7_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void other_numhrs_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void hono_numhrs_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void basic_numhrs_txtbox_TextChanged(object sender, EventArgs e)
-        {
-
+            employee_num_txtbox.Clear();
+            department_txtbox.Clear();
+            designation_txtbox.Clear();
+            first_name_txtbox.Clear();
+            middle_name_txtbox.Clear();
+            surname_txtbox.Clear();
+            civil_status_txtbox.Clear();
+            qual_dependents_txtbox.Clear();
+            emp_status_txtbox.Clear();
+            basic_numhrs_txtbox.Clear();
+            basic_rate_txtbox.Clear();
+            hono_numhrs_txtbox.Clear();
+            hono_rate_txtbox.Clear();
+            other_numhrs_txtbox.Clear();
+            other_rate_txtbox.Clear();
+            sss_loan_txtbox.Clear();
+            pagibig_loan_txtbox.Clear();
+            FS_loan_txtbox.Clear();
+            FSD_loan_txtbox.Clear();
+            sal_loan_txtbox.Clear();
+            other_loan_txtbox.Clear();
+            employee_num_txtbox.Clear();
+            qual_dependents_txtbox.Clear();
+            basic_net_income_txtbox.Clear();
+            hono_net_income_txtbox.Clear();
+            other_net_income_txtbox.Clear();
+            gross_income_txtbox.Clear();
+            net_income_txtbox.Clear();
+            sss_contrib_txtbox.Clear();
+            philhealth_contrib_txtbox.Clear();
+            pagibig_contrib_txtbox.Clear();
+            tax_contrib_txtbox.Clear();
+            total_deduc_txtbox.Clear();
         }
     }
 }

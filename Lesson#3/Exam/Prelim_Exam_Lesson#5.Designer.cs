@@ -101,12 +101,12 @@
             this.label33 = new System.Windows.Forms.Label();
             this.net_income_button = new System.Windows.Forms.Button();
             this.save_button = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
             this.label34 = new System.Windows.Forms.Label();
             this.designation_txtbox = new System.Windows.Forms.TextBox();
             this.gross_income_btn = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.new_btn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.update_btn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -121,7 +121,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Algerian", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(157, 9);
+            this.label1.Location = new System.Drawing.Point(183, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(403, 35);
             this.label1.TabIndex = 43;
@@ -194,6 +194,7 @@
             this.basic_net_income_txtbox.Name = "basic_net_income_txtbox";
             this.basic_net_income_txtbox.Size = new System.Drawing.Size(119, 20);
             this.basic_net_income_txtbox.TabIndex = 27;
+            this.basic_net_income_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // basic_rate_txtbox
             // 
@@ -202,6 +203,7 @@
             this.basic_rate_txtbox.Name = "basic_rate_txtbox";
             this.basic_rate_txtbox.Size = new System.Drawing.Size(119, 20);
             this.basic_rate_txtbox.TabIndex = 26;
+            this.basic_rate_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label13
             // 
@@ -230,7 +232,7 @@
             this.basic_numhrs_txtbox.Name = "basic_numhrs_txtbox";
             this.basic_numhrs_txtbox.Size = new System.Drawing.Size(119, 20);
             this.basic_numhrs_txtbox.TabIndex = 22;
-            this.basic_numhrs_txtbox.TextChanged += new System.EventHandler(this.basic_numhrs_txtbox_TextChanged);
+            this.basic_numhrs_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label11
             // 
@@ -265,7 +267,7 @@
             this.hono_numhrs_txtbox.Name = "hono_numhrs_txtbox";
             this.hono_numhrs_txtbox.Size = new System.Drawing.Size(119, 20);
             this.hono_numhrs_txtbox.TabIndex = 26;
-            this.hono_numhrs_txtbox.TextChanged += new System.EventHandler(this.hono_numhrs_txtbox_TextChanged);
+            this.hono_numhrs_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label14
             // 
@@ -294,6 +296,7 @@
             this.hono_net_income_txtbox.Name = "hono_net_income_txtbox";
             this.hono_net_income_txtbox.Size = new System.Drawing.Size(119, 20);
             this.hono_net_income_txtbox.TabIndex = 23;
+            this.hono_net_income_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // hono_rate_txtbox
             // 
@@ -302,6 +305,7 @@
             this.hono_rate_txtbox.Name = "hono_rate_txtbox";
             this.hono_rate_txtbox.Size = new System.Drawing.Size(119, 20);
             this.hono_rate_txtbox.TabIndex = 21;
+            this.hono_rate_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label16
             // 
@@ -336,7 +340,7 @@
             this.other_numhrs_txtbox.Name = "other_numhrs_txtbox";
             this.other_numhrs_txtbox.Size = new System.Drawing.Size(120, 20);
             this.other_numhrs_txtbox.TabIndex = 26;
-            this.other_numhrs_txtbox.TextChanged += new System.EventHandler(this.other_numhrs_txtbox_TextChanged);
+            this.other_numhrs_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label17
             // 
@@ -365,6 +369,7 @@
             this.other_net_income_txtbox.Name = "other_net_income_txtbox";
             this.other_net_income_txtbox.Size = new System.Drawing.Size(120, 20);
             this.other_net_income_txtbox.TabIndex = 23;
+            this.other_net_income_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // other_rate_txtbox
             // 
@@ -373,6 +378,7 @@
             this.other_rate_txtbox.Name = "other_rate_txtbox";
             this.other_rate_txtbox.Size = new System.Drawing.Size(120, 20);
             this.other_rate_txtbox.TabIndex = 21;
+            this.other_rate_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label19
             // 
@@ -415,7 +421,7 @@
             this.net_income_txtbox.Name = "net_income_txtbox";
             this.net_income_txtbox.Size = new System.Drawing.Size(119, 20);
             this.net_income_txtbox.TabIndex = 22;
-            this.net_income_txtbox.TextChanged += new System.EventHandler(this.net_income_txtbox_TextChanged);
+            this.net_income_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // gross_income_txtbox
             // 
@@ -424,6 +430,7 @@
             this.gross_income_txtbox.Name = "gross_income_txtbox";
             this.gross_income_txtbox.Size = new System.Drawing.Size(119, 20);
             this.gross_income_txtbox.TabIndex = 21;
+            this.gross_income_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label22
             // 
@@ -502,7 +509,6 @@
             this.first_name_txtbox.Name = "first_name_txtbox";
             this.first_name_txtbox.Size = new System.Drawing.Size(197, 20);
             this.first_name_txtbox.TabIndex = 52;
-            this.first_name_txtbox.TextChanged += new System.EventHandler(this.first_name_txtbox_TextChanged);
             // 
             // label8
             // 
@@ -590,6 +596,7 @@
             this.tax_contrib_txtbox.Name = "tax_contrib_txtbox";
             this.tax_contrib_txtbox.Size = new System.Drawing.Size(124, 20);
             this.tax_contrib_txtbox.TabIndex = 26;
+            this.tax_contrib_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label23
             // 
@@ -618,6 +625,7 @@
             this.pagibig_contrib_txtbox.Name = "pagibig_contrib_txtbox";
             this.pagibig_contrib_txtbox.Size = new System.Drawing.Size(124, 20);
             this.pagibig_contrib_txtbox.TabIndex = 23;
+            this.pagibig_contrib_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // philhealth_contrib_txtbox
             // 
@@ -626,6 +634,7 @@
             this.philhealth_contrib_txtbox.Name = "philhealth_contrib_txtbox";
             this.philhealth_contrib_txtbox.Size = new System.Drawing.Size(124, 20);
             this.philhealth_contrib_txtbox.TabIndex = 22;
+            this.philhealth_contrib_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // sss_contrib_txtbox
             // 
@@ -634,6 +643,7 @@
             this.sss_contrib_txtbox.Name = "sss_contrib_txtbox";
             this.sss_contrib_txtbox.Size = new System.Drawing.Size(124, 20);
             this.sss_contrib_txtbox.TabIndex = 21;
+            this.sss_contrib_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label26
             // 
@@ -694,6 +704,7 @@
             this.other_loan_txtbox.Name = "other_loan_txtbox";
             this.other_loan_txtbox.Size = new System.Drawing.Size(124, 20);
             this.other_loan_txtbox.TabIndex = 29;
+            this.other_loan_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // sal_loan_txtbox
             // 
@@ -702,6 +713,7 @@
             this.sal_loan_txtbox.Name = "sal_loan_txtbox";
             this.sal_loan_txtbox.Size = new System.Drawing.Size(124, 20);
             this.sal_loan_txtbox.TabIndex = 28;
+            this.sal_loan_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label27
             // 
@@ -720,6 +732,7 @@
             this.FS_loan_txtbox.Name = "FS_loan_txtbox";
             this.FS_loan_txtbox.Size = new System.Drawing.Size(124, 20);
             this.FS_loan_txtbox.TabIndex = 26;
+            this.FS_loan_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label28
             // 
@@ -748,6 +761,7 @@
             this.FSD_loan_txtbox.Name = "FSD_loan_txtbox";
             this.FSD_loan_txtbox.Size = new System.Drawing.Size(124, 20);
             this.FSD_loan_txtbox.TabIndex = 23;
+            this.FSD_loan_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // pagibig_loan_txtbox
             // 
@@ -756,6 +770,7 @@
             this.pagibig_loan_txtbox.Name = "pagibig_loan_txtbox";
             this.pagibig_loan_txtbox.Size = new System.Drawing.Size(124, 20);
             this.pagibig_loan_txtbox.TabIndex = 22;
+            this.pagibig_loan_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // sss_loan_txtbox
             // 
@@ -764,6 +779,7 @@
             this.sss_loan_txtbox.Name = "sss_loan_txtbox";
             this.sss_loan_txtbox.Size = new System.Drawing.Size(124, 20);
             this.sss_loan_txtbox.TabIndex = 21;
+            this.sss_loan_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label32
             // 
@@ -786,7 +802,6 @@
             this.groupBox7.TabIndex = 68;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "DEDUCTION SUMMARY";
-            this.groupBox7.Enter += new System.EventHandler(this.groupBox7_Enter);
             // 
             // total_deduc_txtbox
             // 
@@ -795,6 +810,7 @@
             this.total_deduc_txtbox.Name = "total_deduc_txtbox";
             this.total_deduc_txtbox.Size = new System.Drawing.Size(124, 29);
             this.total_deduc_txtbox.TabIndex = 21;
+            this.total_deduc_txtbox.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // label33
             // 
@@ -826,16 +842,6 @@
             this.save_button.UseVisualStyleBackColor = true;
             this.save_button.Click += new System.EventHandler(this.save_button_Click);
             // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(631, 707);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(64, 23);
-            this.button4.TabIndex = 72;
-            this.button4.Text = "UPDATE";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
             // label34
             // 
             this.label34.AutoSize = true;
@@ -845,7 +851,6 @@
             this.label34.Size = new System.Drawing.Size(87, 17);
             this.label34.TabIndex = 75;
             this.label34.Text = "Designation:";
-            this.label34.Click += new System.EventHandler(this.label34_Click);
             // 
             // designation_txtbox
             // 
@@ -864,17 +869,6 @@
             this.gross_income_btn.UseVisualStyleBackColor = true;
             this.gross_income_btn.Click += new System.EventHandler(this.gross_income_btn_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Image = global::Lesson_3.Properties.Resources.default_user;
-            this.pictureBox1.Location = new System.Drawing.Point(15, 78);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(195, 140);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 44;
-            this.pictureBox1.TabStop = false;
-            // 
             // new_btn
             // 
             this.new_btn.Location = new System.Drawing.Point(696, 707);
@@ -885,17 +879,38 @@
             this.new_btn.UseVisualStyleBackColor = true;
             this.new_btn.Click += new System.EventHandler(this.new_btn_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Image = global::Lesson_3.Properties.Resources.default_user;
+            this.pictureBox1.Location = new System.Drawing.Point(15, 78);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(174, 140);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 44;
+            this.pictureBox1.TabStop = false;
+            // 
+            // update_btn
+            // 
+            this.update_btn.Location = new System.Drawing.Point(631, 707);
+            this.update_btn.Name = "update_btn";
+            this.update_btn.Size = new System.Drawing.Size(64, 23);
+            this.update_btn.TabIndex = 78;
+            this.update_btn.Text = "UPDATE";
+            this.update_btn.UseVisualStyleBackColor = true;
+            this.update_btn.Click += new System.EventHandler(this.update_btn_Click);
+            // 
             // Prelim_Lesson_5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(754, 747);
+            this.Controls.Add(this.update_btn);
             this.Controls.Add(this.new_btn);
             this.Controls.Add(this.gross_income_btn);
             this.Controls.Add(this.label34);
             this.Controls.Add(this.designation_txtbox);
-            this.Controls.Add(this.button4);
             this.Controls.Add(this.save_button);
             this.Controls.Add(this.net_income_button);
             this.Controls.Add(this.groupBox7);
@@ -980,7 +995,6 @@
         private System.Windows.Forms.TextBox other_rate_txtbox;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label label21;
         private System.Windows.Forms.TextBox net_income_txtbox;
         private System.Windows.Forms.TextBox gross_income_txtbox;
         private System.Windows.Forms.Label label22;
@@ -1025,10 +1039,11 @@
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Button net_income_button;
         private System.Windows.Forms.Button save_button;
-        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.TextBox designation_txtbox;
         private System.Windows.Forms.Button gross_income_btn;
         private System.Windows.Forms.Button new_btn;
+        private System.Windows.Forms.Button update_btn;
+        private System.Windows.Forms.Label label21;
     }
 }

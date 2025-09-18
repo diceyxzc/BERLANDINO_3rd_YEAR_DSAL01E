@@ -64,6 +64,12 @@
     <Compile Include="Example#5\Example_5_Prnt.Designer.cs">
       <DependentUpon>Example_5_Prnt.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exam\Prelim_Exam_Prnt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exam\Prelim_Exam_Prnt.Designer.cs">
+      <DependentUpon>Prelim_Exam_Prnt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Exam\Prelim_Exam_Lesson#5.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +107,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exam\Prelim_Exam_Lesson#5.resx">
       <DependentUpon>Prelim_Exam_Lesson#5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exam\Prelim_Exam_Prnt.resx">
+      <DependentUpon>Prelim_Exam_Prnt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hands_On\Hands_ON_Exam.resx">
       <DependentUpon>Hands_ON_Exam.cs</DependentUpon>
