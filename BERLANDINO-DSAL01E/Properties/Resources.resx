@@ -118,11 +118,11 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Amanos Pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Amanos Pizza.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Breakfast Meal A" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Breakfast Meal A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Breakfast Meal B" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Breakfast Meal B.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Breakfast Meal B" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Breakfast Meal B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -132,6 +132,9 @@
   </data>
   <data name="Breakfast Meal D" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Breakfast Meal D.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cauliflower Pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cauliflower Pizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Ceasar Salad Meal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ceasar Salad Meal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,11 +154,11 @@
   <data name="default_user" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\default_user.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Dominos Pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dominos Pizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Double Palaboc Meal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Double Palaboc Meal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Double Value Meal A" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Double Value Meal A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Double Value Meal A" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Double Value Meal A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -173,9 +176,6 @@
     <value>..\Resources\Food Bundle B.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Friend Meal A" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Friend Meal A.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Friend Meal A" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Friend Meal A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Friend Meal A(1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -183,6 +183,9 @@
   </data>
   <data name="Full Creamy Pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Full Creamy Pizza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hawaiian Pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hawaiian Pizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Lunch Value Meal 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lunch Value Meal 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -193,11 +196,59 @@
   <data name="Mojos Meal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mojos Meal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="New York Style Pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\New York Style Pizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Pancake Value Meal A" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pancake Value Meal A.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Pasta Meal 101" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Pasta Meal 101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pepperoni Pizza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pepperoni Pizza.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza 4.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza 5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza 6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza 6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza 7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza 7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza 8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza 8.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza 9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza 9.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza Barbecue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza Barbecue.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza Special A" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza Special A.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza Special B" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza Special B.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza Special C" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza Special C.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pizza Special D" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pizza Special D.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Tuna Ceasar Salad Meal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Tuna Ceasar Salad Meal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

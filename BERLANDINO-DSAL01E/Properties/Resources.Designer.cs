@@ -63,6 +63,16 @@ namespace BERLANDINO_DSAL01E.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Amanos_Pizza {
+            get {
+                object obj = ResourceManager.GetObject("Amanos Pizza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Breakfast_Meal_A {
             get {
                 object obj = ResourceManager.GetObject("Breakfast Meal A", resourceCulture);
@@ -96,6 +106,16 @@ namespace BERLANDINO_DSAL01E.Properties {
         internal static System.Drawing.Bitmap Breakfast_Meal_D {
             get {
                 object obj = ResourceManager.GetObject("Breakfast Meal D", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cauliflower_Pizza {
+            get {
+                object obj = ResourceManager.GetObject("Cauliflower Pizza", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -156,6 +176,16 @@ namespace BERLANDINO_DSAL01E.Properties {
         internal static System.Drawing.Bitmap default_user {
             get {
                 object obj = ResourceManager.GetObject("default_user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dominos_Pizza {
+            get {
+                object obj = ResourceManager.GetObject("Dominos Pizza", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,6 +283,16 @@ namespace BERLANDINO_DSAL01E.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Hawaiian_Pizza {
+            get {
+                object obj = ResourceManager.GetObject("Hawaiian Pizza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Lunch_Value_Meal_1 {
             get {
                 object obj = ResourceManager.GetObject("Lunch Value Meal 1", resourceCulture);
@@ -283,6 +323,16 @@ namespace BERLANDINO_DSAL01E.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap New_York_Style_Pizza {
+            get {
+                object obj = ResourceManager.GetObject("New York Style Pizza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Pancake_Value_Meal_A {
             get {
                 object obj = ResourceManager.GetObject("Pancake Value Meal A", resourceCulture);
@@ -296,6 +346,156 @@ namespace BERLANDINO_DSAL01E.Properties {
         internal static System.Drawing.Bitmap Pasta_Meal_101 {
             get {
                 object obj = ResourceManager.GetObject("Pasta Meal 101", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pepperoni_Pizza {
+            get {
+                object obj = ResourceManager.GetObject("Pepperoni Pizza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_1 {
+            get {
+                object obj = ResourceManager.GetObject("Pizza 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_2 {
+            get {
+                object obj = ResourceManager.GetObject("Pizza 2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_3 {
+            get {
+                object obj = ResourceManager.GetObject("Pizza 3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_4 {
+            get {
+                object obj = ResourceManager.GetObject("Pizza 4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_5 {
+            get {
+                object obj = ResourceManager.GetObject("Pizza 5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_6 {
+            get {
+                object obj = ResourceManager.GetObject("Pizza 6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_7 {
+            get {
+                object obj = ResourceManager.GetObject("Pizza 7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_8 {
+            get {
+                object obj = ResourceManager.GetObject("Pizza 8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_9 {
+            get {
+                object obj = ResourceManager.GetObject("Pizza 9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_Barbecue {
+            get {
+                object obj = ResourceManager.GetObject("Pizza Barbecue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_Special_A {
+            get {
+                object obj = ResourceManager.GetObject("Pizza Special A", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_Special_B {
+            get {
+                object obj = ResourceManager.GetObject("Pizza Special B", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_Special_C {
+            get {
+                object obj = ResourceManager.GetObject("Pizza Special C", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pizza_Special_D {
+            get {
+                object obj = ResourceManager.GetObject("Pizza Special D", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
