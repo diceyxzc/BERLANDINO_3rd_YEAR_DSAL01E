@@ -51,6 +51,9 @@ namespace BERLANDINO_DSAL01E
             label31.Text = "Chicken Two Piece";
             label32.Text = "Mojos Meal";
             label33.Text = "Full Creamy Pizza";
+
+            this.Location = new Point(0, 0);
+            this.Size = Screen.PrimaryScreen.WorkingArea.Size;
         }
 
         private void pictureBox1_Click_1(object sender, EventArgs e)

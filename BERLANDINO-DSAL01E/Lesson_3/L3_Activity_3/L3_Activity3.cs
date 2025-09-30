@@ -69,6 +69,9 @@ namespace Lesson_3
             B_Carbonara_Checkbox.Enabled = false;
             B_Fries_Checkbox.Enabled = false;
             B_Hawaiian_Checkbox.Enabled = false;
+
+            this.Location = new Point(0, 0);
+            this.Size = Screen.PrimaryScreen.WorkingArea.Size;
         }
 
         private void bundle_A_rdbtn_CheckedChanged(object sender, EventArgs e)

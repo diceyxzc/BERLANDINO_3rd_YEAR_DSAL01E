@@ -178,6 +178,9 @@ namespace BERLANDINO_DSAL01E
             other_loan_combo.Items.Add("Other 3");
             other_loan_combo.Items.Add("Other 4");
             picpathTxtbox.Hide();
+
+            this.Location = new Point(0, 0);
+            this.Size = Screen.PrimaryScreen.WorkingArea.Size;
         }
 
         private void calc_button_Click(object sender, EventArgs e)
