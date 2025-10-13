@@ -19,7 +19,7 @@ namespace BERLANDINO_DSAL01E
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new L8_Activity3());
+            Application.Run(new L9_Activity3());
         }
     }
 }

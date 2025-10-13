@@ -1,6 +1,6 @@
 ﻿namespace BERLANDINO_DSAL01E
 {
-    partial class L8_Activity3
+    partial class L9_Activity3
     {
         /// <summary>
         /// Required designer variable.
@@ -126,7 +126,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 10.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(15, 15);
+            label1.Location = new Point(147, 135);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(128, 17);
@@ -135,7 +135,7 @@
             // 
             // employee_num_txtbox
             // 
-            employee_num_txtbox.Location = new Point(173, 15);
+            employee_num_txtbox.Location = new Point(305, 135);
             employee_num_txtbox.Margin = new Padding(4, 3, 4, 3);
             employee_num_txtbox.Name = "employee_num_txtbox";
             employee_num_txtbox.Size = new Size(265, 23);
@@ -143,7 +143,7 @@
             // 
             // first_name_txtbox
             // 
-            first_name_txtbox.Location = new Point(173, 45);
+            first_name_txtbox.Location = new Point(305, 165);
             first_name_txtbox.Margin = new Padding(4, 3, 4, 3);
             first_name_txtbox.Name = "first_name_txtbox";
             first_name_txtbox.Size = new Size(265, 23);
@@ -151,7 +151,7 @@
             // 
             // middle_name_txtbox
             // 
-            middle_name_txtbox.Location = new Point(173, 75);
+            middle_name_txtbox.Location = new Point(305, 195);
             middle_name_txtbox.Margin = new Padding(4, 3, 4, 3);
             middle_name_txtbox.Name = "middle_name_txtbox";
             middle_name_txtbox.Size = new Size(265, 23);
@@ -159,7 +159,7 @@
             // 
             // surname_txtbox
             // 
-            surname_txtbox.Location = new Point(173, 105);
+            surname_txtbox.Location = new Point(305, 225);
             surname_txtbox.Margin = new Padding(4, 3, 4, 3);
             surname_txtbox.Name = "surname_txtbox";
             surname_txtbox.Size = new Size(265, 23);
@@ -167,7 +167,7 @@
             // 
             // civil_status_txtbox
             // 
-            civil_status_txtbox.Location = new Point(173, 135);
+            civil_status_txtbox.Location = new Point(305, 255);
             civil_status_txtbox.Margin = new Padding(4, 3, 4, 3);
             civil_status_txtbox.Name = "civil_status_txtbox";
             civil_status_txtbox.Size = new Size(265, 23);
@@ -175,7 +175,7 @@
             // 
             // designation_txtbox
             // 
-            designation_txtbox.Location = new Point(173, 165);
+            designation_txtbox.Location = new Point(305, 285);
             designation_txtbox.Margin = new Padding(4, 3, 4, 3);
             designation_txtbox.Name = "designation_txtbox";
             designation_txtbox.Size = new Size(265, 23);
@@ -185,7 +185,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft Sans Serif", 10.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(16, 45);
+            label2.Location = new Point(148, 165);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(80, 17);
@@ -196,7 +196,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Microsoft Sans Serif", 10.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(16, 75);
+            label3.Location = new Point(148, 195);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(94, 17);
@@ -207,7 +207,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Microsoft Sans Serif", 10.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(15, 105);
+            label4.Location = new Point(147, 225);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
             label4.Size = new Size(69, 17);
@@ -218,7 +218,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Microsoft Sans Serif", 10.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(16, 135);
+            label5.Location = new Point(148, 255);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
             label5.Size = new Size(81, 17);
@@ -229,7 +229,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Microsoft Sans Serif", 10.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(16, 165);
+            label6.Location = new Point(148, 285);
             label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
             label6.Size = new Size(87, 17);
@@ -239,16 +239,16 @@
             // num_dependepts_txtbox
             // 
             num_dependepts_txtbox.Font = new Font("Microsoft Sans Serif", 12.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            num_dependepts_txtbox.Location = new Point(628, 39);
+            num_dependepts_txtbox.Location = new Point(760, 159);
             num_dependepts_txtbox.Margin = new Padding(4, 3, 4, 3);
             num_dependepts_txtbox.Name = "num_dependepts_txtbox";
             num_dependepts_txtbox.Size = new Size(265, 26);
-            num_dependepts_txtbox.TabIndex = 12;
+            num_dependepts_txtbox.TabIndex = 7;
             // 
             // label7
             // 
             label7.Font = new Font("Microsoft Sans Serif", 10.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(477, 33);
+            label7.Location = new Point(609, 153);
             label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
             label7.Size = new Size(108, 50);
@@ -257,7 +257,7 @@
             // 
             // pay_date_picker
             // 
-            pay_date_picker.Location = new Point(630, 82);
+            pay_date_picker.Location = new Point(762, 202);
             pay_date_picker.Margin = new Padding(4, 3, 4, 3);
             pay_date_picker.Name = "pay_date_picker";
             pay_date_picker.Size = new Size(233, 23);
@@ -267,7 +267,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Microsoft Sans Serif", 10.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(477, 85);
+            label8.Location = new Point(609, 205);
             label8.Margin = new Padding(4, 0, 4, 0);
             label8.Name = "label8";
             label8.Size = new Size(64, 17);
@@ -276,25 +276,25 @@
             // 
             // emp_status_txtbox
             // 
-            emp_status_txtbox.Location = new Point(628, 117);
+            emp_status_txtbox.Location = new Point(760, 237);
             emp_status_txtbox.Margin = new Padding(4, 3, 4, 3);
             emp_status_txtbox.Name = "emp_status_txtbox";
             emp_status_txtbox.Size = new Size(265, 23);
-            emp_status_txtbox.TabIndex = 16;
+            emp_status_txtbox.TabIndex = 8;
             // 
             // department_txtbox
             // 
-            department_txtbox.Location = new Point(628, 147);
+            department_txtbox.Location = new Point(760, 267);
             department_txtbox.Margin = new Padding(4, 3, 4, 3);
             department_txtbox.Name = "department_txtbox";
             department_txtbox.Size = new Size(265, 23);
-            department_txtbox.TabIndex = 17;
+            department_txtbox.TabIndex = 9;
             // 
             // label9
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Microsoft Sans Serif", 10.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.Location = new Point(477, 115);
+            label9.Location = new Point(609, 235);
             label9.Margin = new Padding(4, 0, 4, 0);
             label9.Name = "label9";
             label9.Size = new Size(118, 17);
@@ -305,7 +305,7 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Microsoft Sans Serif", 10.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label10.Location = new Point(477, 145);
+            label10.Location = new Point(609, 265);
             label10.Margin = new Padding(4, 0, 4, 0);
             label10.Name = "label10";
             label10.Size = new Size(86, 17);
@@ -321,7 +321,7 @@
             groupBox2.Controls.Add(hono_rate_txtbox);
             groupBox2.Controls.Add(label16);
             groupBox2.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox2.Location = new Point(37, 347);
+            groupBox2.Location = new Point(169, 467);
             groupBox2.Margin = new Padding(4, 3, 4, 3);
             groupBox2.Name = "groupBox2";
             groupBox2.Padding = new Padding(4, 3, 4, 3);
@@ -337,7 +337,7 @@
             hono_numhrs_txtbox.Margin = new Padding(4, 3, 4, 3);
             hono_numhrs_txtbox.Name = "hono_numhrs_txtbox";
             hono_numhrs_txtbox.Size = new Size(303, 20);
-            hono_numhrs_txtbox.TabIndex = 26;
+            hono_numhrs_txtbox.TabIndex = 13;
             hono_numhrs_txtbox.TextChanged += hono_numhrs_txtbox_TextChanged;
             // 
             // label14
@@ -378,7 +378,7 @@
             hono_rate_txtbox.Margin = new Padding(4, 3, 4, 3);
             hono_rate_txtbox.Name = "hono_rate_txtbox";
             hono_rate_txtbox.Size = new Size(303, 20);
-            hono_rate_txtbox.TabIndex = 21;
+            hono_rate_txtbox.TabIndex = 12;
             // 
             // label16
             // 
@@ -400,7 +400,7 @@
             groupBox3.Controls.Add(other_rate_txtbox);
             groupBox3.Controls.Add(label19);
             groupBox3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox3.Location = new Point(37, 488);
+            groupBox3.Location = new Point(169, 608);
             groupBox3.Margin = new Padding(4, 3, 4, 3);
             groupBox3.Name = "groupBox3";
             groupBox3.Padding = new Padding(4, 3, 4, 3);
@@ -416,7 +416,7 @@
             other_numhrs_txtbox.Margin = new Padding(4, 3, 4, 3);
             other_numhrs_txtbox.Name = "other_numhrs_txtbox";
             other_numhrs_txtbox.Size = new Size(303, 20);
-            other_numhrs_txtbox.TabIndex = 26;
+            other_numhrs_txtbox.TabIndex = 15;
             other_numhrs_txtbox.TextChanged += other_numhrs_txtbox_TextChanged;
             // 
             // label17
@@ -457,7 +457,7 @@
             other_rate_txtbox.Margin = new Padding(4, 3, 4, 3);
             other_rate_txtbox.Name = "other_rate_txtbox";
             other_rate_txtbox.Size = new Size(303, 20);
-            other_rate_txtbox.TabIndex = 21;
+            other_rate_txtbox.TabIndex = 14;
             // 
             // label19
             // 
@@ -477,7 +477,7 @@
             groupBox4.Controls.Add(gross_income_txtbox);
             groupBox4.Controls.Add(label22);
             groupBox4.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox4.Location = new Point(37, 627);
+            groupBox4.Location = new Point(169, 747);
             groupBox4.Margin = new Padding(4, 3, 4, 3);
             groupBox4.Name = "groupBox4";
             groupBox4.Padding = new Padding(4, 3, 4, 3);
@@ -537,7 +537,7 @@
             groupBox5.Controls.Add(sss_contrib_txtbox);
             groupBox5.Controls.Add(label24);
             groupBox5.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox5.Location = new Point(628, 207);
+            groupBox5.Location = new Point(760, 327);
             groupBox5.Margin = new Padding(4, 3, 4, 3);
             groupBox5.Name = "groupBox5";
             groupBox5.Padding = new Padding(4, 3, 4, 3);
@@ -642,7 +642,7 @@
             groupBox6.Controls.Add(sss_loan_txtbox);
             groupBox6.Controls.Add(label29);
             groupBox6.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox6.Location = new Point(628, 380);
+            groupBox6.Location = new Point(760, 500);
             groupBox6.Margin = new Padding(4, 3, 4, 3);
             groupBox6.Name = "groupBox6";
             groupBox6.Padding = new Padding(4, 3, 4, 3);
@@ -690,7 +690,7 @@
             other_loan_txtbox.Margin = new Padding(4, 3, 4, 3);
             other_loan_txtbox.Name = "other_loan_txtbox";
             other_loan_txtbox.Size = new Size(303, 20);
-            other_loan_txtbox.TabIndex = 29;
+            other_loan_txtbox.TabIndex = 21;
             // 
             // sal_loan_txtbox
             // 
@@ -699,7 +699,7 @@
             sal_loan_txtbox.Margin = new Padding(4, 3, 4, 3);
             sal_loan_txtbox.Name = "sal_loan_txtbox";
             sal_loan_txtbox.Size = new Size(303, 20);
-            sal_loan_txtbox.TabIndex = 28;
+            sal_loan_txtbox.TabIndex = 20;
             // 
             // label26
             // 
@@ -719,7 +719,7 @@
             FS_loan_txtbox.Margin = new Padding(4, 3, 4, 3);
             FS_loan_txtbox.Name = "FS_loan_txtbox";
             FS_loan_txtbox.Size = new Size(303, 20);
-            FS_loan_txtbox.TabIndex = 26;
+            FS_loan_txtbox.TabIndex = 19;
             // 
             // label27
             // 
@@ -750,7 +750,7 @@
             FSD_loan_txtbox.Margin = new Padding(4, 3, 4, 3);
             FSD_loan_txtbox.Name = "FSD_loan_txtbox";
             FSD_loan_txtbox.Size = new Size(303, 20);
-            FSD_loan_txtbox.TabIndex = 23;
+            FSD_loan_txtbox.TabIndex = 18;
             // 
             // pagibig_loan_txtbox
             // 
@@ -759,7 +759,7 @@
             pagibig_loan_txtbox.Margin = new Padding(4, 3, 4, 3);
             pagibig_loan_txtbox.Name = "pagibig_loan_txtbox";
             pagibig_loan_txtbox.Size = new Size(303, 20);
-            pagibig_loan_txtbox.TabIndex = 22;
+            pagibig_loan_txtbox.TabIndex = 17;
             // 
             // sss_loan_txtbox
             // 
@@ -768,7 +768,7 @@
             sss_loan_txtbox.Margin = new Padding(4, 3, 4, 3);
             sss_loan_txtbox.Name = "sss_loan_txtbox";
             sss_loan_txtbox.Size = new Size(303, 20);
-            sss_loan_txtbox.TabIndex = 21;
+            sss_loan_txtbox.TabIndex = 16;
             // 
             // label29
             // 
@@ -786,7 +786,7 @@
             groupBox7.Controls.Add(total_deduc_txtbox);
             groupBox7.Controls.Add(label33);
             groupBox7.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox7.Location = new Point(628, 650);
+            groupBox7.Location = new Point(760, 770);
             groupBox7.Margin = new Padding(4, 3, 4, 3);
             groupBox7.Name = "groupBox7";
             groupBox7.Padding = new Padding(4, 3, 4, 3);
@@ -818,7 +818,7 @@
             // emp_pic
             // 
             emp_pic.BorderStyle = BorderStyle.FixedSingle;
-            emp_pic.Location = new Point(959, 12);
+            emp_pic.Location = new Point(1091, 132);
             emp_pic.Margin = new Padding(4, 3, 4, 3);
             emp_pic.Name = "emp_pic";
             emp_pic.Size = new Size(217, 158);
@@ -828,7 +828,7 @@
             // 
             // picpathTxtbox
             // 
-            picpathTxtbox.Location = new Point(973, 133);
+            picpathTxtbox.Location = new Point(1105, 253);
             picpathTxtbox.Margin = new Padding(4, 3, 4, 3);
             picpathTxtbox.Name = "picpathTxtbox";
             picpathTxtbox.Size = new Size(191, 23);
@@ -837,7 +837,7 @@
             // calc_button
             // 
             calc_button.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            calc_button.Location = new Point(38, 737);
+            calc_button.Location = new Point(170, 857);
             calc_button.Margin = new Padding(4, 3, 4, 3);
             calc_button.Name = "calc_button";
             calc_button.Size = new Size(153, 30);
@@ -849,7 +849,7 @@
             // new_button
             // 
             new_button.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            new_button.Location = new Point(198, 737);
+            new_button.Location = new Point(330, 857);
             new_button.Margin = new Padding(4, 3, 4, 3);
             new_button.Name = "new_button";
             new_button.Size = new Size(135, 30);
@@ -861,7 +861,7 @@
             // cancel_button
             // 
             cancel_button.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            cancel_button.Location = new Point(341, 737);
+            cancel_button.Location = new Point(473, 857);
             cancel_button.Margin = new Padding(4, 3, 4, 3);
             cancel_button.Name = "cancel_button";
             cancel_button.Size = new Size(133, 30);
@@ -873,7 +873,7 @@
             // print_payslip_button
             // 
             print_payslip_button.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            print_payslip_button.Location = new Point(481, 737);
+            print_payslip_button.Location = new Point(613, 857);
             print_payslip_button.Margin = new Padding(4, 3, 4, 3);
             print_payslip_button.Name = "print_payslip_button";
             print_payslip_button.Size = new Size(260, 30);
@@ -886,11 +886,11 @@
             // 
             groupBox8.Controls.Add(payslip_view_listbox);
             groupBox8.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox8.Location = new Point(1195, 33);
+            groupBox8.Location = new Point(1327, 153);
             groupBox8.Margin = new Padding(4, 3, 4, 3);
             groupBox8.Name = "groupBox8";
             groupBox8.Padding = new Padding(4, 3, 4, 3);
-            groupBox8.Size = new Size(415, 734);
+            groupBox8.Size = new Size(443, 734);
             groupBox8.TabIndex = 29;
             groupBox8.TabStop = false;
             groupBox8.Text = "PAYSLIP VIEW DETAILS";
@@ -903,13 +903,13 @@
             payslip_view_listbox.Location = new Point(8, 25);
             payslip_view_listbox.Margin = new Padding(4, 3, 4, 3);
             payslip_view_listbox.Name = "payslip_view_listbox";
-            payslip_view_listbox.Size = new Size(400, 693);
+            payslip_view_listbox.Size = new Size(427, 693);
             payslip_view_listbox.TabIndex = 0;
             // 
             // preview_payslip
             // 
             preview_payslip.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            preview_payslip.Location = new Point(748, 738);
+            preview_payslip.Location = new Point(880, 858);
             preview_payslip.Margin = new Padding(4, 3, 4, 3);
             preview_payslip.Name = "preview_payslip";
             preview_payslip.Size = new Size(276, 30);
@@ -921,7 +921,7 @@
             // exit_button
             // 
             exit_button.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            exit_button.Location = new Point(1031, 738);
+            exit_button.Location = new Point(1163, 858);
             exit_button.Margin = new Padding(4, 3, 4, 3);
             exit_button.Name = "exit_button";
             exit_button.Size = new Size(145, 30);
@@ -933,7 +933,7 @@
             // browse_button
             // 
             browse_button.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            browse_button.Location = new Point(1031, 177);
+            browse_button.Location = new Point(1163, 297);
             browse_button.Margin = new Padding(4, 3, 4, 3);
             browse_button.Name = "browse_button";
             browse_button.Size = new Size(88, 27);
@@ -951,7 +951,7 @@
             groupBox1.Controls.Add(basic_numhrs_txtbox);
             groupBox1.Controls.Add(label11);
             groupBox1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox1.Location = new Point(38, 207);
+            groupBox1.Location = new Point(170, 327);
             groupBox1.Margin = new Padding(4, 3, 4, 3);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(4, 3, 4, 3);
@@ -976,7 +976,7 @@
             basic_rate_txtbox.Margin = new Padding(4, 3, 4, 3);
             basic_rate_txtbox.Name = "basic_rate_txtbox";
             basic_rate_txtbox.Size = new Size(303, 20);
-            basic_rate_txtbox.TabIndex = 26;
+            basic_rate_txtbox.TabIndex = 10;
             // 
             // label13
             // 
@@ -1007,8 +1007,8 @@
             basic_numhrs_txtbox.Margin = new Padding(4, 3, 4, 3);
             basic_numhrs_txtbox.Name = "basic_numhrs_txtbox";
             basic_numhrs_txtbox.Size = new Size(303, 20);
-            basic_numhrs_txtbox.TabIndex = 22;
-            basic_numhrs_txtbox.TextChanged += basic_numhrs_txtbox_TextChanged_1;
+            basic_numhrs_txtbox.TabIndex = 11;
+            basic_numhrs_txtbox.TextChanged += basic_numhrs_txtbox_TextChanged;
             // 
             // label11
             // 
@@ -1021,12 +1021,12 @@
             label11.TabIndex = 21;
             label11.Text = "Rate / Hour:";
             // 
-            // L3_Activity5
+            // L8_Activity3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AliceBlue;
-            ClientSize = new Size(1624, 782);
+            ClientSize = new Size(1904, 1041);
             Controls.Add(groupBox1);
             Controls.Add(browse_button);
             Controls.Add(exit_button);
@@ -1065,8 +1065,9 @@
             Controls.Add(employee_num_txtbox);
             Controls.Add(label1);
             Margin = new Padding(4, 3, 4, 3);
-            Name = "L3_Activity5";
+            Name = "L8_Activity3";
             Text = "Example 5";
+            WindowState = FormWindowState.Maximized;
             Load += Form1_Load;
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();

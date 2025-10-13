@@ -37,7 +37,7 @@ namespace BERLANDINO_DSAL01E.Lesson_5
         private void jeePOSOrderingToolStripMenuItem_Click(object sender, EventArgs e)
         {
             // Load in L3_Activity3
-            L8_Activity1 newMDIChild = new L8_Activity1();
+            L9_Activity1 newMDIChild = new L9_Activity1();
             newMDIChild.MdiParent = this;
             newMDIChild.Show();
         }
@@ -60,7 +60,7 @@ namespace BERLANDINO_DSAL01E.Lesson_5
         private void jEEToolStripMenuItem_Click(object sender, EventArgs e)
         {
             // Load in L3_Activity3
-            L8_Activity1 newMDIChild = new L8_Activity1();
+            L9_Activity1 newMDIChild = new L9_Activity1();
             newMDIChild.MdiParent = this;
             newMDIChild.Show();
         }

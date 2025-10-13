@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BERLANDINO_DSAL01E
 {
-    public partial class L8_Activity1_Prnt : Form
+    public partial class L9_Activity1_Prnt : Form
     {
-        public L8_Activity1_Prnt()
+        public L9_Activity1_Prnt()
         {
             InitializeComponent();
             /* codes below is to display all the contents of the listbox

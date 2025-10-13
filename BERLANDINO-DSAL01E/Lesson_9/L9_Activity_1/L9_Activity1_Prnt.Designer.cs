@@ -1,6 +1,6 @@
 ﻿namespace BERLANDINO_DSAL01E
 {
-    partial class L8_Activity1_Prnt
+    partial class L9_Activity1_Prnt
     {
         /// <summary>
         /// Required designer variable.
@@ -46,13 +46,13 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Algerian", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(45, 9);
+            label1.Font = new Font("Algerian", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(54, 25);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(487, 30);
+            label1.Size = new Size(372, 21);
             label1.TabIndex = 79;
-            label1.Text = "4JEE FOOD ORDERING APPLICATION";
+            label1.Text = "CALVIN FOOD ORDERING APPLICATION";
             // 
             // prntDisplayListBox
             // 
@@ -61,18 +61,18 @@
             prntDisplayListBox.ItemHeight = 25;
             prntDisplayListBox.Location = new Point(12, 54);
             prntDisplayListBox.Name = "prntDisplayListBox";
-            prntDisplayListBox.Size = new Size(536, 554);
+            prntDisplayListBox.Size = new Size(454, 579);
             prntDisplayListBox.TabIndex = 80;
             // 
-            // L3_Activity3_Prnt
+            // L8_Activity1_Prnt
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(568, 644);
+            ClientSize = new Size(480, 644);
             Controls.Add(prntDisplayListBox);
             Controls.Add(label1);
             Controls.Add(label3);
-            Name = "L3_Activity3_Prnt";
+            Name = "L8_Activity1_Prnt";
             Text = "Transaction Receipt";
             Load += L3_Activity3_Prnt_Load;
             ResumeLayout(false);

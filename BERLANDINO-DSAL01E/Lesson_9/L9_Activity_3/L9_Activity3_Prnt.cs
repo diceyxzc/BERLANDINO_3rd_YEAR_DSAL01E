@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BERLANDINO_DSAL01E
 {
-    public partial class L8_Activity3_Prnt : Form
+    public partial class L9_Activity3_Prnt : Form
     {
-        public L8_Activity3_Prnt()
+        public L9_Activity3_Prnt()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace BERLANDINO_DSAL01E
 {
-    partial class L8_Activity1
+    partial class L9_Activity1
     {
         /// <summary>
         /// Required designer variable.
@@ -138,12 +138,12 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Algerian", 28F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(399, 9);
+            label3.Location = new Point(633, 125);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(679, 42);
+            label3.Size = new Size(721, 42);
             label3.TabIndex = 77;
-            label3.Text = "4JEE FOOD ORDERING APPLICATION";
+            label3.Text = "CALVIN FOOD ORDERING APPLICATION";
             // 
             // groupBox1
             // 
@@ -189,7 +189,7 @@
             groupBox1.Controls.Add(pictureBox13);
             groupBox1.FlatStyle = FlatStyle.System;
             groupBox1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox1.Location = new Point(737, 68);
+            groupBox1.Location = new Point(971, 184);
             groupBox1.Margin = new Padding(4, 3, 4, 3);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(4, 3, 4, 3);
@@ -692,7 +692,7 @@
             // exit_btn
             // 
             exit_btn.Font = new Font("Segoe UI", 9.75F);
-            exit_btn.Location = new Point(1267, 724);
+            exit_btn.Location = new Point(1501, 840);
             exit_btn.Name = "exit_btn";
             exit_btn.Size = new Size(120, 45);
             exit_btn.TabIndex = 78;
@@ -703,7 +703,7 @@
             // new_btn
             // 
             new_btn.Font = new Font("Segoe UI", 9.75F);
-            new_btn.Location = new Point(1134, 724);
+            new_btn.Location = new Point(1368, 840);
             new_btn.Name = "new_btn";
             new_btn.Size = new Size(127, 45);
             new_btn.TabIndex = 79;
@@ -714,7 +714,7 @@
             // remove_btn
             // 
             remove_btn.Font = new Font("Segoe UI", 9.75F);
-            remove_btn.Location = new Point(1001, 724);
+            remove_btn.Location = new Point(1235, 840);
             remove_btn.Name = "remove_btn";
             remove_btn.Size = new Size(127, 45);
             remove_btn.TabIndex = 80;
@@ -725,7 +725,7 @@
             // print_btn
             // 
             print_btn.Font = new Font("Segoe UI", 9.75F);
-            print_btn.Location = new Point(868, 724);
+            print_btn.Location = new Point(1102, 840);
             print_btn.Name = "print_btn";
             print_btn.Size = new Size(127, 45);
             print_btn.TabIndex = 81;
@@ -736,7 +736,7 @@
             // calculate_btn
             // 
             calculate_btn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            calculate_btn.Location = new Point(737, 724);
+            calculate_btn.Location = new Point(971, 840);
             calculate_btn.Name = "calculate_btn";
             calculate_btn.Size = new Size(127, 45);
             calculate_btn.TabIndex = 82;
@@ -748,7 +748,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 68);
+            label1.Location = new Point(246, 184);
             label1.Name = "label1";
             label1.Size = new Size(133, 17);
             label1.TabIndex = 83;
@@ -757,7 +757,7 @@
             // bundle_A_rdbtn
             // 
             bundle_A_rdbtn.AutoSize = true;
-            bundle_A_rdbtn.Location = new Point(47, 96);
+            bundle_A_rdbtn.Location = new Point(281, 212);
             bundle_A_rdbtn.Name = "bundle_A_rdbtn";
             bundle_A_rdbtn.Size = new Size(103, 19);
             bundle_A_rdbtn.TabIndex = 84;
@@ -769,7 +769,7 @@
             // bundle_B_rdbtn
             // 
             bundle_B_rdbtn.AutoSize = true;
-            bundle_B_rdbtn.Location = new Point(47, 121);
+            bundle_B_rdbtn.Location = new Point(281, 237);
             bundle_B_rdbtn.Name = "bundle_B_rdbtn";
             bundle_B_rdbtn.Size = new Size(102, 19);
             bundle_B_rdbtn.TabIndex = 85;
@@ -782,7 +782,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(12, 155);
+            label2.Location = new Point(246, 271);
             label2.Name = "label2";
             label2.Size = new Size(94, 17);
             label2.TabIndex = 86;
@@ -791,7 +791,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(26, 193);
+            label4.Location = new Point(260, 309);
             label4.Name = "label4";
             label4.Size = new Size(36, 15);
             label4.TabIndex = 87;
@@ -799,14 +799,14 @@
             // 
             // price_txtbox
             // 
-            price_txtbox.Location = new Point(130, 190);
+            price_txtbox.Location = new Point(364, 306);
             price_txtbox.Name = "price_txtbox";
             price_txtbox.Size = new Size(176, 23);
             price_txtbox.TabIndex = 88;
             // 
             // qty_txtbox
             // 
-            qty_txtbox.Location = new Point(130, 219);
+            qty_txtbox.Location = new Point(364, 335);
             qty_txtbox.Name = "qty_txtbox";
             qty_txtbox.Size = new Size(176, 23);
             qty_txtbox.TabIndex = 89;
@@ -815,7 +815,7 @@
             // disc_txtbox
             // 
             disc_txtbox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            disc_txtbox.Location = new Point(130, 253);
+            disc_txtbox.Location = new Point(364, 369);
             disc_txtbox.Name = "disc_txtbox";
             disc_txtbox.Size = new Size(176, 29);
             disc_txtbox.TabIndex = 90;
@@ -823,7 +823,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(26, 222);
+            label5.Location = new Point(260, 338);
             label5.Name = "label5";
             label5.Size = new Size(56, 15);
             label5.TabIndex = 96;
@@ -832,7 +832,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(26, 251);
+            label6.Location = new Point(260, 367);
             label6.Name = "label6";
             label6.Size = new Size(54, 30);
             label6.TabIndex = 97;
@@ -841,7 +841,7 @@
             // disced_txtbox
             // 
             disced_txtbox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            disced_txtbox.Location = new Point(130, 288);
+            disced_txtbox.Location = new Point(364, 404);
             disced_txtbox.Name = "disced_txtbox";
             disced_txtbox.Size = new Size(176, 29);
             disced_txtbox.TabIndex = 98;
@@ -849,7 +849,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(28, 287);
+            label7.Location = new Point(262, 403);
             label7.Name = "label7";
             label7.Size = new Size(67, 30);
             label7.TabIndex = 99;
@@ -857,14 +857,14 @@
             // 
             // bills_txtbox
             // 
-            bills_txtbox.Location = new Point(130, 323);
+            bills_txtbox.Location = new Point(364, 439);
             bills_txtbox.Name = "bills_txtbox";
             bills_txtbox.Size = new Size(176, 23);
             bills_txtbox.TabIndex = 100;
             // 
             // total_qty_txtbox
             // 
-            total_qty_txtbox.Location = new Point(130, 352);
+            total_qty_txtbox.Location = new Point(364, 468);
             total_qty_txtbox.Name = "total_qty_txtbox";
             total_qty_txtbox.Size = new Size(176, 23);
             total_qty_txtbox.TabIndex = 101;
@@ -872,7 +872,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(26, 326);
+            label8.Location = new Point(260, 442);
             label8.Name = "label8";
             label8.Size = new Size(60, 15);
             label8.TabIndex = 102;
@@ -881,7 +881,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(26, 355);
+            label9.Location = new Point(260, 471);
             label9.Name = "label9";
             label9.Size = new Size(85, 15);
             label9.TabIndex = 103;
@@ -889,14 +889,14 @@
             // 
             // cash_txtbox
             // 
-            cash_txtbox.Location = new Point(130, 381);
+            cash_txtbox.Location = new Point(364, 497);
             cash_txtbox.Name = "cash_txtbox";
             cash_txtbox.Size = new Size(176, 23);
             cash_txtbox.TabIndex = 104;
             // 
             // change_txtbox
             // 
-            change_txtbox.Location = new Point(130, 410);
+            change_txtbox.Location = new Point(364, 526);
             change_txtbox.Name = "change_txtbox";
             change_txtbox.Size = new Size(176, 23);
             change_txtbox.TabIndex = 105;
@@ -904,7 +904,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(26, 384);
+            label10.Location = new Point(260, 500);
             label10.Name = "label10";
             label10.Size = new Size(69, 15);
             label10.TabIndex = 106;
@@ -913,7 +913,7 @@
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(26, 413);
+            label11.Location = new Point(260, 529);
             label11.Name = "label11";
             label11.Size = new Size(51, 15);
             label11.TabIndex = 107;
@@ -923,16 +923,19 @@
             // 
             displayListBox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             displayListBox.FormattingEnabled = true;
+            displayListBox.IntegralHeight = false;
             displayListBox.ItemHeight = 21;
-            displayListBox.Location = new Point(12, 458);
+            displayListBox.Location = new Point(246, 574);
             displayListBox.Name = "displayListBox";
             displayListBox.Size = new Size(454, 298);
             displayListBox.TabIndex = 108;
+            displayListBox.TabStop = false;
+            displayListBox.UseTabStops = false;
             // 
             // display_picbox
             // 
             display_picbox.BorderStyle = BorderStyle.FixedSingle;
-            display_picbox.Location = new Point(472, 458);
+            display_picbox.Location = new Point(706, 574);
             display_picbox.Name = "display_picbox";
             display_picbox.Size = new Size(258, 277);
             display_picbox.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -943,7 +946,7 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label12.Location = new Point(560, 738);
+            label12.Location = new Point(794, 854);
             label12.Name = "label12";
             label12.Size = new Size(85, 17);
             label12.TabIndex = 110;
@@ -953,7 +956,7 @@
             // 
             label13.AutoSize = true;
             label13.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label13.Location = new Point(367, 68);
+            label13.Location = new Point(601, 184);
             label13.Name = "label13";
             label13.Size = new Size(99, 17);
             label13.TabIndex = 111;
@@ -962,7 +965,7 @@
             // A_Chicken_CheckBox
             // 
             A_Chicken_CheckBox.AutoSize = true;
-            A_Chicken_CheckBox.Location = new Point(399, 96);
+            A_Chicken_CheckBox.Location = new Point(633, 212);
             A_Chicken_CheckBox.Name = "A_Chicken_CheckBox";
             A_Chicken_CheckBox.Size = new Size(188, 19);
             A_Chicken_CheckBox.TabIndex = 112;
@@ -972,7 +975,7 @@
             // A_Fries_CheckBox
             // 
             A_Fries_CheckBox.AutoSize = true;
-            A_Fries_CheckBox.Location = new Point(399, 127);
+            A_Fries_CheckBox.Location = new Point(633, 243);
             A_Fries_CheckBox.Name = "A_Fries_CheckBox";
             A_Fries_CheckBox.Size = new Size(91, 19);
             A_Fries_CheckBox.TabIndex = 113;
@@ -982,7 +985,7 @@
             // A_Coke_CheckBox
             // 
             A_Coke_CheckBox.AutoSize = true;
-            A_Coke_CheckBox.Location = new Point(399, 160);
+            A_Coke_CheckBox.Location = new Point(633, 276);
             A_Coke_CheckBox.Name = "A_Coke_CheckBox";
             A_Coke_CheckBox.Size = new Size(71, 19);
             A_Coke_CheckBox.TabIndex = 114;
@@ -992,7 +995,7 @@
             // A_Sides_CheckBox
             // 
             A_Sides_CheckBox.AutoSize = true;
-            A_Sides_CheckBox.Location = new Point(399, 193);
+            A_Sides_CheckBox.Location = new Point(633, 309);
             A_Sides_CheckBox.Name = "A_Sides_CheckBox";
             A_Sides_CheckBox.Size = new Size(94, 19);
             A_Sides_CheckBox.TabIndex = 115;
@@ -1002,7 +1005,7 @@
             // A_Special_CheckBox
             // 
             A_Special_CheckBox.AutoSize = true;
-            A_Special_CheckBox.Location = new Point(399, 228);
+            A_Special_CheckBox.Location = new Point(633, 344);
             A_Special_CheckBox.Name = "A_Special_CheckBox";
             A_Special_CheckBox.Size = new Size(138, 19);
             A_Special_CheckBox.TabIndex = 116;
@@ -1013,7 +1016,7 @@
             // 
             label14.AutoSize = true;
             label14.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label14.Location = new Point(367, 258);
+            label14.Location = new Point(601, 374);
             label14.Name = "label14";
             label14.Size = new Size(98, 17);
             label14.TabIndex = 117;
@@ -1022,7 +1025,7 @@
             // B_HaloHalo_Checkbox
             // 
             B_HaloHalo_Checkbox.AutoSize = true;
-            B_HaloHalo_Checkbox.Location = new Point(399, 289);
+            B_HaloHalo_Checkbox.Location = new Point(633, 405);
             B_HaloHalo_Checkbox.Name = "B_HaloHalo_Checkbox";
             B_HaloHalo_Checkbox.Size = new Size(201, 19);
             B_HaloHalo_Checkbox.TabIndex = 118;
@@ -1032,7 +1035,7 @@
             // B_Chicken_Checkbox
             // 
             B_Chicken_Checkbox.AutoSize = true;
-            B_Chicken_Checkbox.Location = new Point(399, 321);
+            B_Chicken_Checkbox.Location = new Point(633, 437);
             B_Chicken_Checkbox.Name = "B_Chicken_Checkbox";
             B_Chicken_Checkbox.Size = new Size(182, 19);
             B_Chicken_Checkbox.TabIndex = 119;
@@ -1042,7 +1045,7 @@
             // B_Carbonara_Checkbox
             // 
             B_Carbonara_Checkbox.AutoSize = true;
-            B_Carbonara_Checkbox.Location = new Point(399, 354);
+            B_Carbonara_Checkbox.Location = new Point(633, 470);
             B_Carbonara_Checkbox.Name = "B_Carbonara_Checkbox";
             B_Carbonara_Checkbox.Size = new Size(156, 19);
             B_Carbonara_Checkbox.TabIndex = 120;
@@ -1052,7 +1055,7 @@
             // B_Fries_Checkbox
             // 
             B_Fries_Checkbox.AutoSize = true;
-            B_Fries_Checkbox.Location = new Point(399, 385);
+            B_Fries_Checkbox.Location = new Point(633, 501);
             B_Fries_Checkbox.Name = "B_Fries_Checkbox";
             B_Fries_Checkbox.Size = new Size(125, 19);
             B_Fries_Checkbox.TabIndex = 121;
@@ -1062,7 +1065,7 @@
             // B_Hawaiian_Checkbox
             // 
             B_Hawaiian_Checkbox.AutoSize = true;
-            B_Hawaiian_Checkbox.Location = new Point(399, 416);
+            B_Hawaiian_Checkbox.Location = new Point(633, 532);
             B_Hawaiian_Checkbox.Name = "B_Hawaiian_Checkbox";
             B_Hawaiian_Checkbox.Size = new Size(161, 19);
             B_Hawaiian_Checkbox.TabIndex = 122;
@@ -1074,7 +1077,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AliceBlue;
-            ClientSize = new Size(1403, 783);
+            ClientSize = new Size(1904, 1041);
             Controls.Add(B_Hawaiian_Checkbox);
             Controls.Add(B_Fries_Checkbox);
             Controls.Add(B_Carbonara_Checkbox);
@@ -1119,7 +1122,8 @@
             Controls.Add(groupBox1);
             Margin = new Padding(4, 3, 4, 3);
             Name = "L8_Activity1";
-            Text = "Example 3";
+            Text = "POS1_MAIN_FORM";
+            WindowState = FormWindowState.Maximized;
             Load += Activity2_Part2_Load;
             groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
