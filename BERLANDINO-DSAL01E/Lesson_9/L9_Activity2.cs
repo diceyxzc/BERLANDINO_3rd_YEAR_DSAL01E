@@ -1,4 +1,5 @@
 ﻿using BERLANDINO_DSAL01E.Lesson_8.Class_Forms;
+using BERLANDINO_DSAL01E.Lesson_9.Class_Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -24,7 +25,7 @@ namespace BERLANDINO_DSAL01E
 
         #region Class References
         // Instances of helper classes for POS operations and variable handling
-        POS1_Functions functions_pos1 = new POS1_Functions();
+        POS_Payroll_Class pos1_class_functions = new POS_Payroll_Class();
         Variables variables = new Variables();
         #endregion
 
@@ -69,122 +70,122 @@ namespace BERLANDINO_DSAL01E
         // Each PictureBox sets the selected item's name and price, then focuses the quantity textbox.
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label14.Text, "121.30");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label14.Text, "121.30");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label15.Text, "141.30");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label15.Text, "141.30");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label16.Text, "391.90");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label16.Text, "391.90");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label17.Text, "191.90");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label17.Text, "191.90");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label18.Text, "799.30");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label18.Text, "799.30");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label19.Text, "91.30");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label19.Text, "91.30");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label20.Text, "191.30");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label20.Text, "191.30");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label21.Text, "98.00");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label21.Text, "98.00");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label22.Text, "999.90");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label22.Text, "999.90");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label23.Text, "177.30");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label23.Text, "177.30");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox11_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label24.Text, "199.10");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label24.Text, "199.10");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label25.Text, "120.50");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label25.Text, "120.50");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox13_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label26.Text, "191.30");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label26.Text, "191.30");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox14_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label27.Text, "97.30");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label27.Text, "97.30");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox15_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label28.Text, "133.30");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label28.Text, "133.30");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox16_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label29.Text, "191.30");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label29.Text, "191.30");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox17_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label30.Text, "151.00");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label30.Text, "151.00");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox18_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label31.Text, "160.30");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label31.Text, "160.30");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox19_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label32.Text, "231.00");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label32.Text, "231.00");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
 
         private void pictureBox20_Click(object sender, EventArgs e)
         {
-            functions_pos1.SetPriceItemValue(item_name_txtbox, price_txtbox, label33.Text, "455.90");
-            functions_pos1.focus_quantity(qty_txtbox);
+            pos1_class_functions.SetPriceItemValue(item_name_txtbox, price_txtbox, label33.Text, "455.90");
+            pos1_class_functions.focus_quantity(qty_txtbox);
         }
         #endregion
 
@@ -196,9 +197,9 @@ namespace BERLANDINO_DSAL01E
             try
             {
                 // Apply 30% discount for senior citizens
-                functions_pos1.qty_price_convert(qty_txtbox, price_txtbox, variables);
+                pos1_class_functions.qty_price_convert(qty_txtbox, price_txtbox, variables);
                 variables.discount_amt = (variables.quantity * variables.price) * 0.30;
-                functions_pos1.computation_Formula_and_DislpayData(discountamounttxtbox, discountedtxtbox, variables);
+                pos1_class_functions.computation_Formula_and_DislpayData(discountamounttxtbox, discountedtxtbox, variables);
 
                 // Uncheck other discount types
                 disc_radio_button.Checked = false;
@@ -208,7 +209,7 @@ namespace BERLANDINO_DSAL01E
             catch (Exception)
             {
                 MessageBox.Show("Input is Invalid!");
-                functions_pos1.focus_quantity(qty_txtbox);
+                pos1_class_functions.focus_quantity(qty_txtbox);
             }
         }
 
@@ -217,9 +218,9 @@ namespace BERLANDINO_DSAL01E
             try
             {
                 // Apply 10% discount for regular promotions
-                functions_pos1.qty_price_convert(qty_txtbox, price_txtbox, variables);
+                pos1_class_functions.qty_price_convert(qty_txtbox, price_txtbox, variables);
                 variables.discount_amt = (variables.quantity * variables.price) * 0.10;
-                functions_pos1.computation_Formula_and_DislpayData(discountamounttxtbox, discountedtxtbox, variables);
+                pos1_class_functions.computation_Formula_and_DislpayData(discountamounttxtbox, discountedtxtbox, variables);
 
                 // Uncheck other discount types
                 senior_radio_button.Checked = false;
@@ -229,7 +230,7 @@ namespace BERLANDINO_DSAL01E
             catch (Exception)
             {
                 MessageBox.Show("Input is Invalid!");
-                functions_pos1.focus_quantity(qty_txtbox);
+                pos1_class_functions.focus_quantity(qty_txtbox);
             }
         }
 
@@ -238,9 +239,9 @@ namespace BERLANDINO_DSAL01E
             try
             {
                 // Apply 15% employee discount
-                functions_pos1.qty_price_convert(qty_txtbox, price_txtbox, variables);
+                pos1_class_functions.qty_price_convert(qty_txtbox, price_txtbox, variables);
                 variables.discount_amt = (variables.quantity * variables.price) * 0.15;
-                functions_pos1.computation_Formula_and_DislpayData(discountamounttxtbox, discountedtxtbox, variables);
+                pos1_class_functions.computation_Formula_and_DislpayData(discountamounttxtbox, discountedtxtbox, variables);
 
                 // Uncheck other discount types
                 senior_radio_button.Checked = false;
@@ -250,7 +251,7 @@ namespace BERLANDINO_DSAL01E
             catch (Exception)
             {
                 MessageBox.Show("Input is Invalid!");
-                functions_pos1.focus_quantity(qty_txtbox);
+                pos1_class_functions.focus_quantity(qty_txtbox);
             }
         }
 
@@ -259,9 +260,9 @@ namespace BERLANDINO_DSAL01E
             try
             {
                 // No discount applied
-                functions_pos1.qty_price_convert(qty_txtbox, price_txtbox, variables);
+                pos1_class_functions.qty_price_convert(qty_txtbox, price_txtbox, variables);
                 variables.discount_amt = (variables.quantity * variables.price) * 0;
-                functions_pos1.computation_Formula_and_DislpayData(discountamounttxtbox, discountedtxtbox, variables);
+                pos1_class_functions.computation_Formula_and_DislpayData(discountamounttxtbox, discountedtxtbox, variables);
 
                 // Uncheck other discount types
                 senior_radio_button.Checked = false;
@@ -271,7 +272,7 @@ namespace BERLANDINO_DSAL01E
             catch (Exception)
             {
                 MessageBox.Show("Input is Invalid!");
-                functions_pos1.focus_quantity(qty_txtbox);
+                pos1_class_functions.focus_quantity(qty_txtbox);
             }
         }
         #endregion
@@ -282,10 +283,10 @@ namespace BERLANDINO_DSAL01E
             try
             {
                 // Convert text fields to numeric values
-                functions_pos1.convert_total(qty_txtbox, discountamounttxtbox, discountedtxtbox, cashrenderedtxtbox, variables);
+                pos1_class_functions.convert_total(qty_txtbox, discountamounttxtbox, discountedtxtbox, cashrenderedtxtbox, variables);
 
                 // Accumulate transaction totals
-                functions_pos1.calculate_total(variables);
+                pos1_class_functions.calculate_total(variables);
 
                 // Display totals and computed change
                 qty_totaltxtbox.Text = variables.qty_total.ToString();

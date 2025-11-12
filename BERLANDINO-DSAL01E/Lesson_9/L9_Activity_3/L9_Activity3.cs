@@ -1,4 +1,5 @@
 ﻿using BERLANDINO_DSAL01E.Lesson_8.Class_Forms;
+using BERLANDINO_DSAL01E.Lesson_9.Class_Forms;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -7,9 +8,9 @@ namespace BERLANDINO_DSAL01E
 {
     public partial class L9_Activity3 : Form
     {
-        #region Class-Level Instances
+        #region Class-Level References
         // Access Payroll_Functions and shared Variables
-        Payroll_Functions functions_payroll = new Payroll_Functions();
+        POS_Payroll_Class payroll_class = new POS_Payroll_Class();
         Variables variables = new Variables();
         #endregion
 
@@ -60,7 +61,7 @@ namespace BERLANDINO_DSAL01E
             if (string.IsNullOrWhiteSpace(basic_numhrs_txtbox.Text)) return;
             try
             {
-                functions_payroll.Basic_Convert_Textboxes(basic_rate_txtbox, basic_numhrs_txtbox, variables);
+                payroll_class.Basic_Convert_Textboxes(basic_rate_txtbox, basic_numhrs_txtbox, variables);
                 basic_net_income_txtbox.Text = variables.basic_netincome.ToString("n");
             }
             catch
@@ -77,7 +78,7 @@ namespace BERLANDINO_DSAL01E
             if (string.IsNullOrWhiteSpace(hono_numhrs_txtbox.Text)) return;
             try
             {
-                functions_payroll.Hono_Convert_Textboxes(hono_numhrs_txtbox, hono_rate_txtbox, variables);
+                payroll_class.Hono_Convert_Textboxes(hono_numhrs_txtbox, hono_rate_txtbox, variables);
                 hono_net_income_txtbox.Text = variables.hono_netincome.ToString("n");
             }
             catch
@@ -94,7 +95,7 @@ namespace BERLANDINO_DSAL01E
             if (string.IsNullOrWhiteSpace(other_numhrs_txtbox.Text)) return;
             try
             {
-                functions_payroll.Other_Convert_Textboxes(other_numhrs_txtbox, other_rate_txtbox, variables);
+                payroll_class.Other_Convert_Textboxes(other_numhrs_txtbox, other_rate_txtbox, variables);
                 other_net_income_txtbox.Text = variables.other_netincome.ToString("n");
                 gross_income_txtbox.Text = variables.gross_income.ToString("n");
             }
@@ -195,13 +196,13 @@ namespace BERLANDINO_DSAL01E
         {
             try
             {
-                functions_payroll.Converting_Compute_Textboxes(
+                payroll_class.Converting_Compute_Textboxes(
                     sss_contrib_txtbox, pagibig_contrib_txtbox, philhealth_contrib_txtbox,
                     tax_contrib_txtbox, sss_loan_txtbox, pagibig_loan_txtbox, sal_loan_txtbox,
                     FS_loan_txtbox, FSD_loan_txtbox, other_loan_txtbox, variables
                 );
 
-                functions_payroll.Compute_Total_And_Net(variables);
+                payroll_class.Compute_Total_And_Net(variables);
 
                 total_deduc_txtbox.Text = variables.total_deduction.ToString("n");
                 net_income_txtbox.Text = variables.net_income.ToString("n");
@@ -216,7 +217,7 @@ namespace BERLANDINO_DSAL01E
         private void preview_payslip_Click(object sender, EventArgs e)
         {
             // Employee Information
-            functions_payroll.Display_Employee_Info(
+            payroll_class.Display_Employee_Info(
                 payslip_view_listbox,
                 first_name_txtbox,
                 middle_name_txtbox,
@@ -229,7 +230,7 @@ namespace BERLANDINO_DSAL01E
             payslip_view_listbox.Items.Add(new string('-', 75));
 
             // Pay Rates
-            functions_payroll.Display_Pay_Rates(
+            payroll_class.Display_Pay_Rates(
                 payslip_view_listbox,
                 basic_numhrs_txtbox,
                 basic_rate_txtbox,
@@ -244,7 +245,7 @@ namespace BERLANDINO_DSAL01E
             payslip_view_listbox.Items.Add(new string('-', 75));
 
             // Contributions & Loans
-            functions_payroll.Display_Contrib_Loan(
+            payroll_class.Display_Contrib_Loan(
                 payslip_view_listbox,
                 sss_contrib_txtbox,
                 philhealth_contrib_txtbox,
@@ -260,7 +261,7 @@ namespace BERLANDINO_DSAL01E
             payslip_view_listbox.Items.Add(new string('-', 75));
 
             // Total Dues
-            functions_payroll.Display_Total_Dues(
+            payroll_class.Display_Total_Dues(
                 payslip_view_listbox,
                 total_deduc_txtbox,
                 gross_income_txtbox,
