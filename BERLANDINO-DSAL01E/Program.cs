@@ -1,5 +1,6 @@
 using BERLANDINO_DSAL01E;
 using BERLANDINO_DSAL01E.Database;
+using BERLANDINO_DSAL01E.Database.Activities;
 using BERLANDINO_DSAL01E.Exam;
 using BERLANDINO_DSAL01E.Lesson_3;
 using BERLANDINO_DSAL01E.Lesson_4;
@@ -20,7 +21,7 @@ namespace BERLANDINO_DSAL01E
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new POS_Admin());
+            Application.Run(new DB_Example1());
         }
     }
 }

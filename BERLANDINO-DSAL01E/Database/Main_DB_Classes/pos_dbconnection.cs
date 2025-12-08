@@ -92,7 +92,7 @@ namespace BERLANDINO_DSAL01E.Database.Main_DB_Classes
                       "WHERE pos_nameTbl.pos_id = 1";
         }
 
-        public void pos_select_cashier2()
+        public void pos_select_cashier1()
         {
             pos_sql = "SELECT * FROM pos_nameTbl " +
                       "INNER JOIN pos_picTbl ON pos_nameTbl.pos_id = pos_picTbl.pos_id " +

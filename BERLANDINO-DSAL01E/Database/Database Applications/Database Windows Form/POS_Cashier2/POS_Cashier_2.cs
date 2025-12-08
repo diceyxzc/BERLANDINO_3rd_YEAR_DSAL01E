@@ -1,4 +1,6 @@
-﻿using BERLANDINO_DSAL01E.Lesson_8.Class_Forms;
+﻿using BERLANDINO_DSAL01E.Database.Class_Forms;
+using BERLANDINO_DSAL01E.Database.Main_DB_Classes;
+using BERLANDINO_DSAL01E.Lesson_8.Class_Forms;
 using BERLANDINO_DSAL01E.Lesson_9.Class_Forms;
 using System;
 using System.Collections.Generic;
@@ -15,22 +17,19 @@ using System.Windows.Forms;
 
 namespace BERLANDINO_DSAL01E
 {
-    public partial class L9_Activity1 : Form
+    public partial class POS_Cashier_2 : Form
     {
-        #region Class References
         // Helper classes for POS operations
-        POS_Payroll_Class pos2_class_functions = new POS_Payroll_Class();
-        Variables variables = new Variables();
-        #endregion
+        pos_dbconnection posdb_connect = new pos_dbconnection();
+        DB_POS_Payroll_Class pos2_class_functions = new DB_POS_Payroll_Class();
+        Price_Variables variables = new Price_Variables();
 
-        #region Constructor
-        public L9_Activity1()
+        public POS_Cashier_2()
         {
+            posdb_connect.pos_connString();
             InitializeComponent();
         }
-        #endregion
 
-        #region Form Load Event
         private void Activity2_Part2_Load(object sender, EventArgs e)
         {
             // Disable textboxes (read-only fields)
@@ -41,27 +40,121 @@ namespace BERLANDINO_DSAL01E
             total_qty_txtbox.Enabled = false;
             change_txtbox.Enabled = false;
 
-            // Set labels for pizza checkboxes (checkBox1 to checkBox20)
-            checkBox1.Text = "Hawaiian";
-            checkBox2.Text = "New York Style";
-            checkBox3.Text = "Pepperoni";
-            checkBox4.Text = "Cauliflower Crush";
-            checkBox5.Text = "Dominos";
-            checkBox6.Text = "Pizza Special A";
-            checkBox7.Text = "Pizza Special B";
-            checkBox8.Text = "Pizza Special C";
-            checkBox9.Text = "Pizza Special D";
-            checkBox10.Text = "Pizza Barbecue";
-            checkBox11.Text = "Piza 1";
-            checkBox12.Text = "Pizza 2";
-            checkBox13.Text = "Pizza 3";
-            checkBox14.Text = "Pizza 4";
-            checkBox15.Text = "Pizza 5";
-            checkBox16.Text = "Pizza 6";
-            checkBox17.Text = "Pizza 7";
-            checkBox18.Text = "Pizza 8";
-            checkBox19.Text = "Pizza 9";
-            checkBox20.Text = "Amanos Pizza";
+            // Codes for retrieving images from the database adn displaying them in picture box
+            posdb_connect.pos_select_cashier1();
+            posdb_connect.pos_cmd();
+            posdb_connect.pos_sqladapterSelect();
+            posdb_connect.pos_sql_datasetSelect();
+
+            checkBox1.Text  = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][2].ToString();
+            checkBox2.Text  = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][3].ToString();
+            checkBox3.Text  = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][4].ToString();
+            checkBox4.Text  = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][5].ToString();
+            checkBox5.Text  = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][6].ToString();
+            checkBox6.Text  = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][7].ToString();
+            checkBox7.Text  = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][8].ToString();
+            checkBox8.Text  = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][9].ToString();
+            checkBox9.Text  = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][10].ToString();
+            checkBox10.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][11].ToString();
+            checkBox11.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][12].ToString();
+            checkBox12.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][13].ToString();
+            checkBox13.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][14].ToString();
+            checkBox14.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][15].ToString();
+            checkBox15.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][16].ToString();
+            checkBox16.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][17].ToString();
+            checkBox17.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][18].ToString();
+            checkBox18.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][19].ToString();
+            checkBox19.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][20].ToString();
+            checkBox20.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][21].ToString();
+
+            picpathtxtbox1.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][24].ToString();
+            pictureBox1.Image = Image.FromFile(picpathtxtbox1.Text);
+
+            picpathtxtbox2.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][25].ToString();
+            pictureBox2.Image = Image.FromFile(picpathtxtbox2.Text);
+
+            picpathtxtbox3.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][26].ToString();
+            pictureBox3.Image = Image.FromFile(picpathtxtbox3.Text);
+
+            picpathtxtbox4.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][27].ToString();
+            pictureBox4.Image = Image.FromFile(picpathtxtbox4.Text);
+
+            picpathtxtbox5.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][28].ToString();
+            pictureBox5.Image = Image.FromFile(picpathtxtbox5.Text);
+
+            picpathtxtbox6.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][29].ToString();
+            pictureBox6.Image = Image.FromFile(picpathtxtbox6.Text);
+
+            picpathtxtbox7.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][30].ToString();
+            pictureBox7.Image = Image.FromFile(picpathtxtbox7.Text);
+
+            picpathtxtbox8.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][31].ToString();
+            pictureBox8.Image = Image.FromFile(picpathtxtbox8.Text);
+
+            picpathtxtbox9.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][32].ToString();
+            pictureBox9.Image = Image.FromFile(picpathtxtbox9.Text);
+
+            picpathtxtbox10.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][33].ToString();
+            pictureBox10.Image = Image.FromFile(picpathtxtbox10.Text);
+
+            picpathtxtbox11.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][34].ToString();
+            pictureBox11.Image = Image.FromFile(picpathtxtbox11.Text);
+
+            picpathtxtbox12.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][35].ToString();
+            pictureBox12.Image = Image.FromFile(picpathtxtbox12.Text);
+
+            picpathtxtbox13.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][36].ToString();
+            pictureBox13.Image = Image.FromFile(picpathtxtbox13.Text);
+
+            picpathtxtbox14.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][37].ToString();
+            pictureBox14.Image = Image.FromFile(picpathtxtbox14.Text);
+
+            picpathtxtbox15.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][38].ToString();
+            pictureBox15.Image = Image.FromFile(picpathtxtbox15.Text);
+
+            picpathtxtbox16.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][39].ToString();
+            pictureBox16.Image = Image.FromFile(picpathtxtbox16.Text);
+
+            picpathtxtbox17.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][40].ToString();
+            pictureBox17.Image = Image.FromFile(picpathtxtbox17.Text);
+
+            picpathtxtbox18.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][41].ToString();
+            pictureBox18.Image = Image.FromFile(picpathtxtbox18.Text);
+
+            picpathtxtbox19.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][42].ToString();
+            pictureBox19.Image = Image.FromFile(picpathtxtbox19.Text);
+
+            picpathtxtbox20.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][43].ToString();
+            pictureBox20.Image = Image.FromFile(picpathtxtbox20.Text);
+
+            price1.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][46].ToString();
+            price2.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][47].ToString();
+            price3.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][48].ToString();
+            price4.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][49].ToString();
+            price5.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][50].ToString();
+            price6.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][51].ToString();
+            price7.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][52].ToString();
+            price8.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][53].ToString();
+            price9.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][54].ToString();
+            price10.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][55].ToString();
+            price11.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][56].ToString();
+            price12.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][57].ToString();
+            price13.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][58].ToString();
+            price14.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][59].ToString();
+            price15.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][60].ToString();
+            price16.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][61].ToString();
+            price17.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][62].ToString();
+            price18.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][63].ToString();
+            price19.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][64].ToString();
+            price20.Text = posdb_connect.pos_sql_dataset.Tables[0].Rows[0][65].ToString();
+
+            picpathtxtbox1.Hide(); picpathtxtbox2.Hide(); picpathtxtbox3.Hide();
+            picpathtxtbox4.Hide(); picpathtxtbox5.Hide(); picpathtxtbox6.Hide();
+            picpathtxtbox7.Hide(); picpathtxtbox8.Hide(); picpathtxtbox9.Hide();
+            picpathtxtbox10.Hide(); picpathtxtbox11.Hide(); picpathtxtbox12.Hide();
+            picpathtxtbox13.Hide(); picpathtxtbox14.Hide(); picpathtxtbox15.Hide();
+            picpathtxtbox16.Hide(); picpathtxtbox17.Hide(); picpathtxtbox18.Hide();
+            picpathtxtbox19.Hide(); picpathtxtbox20.Hide();
 
             // Disable bundle checkboxes (enabled only when bundle is selected)
             A_Chicken_CheckBox.Enabled = false;
@@ -75,9 +168,7 @@ namespace BERLANDINO_DSAL01E
             B_Fries_Checkbox.Enabled = false;
             B_Hawaiian_Checkbox.Enabled = false;
         }
-        #endregion
 
-        #region Bundle Selection Events
         private void bundle_A_rdbtn_CheckedChanged(object sender, EventArgs e)
         {
             // Change form background color for Bundle A theme
@@ -153,9 +244,7 @@ namespace BERLANDINO_DSAL01E
             // Set focus to quantity textbox for user input
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
-        #endregion
 
-        #region Button Click Events
         private void calculate_btn_Click(object sender, EventArgs e)
         {
             try
@@ -288,9 +377,7 @@ namespace BERLANDINO_DSAL01E
             // Close the current form
             this.Close();
         }
-        #endregion
 
-        #region Textbox Modifier Events
         private void qty_txtbox_TextChanged(object sender, EventArgs e)
         {
             try
@@ -319,168 +406,145 @@ namespace BERLANDINO_DSAL01E
                 pos2_class_functions.focus_quantity(qty_txtbox);
             }
         }
-        #endregion
 
-        #region Checkbox Events for Bundles
-        // Hawaiian - ₱500.99
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "500.99");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price1.Text);
             pos2_class_functions.AddToDisplayList(checkBox1, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // New York Style - ₱550.00
         private void checkBox2_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "550.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price2.Text);
             pos2_class_functions.AddToDisplayList(checkBox2, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
-            
-        // Pepperoni - ₱600.99
+
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "600.99");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price3.Text);
             pos2_class_functions.AddToDisplayList(checkBox3, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Cauliflower Crush - ₱700.50
         private void checkBox4_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "700.50");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price4.Text);
             pos2_class_functions.AddToDisplayList(checkBox4, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Dominos - ₱500.00
         private void checkBox5_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "500.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price5.Text);
             pos2_class_functions.AddToDisplayList(checkBox5, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Pizza Special A - ₱750.00
         private void checkBox6_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "750.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price6.Text);
             pos2_class_functions.AddToDisplayList(checkBox6, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Pizza Special B - ₱700.00
         private void checkBox7_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "700.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price7.Text);
             pos2_class_functions.AddToDisplayList(checkBox7, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Pizza Special C - ₱850.00
         private void checkBox8_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "850.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price8.Text);
             pos2_class_functions.AddToDisplayList(checkBox8, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Pizza Special D - ₱450.00
         private void checkBox9_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "450.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price9.Text);
             pos2_class_functions.AddToDisplayList(checkBox9, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Pizza Barbecue - ₱650.00
         private void checkBox10_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "650.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price10.Text);
             pos2_class_functions.AddToDisplayList(checkBox10, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Piza 1 - ₱575.00
         private void checkBox11_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "575.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price11.Text);
             pos2_class_functions.AddToDisplayList(checkBox11, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Pizza 2 - ₱575.00
         private void checkBox12_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "575.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price12.Text);
             pos2_class_functions.AddToDisplayList(checkBox12, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Pizza 3 - ₱575.00
         private void checkBox13_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "575.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price13.Text);
             pos2_class_functions.AddToDisplayList(checkBox13, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Pizza 4 - ₱575.00
         private void checkBox14_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "575.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price14.Text);
             pos2_class_functions.AddToDisplayList(checkBox14, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Pizza 5 - ₱575.00
         private void checkBox15_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "575.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price15.Text);
             pos2_class_functions.AddToDisplayList(checkBox15, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Pizza 6 - ₱575.00
         private void checkBox16_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "575.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price16.Text);
             pos2_class_functions.AddToDisplayList(checkBox16, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Pizza 7 - ₱575.00
         private void checkBox17_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "575.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price17.Text);
             pos2_class_functions.AddToDisplayList(checkBox17, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Pizza 8 - ₱575.00
         private void checkBox18_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "575.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price18.Text);
             pos2_class_functions.AddToDisplayList(checkBox18, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Pizza 9 - ₱575.00
         private void checkBox19_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "575.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price19.Text);
             pos2_class_functions.AddToDisplayList(checkBox19, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
 
-        // Amanos Pizza - ₱575.00
         private void checkBox20_CheckedChanged(object sender, EventArgs e)
         {
-            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", "575.00");
+            pos2_class_functions.price_dics_func(disc_txtbox, price_txtbox, "0.00", price20.Text);
             pos2_class_functions.AddToDisplayList(checkBox20, price_txtbox, displayListBox);
             pos2_class_functions.focus_quantity(qty_txtbox);
         }
-        #endregion
     }
 }
