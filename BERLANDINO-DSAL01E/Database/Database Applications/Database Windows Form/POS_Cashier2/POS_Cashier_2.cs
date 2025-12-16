@@ -275,7 +275,7 @@ namespace BERLANDINO_DSAL01E
             try
             {
                 // Create instance of print form
-                L9_Activity1_Prnt print = new L9_Activity1_Prnt();
+                L8_Activity1_Prnt print = new L8_Activity1_Prnt();
 
                 // Transfer listbox contents to print form
                 print.prntDisplayListBox.Items.AddRange(this.displayListBox.Items);

@@ -21,7 +21,7 @@ namespace BERLANDINO_DSAL01E.Database.Main_DB_Classes
         {
             // Establishes a connection from C# forms to the SQL Server Database
             login_sql_connection = new SqlConnection();
-            login_connectionString = "Data Source=LAPTOP-CDS0O04L\\SQLEXPRESS;Initial Catalog=POSDB;Trusted_Connection=True;TrustServerCertificate=True";
+            login_connectionString = "Data Source=172.20.10.8;Initial Catalog=POSDB;User Id=sa;Password=calvin123;TrustServerCertificate=True;";
 
             login_sql_connection = new SqlConnection(login_connectionString);
             login_sql_connection.ConnectionString = login_connectionString;

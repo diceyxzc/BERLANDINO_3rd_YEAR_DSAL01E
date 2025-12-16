@@ -195,165 +195,171 @@
             // 
             // button11
             // 
-            button11.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button11.Location = new Point(705, 743);
+            button11.AutoSize = true;
+            button11.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button11.Location = new Point(621, 801);
             button11.Margin = new Padding(4, 3, 4, 3);
             button11.Name = "button11";
-            button11.Size = new Size(63, 38);
+            button11.Size = new Size(80, 70);
             button11.TabIndex = 88;
             button11.Text = "8";
             button11.UseVisualStyleBackColor = true;
             // 
             // button9
             // 
-            button9.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button9.Location = new Point(775, 698);
+            button9.AutoSize = true;
+            button9.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button9.Location = new Point(702, 729);
             button9.Margin = new Padding(4, 3, 4, 3);
             button9.Name = "button9";
-            button9.Size = new Size(63, 38);
+            button9.Size = new Size(80, 70);
             button9.TabIndex = 85;
             button9.Text = "+";
             button9.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
-            button8.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button8.Location = new Point(705, 698);
+            button8.AutoSize = true;
+            button8.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button8.Location = new Point(621, 729);
             button8.Margin = new Padding(4, 3, 4, 3);
             button8.Name = "button8";
-            button8.Size = new Size(63, 38);
+            button8.Size = new Size(80, 70);
             button8.TabIndex = 84;
             button8.Text = "-";
             button8.UseVisualStyleBackColor = true;
             // 
             // name16
             // 
-            name16.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name16.Location = new Point(10, 607);
+            name16.Font = new Font("Tahoma", 11.25F);
+            name16.Location = new Point(8, 954);
             name16.Margin = new Padding(4, 0, 4, 0);
             name16.Name = "name16";
-            name16.Size = new Size(120, 36);
+            name16.Size = new Size(168, 36);
             name16.TabIndex = 72;
             name16.Text = "label29";
             name16.TextAlign = ContentAlignment.TopCenter;
             // 
             // name18
             // 
-            name18.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name18.Location = new Point(265, 606);
+            name18.Font = new Font("Tahoma", 11.25F);
+            name18.Location = new Point(362, 952);
             name18.Margin = new Padding(4, 0, 4, 0);
             name18.Name = "name18";
-            name18.Size = new Size(120, 36);
+            name18.Size = new Size(168, 36);
             name18.TabIndex = 70;
             name18.Text = "label31";
             name18.TextAlign = ContentAlignment.TopCenter;
             // 
             // name19
             // 
-            name19.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name19.Location = new Point(392, 606);
+            name19.Font = new Font("Tahoma", 11.25F);
+            name19.Location = new Point(540, 952);
             name19.Margin = new Padding(4, 0, 4, 0);
             name19.Name = "name19";
-            name19.Size = new Size(124, 36);
+            name19.Size = new Size(168, 36);
             name19.TabIndex = 69;
             name19.Text = "label32";
             name19.TextAlign = ContentAlignment.TopCenter;
             // 
             // name20
             // 
-            name20.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name20.Location = new Point(523, 606);
+            name20.Font = new Font("Tahoma", 11.25F);
+            name20.Location = new Point(718, 952);
             name20.Margin = new Padding(4, 0, 4, 0);
             name20.Name = "name20";
-            name20.Size = new Size(119, 36);
+            name20.Size = new Size(168, 36);
             name20.TabIndex = 68;
             name20.Text = "label33";
             name20.TextAlign = ContentAlignment.TopCenter;
             // 
             // name11
             // 
-            name11.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name11.Location = new Point(10, 456);
+            name11.Font = new Font("Tahoma", 11.25F);
+            name11.Location = new Point(8, 698);
             name11.Margin = new Padding(4, 0, 4, 0);
             name11.Name = "name11";
-            name11.Size = new Size(120, 32);
+            name11.Size = new Size(168, 36);
             name11.TabIndex = 67;
             name11.Text = "label24";
             name11.TextAlign = ContentAlignment.TopCenter;
             // 
             // button7
             // 
-            button7.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button7.Location = new Point(634, 698);
+            button7.AutoSize = true;
+            button7.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button7.Location = new Point(540, 729);
             button7.Margin = new Padding(4, 3, 4, 3);
             button7.Name = "button7";
-            button7.Size = new Size(63, 38);
+            button7.Size = new Size(80, 70);
             button7.TabIndex = 83;
             button7.Text = "*";
             button7.UseVisualStyleBackColor = true;
             // 
             // name12
             // 
-            name12.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name12.Location = new Point(138, 456);
+            name12.Font = new Font("Tahoma", 11.25F);
+            name12.Location = new Point(188, 698);
             name12.Margin = new Padding(4, 0, 4, 0);
             name12.Name = "name12";
-            name12.Size = new Size(120, 32);
+            name12.Size = new Size(168, 36);
             name12.TabIndex = 66;
             name12.Text = "label25";
             name12.TextAlign = ContentAlignment.TopCenter;
             // 
             // name14
             // 
-            name14.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name14.Location = new Point(392, 456);
+            name14.Font = new Font("Tahoma", 11.25F);
+            name14.Location = new Point(542, 698);
             name14.Margin = new Padding(4, 0, 4, 0);
             name14.Name = "name14";
-            name14.Size = new Size(124, 32);
+            name14.Size = new Size(168, 36);
             name14.TabIndex = 64;
             name14.Text = "label27";
             name14.TextAlign = ContentAlignment.TopCenter;
             // 
             // name15
             // 
-            name15.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name15.Location = new Point(523, 456);
+            name15.Font = new Font("Tahoma", 11.25F);
+            name15.Location = new Point(718, 698);
             name15.Margin = new Padding(4, 0, 4, 0);
             name15.Name = "name15";
-            name15.Size = new Size(119, 32);
+            name15.Size = new Size(168, 36);
             name15.TabIndex = 63;
             name15.Text = "label28";
             name15.TextAlign = ContentAlignment.TopCenter;
             // 
             // name6
             // 
-            name6.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name6.Location = new Point(10, 298);
+            name6.Font = new Font("Tahoma", 11.25F);
+            name6.Location = new Point(8, 442);
             name6.Margin = new Padding(4, 0, 4, 0);
             name6.Name = "name6";
-            name6.Size = new Size(120, 44);
+            name6.Size = new Size(168, 36);
             name6.TabIndex = 62;
             name6.Text = "label19";
             name6.TextAlign = ContentAlignment.TopCenter;
             // 
             // button10
             // 
-            button10.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button10.Location = new Point(775, 743);
+            button10.AutoSize = true;
+            button10.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button10.Location = new Point(702, 801);
             button10.Margin = new Padding(4, 3, 4, 3);
             button10.Name = "button10";
-            button10.Size = new Size(63, 38);
+            button10.Size = new Size(80, 70);
             button10.TabIndex = 89;
             button10.Text = "9";
             button10.UseVisualStyleBackColor = true;
             // 
             // button6
             // 
-            button6.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button6.Location = new Point(564, 698);
+            button6.AutoSize = true;
+            button6.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button6.Location = new Point(459, 729);
             button6.Margin = new Padding(4, 3, 4, 3);
             button6.Name = "button6";
-            button6.Size = new Size(63, 38);
+            button6.Size = new Size(80, 70);
             button6.TabIndex = 82;
             button6.Text = "/";
             button6.UseVisualStyleBackColor = true;
@@ -361,10 +367,10 @@
             // enter_btn
             // 
             enter_btn.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            enter_btn.Location = new Point(303, 698);
+            enter_btn.Location = new Point(159, 729);
             enter_btn.Margin = new Padding(4, 3, 4, 3);
             enter_btn.Name = "enter_btn";
-            enter_btn.Size = new Size(230, 174);
+            enter_btn.Size = new Size(293, 271);
             enter_btn.TabIndex = 81;
             enter_btn.Text = "ENTER";
             enter_btn.UseVisualStyleBackColor = true;
@@ -372,94 +378,95 @@
             // 
             // name13
             // 
-            name13.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name13.Location = new Point(265, 456);
+            name13.Font = new Font("Tahoma", 11.25F);
+            name13.Location = new Point(364, 698);
             name13.Margin = new Padding(4, 0, 4, 0);
             name13.Name = "name13";
-            name13.Size = new Size(120, 32);
+            name13.Size = new Size(168, 36);
             name13.TabIndex = 65;
             name13.Text = "label26";
             name13.TextAlign = ContentAlignment.TopCenter;
             // 
             // label13
             // 
-            label13.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label13.Location = new Point(397, 8);
+            label13.AutoSize = true;
+            label13.Font = new Font("Tahoma", 15.75F, FontStyle.Bold);
+            label13.Location = new Point(473, 8);
             label13.Margin = new Padding(4, 0, 4, 0);
             label13.Name = "label13";
-            label13.Size = new Size(271, 33);
+            label13.Size = new Size(98, 25);
             label13.TabIndex = 9;
             label13.Text = "Change:";
             // 
             // name7
             // 
-            name7.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name7.Location = new Point(138, 298);
+            name7.Font = new Font("Tahoma", 11.25F);
+            name7.Location = new Point(188, 442);
             name7.Margin = new Padding(4, 0, 4, 0);
             name7.Name = "name7";
-            name7.Size = new Size(120, 40);
+            name7.Size = new Size(168, 36);
             name7.TabIndex = 61;
             name7.Text = "label20";
             name7.TextAlign = ContentAlignment.TopCenter;
             // 
             // name8
             // 
-            name8.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name8.Location = new Point(265, 298);
+            name8.Font = new Font("Tahoma", 11.25F);
+            name8.Location = new Point(364, 442);
             name8.Margin = new Padding(4, 0, 4, 0);
             name8.Name = "name8";
-            name8.Size = new Size(121, 40);
+            name8.Size = new Size(168, 36);
             name8.TabIndex = 60;
             name8.Text = "label21";
             name8.TextAlign = ContentAlignment.TopCenter;
             // 
             // name9
             // 
-            name9.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name9.Location = new Point(392, 298);
+            name9.Font = new Font("Tahoma", 11.25F);
+            name9.Location = new Point(540, 442);
             name9.Margin = new Padding(4, 0, 4, 0);
             name9.Name = "name9";
-            name9.Size = new Size(124, 40);
+            name9.Size = new Size(168, 36);
             name9.TabIndex = 59;
             name9.Text = "label22";
             name9.TextAlign = ContentAlignment.TopCenter;
             // 
             // name10
             // 
-            name10.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name10.Location = new Point(523, 297);
+            name10.Font = new Font("Tahoma", 11.25F);
+            name10.Location = new Point(718, 442);
             name10.Margin = new Padding(4, 0, 4, 0);
             name10.Name = "name10";
-            name10.Size = new Size(119, 40);
+            name10.Size = new Size(168, 36);
             name10.TabIndex = 58;
             name10.Text = "label23";
             name10.TextAlign = ContentAlignment.TopCenter;
             // 
             // name5
             // 
-            name5.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name5.Location = new Point(519, 144);
+            name5.Font = new Font("Tahoma", 11.25F);
+            name5.Location = new Point(714, 185);
             name5.Margin = new Padding(4, 0, 4, 0);
             name5.Name = "name5";
-            name5.Size = new Size(119, 36);
+            name5.Size = new Size(168, 36);
             name5.TabIndex = 57;
             name5.Text = "label18";
             name5.TextAlign = ContentAlignment.TopCenter;
             // 
             // name3
             // 
-            name3.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name3.Location = new Point(261, 144);
+            name3.Font = new Font("Tahoma", 11.25F);
+            name3.Location = new Point(362, 187);
             name3.Margin = new Padding(4, 0, 4, 0);
             name3.Name = "name3";
-            name3.Size = new Size(121, 36);
+            name3.Size = new Size(168, 36);
             name3.TabIndex = 55;
             name3.Text = "label16";
             name3.TextAlign = ContentAlignment.TopCenter;
             // 
             // label12
             // 
-            label12.Font = new Font("Microsoft Sans Serif", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label12.Font = new Font("Tahoma", 15.75F, FontStyle.Bold);
             label12.Location = new Point(5, 8);
             label12.Margin = new Padding(4, 0, 4, 0);
             label12.Name = "label12";
@@ -469,77 +476,81 @@
             // 
             // button12
             // 
-            button12.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button12.Location = new Point(634, 743);
+            button12.AutoSize = true;
+            button12.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button12.Location = new Point(540, 801);
             button12.Margin = new Padding(4, 3, 4, 3);
             button12.Name = "button12";
-            button12.Size = new Size(63, 38);
+            button12.Size = new Size(80, 70);
             button12.TabIndex = 87;
             button12.Text = "7";
             button12.UseVisualStyleBackColor = true;
             // 
             // button13
             // 
-            button13.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button13.Location = new Point(564, 743);
+            button13.AutoSize = true;
+            button13.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button13.Location = new Point(459, 801);
             button13.Margin = new Padding(4, 3, 4, 3);
             button13.Name = "button13";
-            button13.Size = new Size(63, 38);
+            button13.Size = new Size(80, 70);
             button13.TabIndex = 86;
             button13.Text = "6";
             button13.UseVisualStyleBackColor = true;
             // 
             // name4
             // 
-            name4.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name4.Location = new Point(388, 144);
+            name4.Font = new Font("Tahoma", 11.25F);
+            name4.Location = new Point(536, 188);
             name4.Margin = new Padding(4, 0, 4, 0);
             name4.Name = "name4";
-            name4.Size = new Size(124, 36);
+            name4.Size = new Size(168, 36);
             name4.TabIndex = 56;
             name4.Text = "label17";
             name4.TextAlign = ContentAlignment.TopCenter;
             // 
             // button15
             // 
-            button15.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button15.Location = new Point(705, 788);
+            button15.AutoSize = true;
+            button15.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button15.Location = new Point(621, 871);
             button15.Margin = new Padding(4, 3, 4, 3);
             button15.Name = "button15";
-            button15.Size = new Size(63, 38);
+            button15.Size = new Size(80, 70);
             button15.TabIndex = 92;
             button15.Text = "4";
             button15.UseVisualStyleBackColor = true;
             // 
             // name2
             // 
-            name2.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name2.Location = new Point(134, 144);
+            name2.Font = new Font("Tahoma", 11.25F);
+            name2.Location = new Point(184, 188);
             name2.Margin = new Padding(4, 0, 4, 0);
             name2.Name = "name2";
-            name2.Size = new Size(120, 36);
+            name2.Size = new Size(168, 36);
             name2.TabIndex = 54;
             name2.Text = "label15";
             name2.TextAlign = ContentAlignment.TopCenter;
             // 
             // name1
             // 
-            name1.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name1.Location = new Point(7, 144);
+            name1.Font = new Font("Tahoma", 11.25F);
+            name1.Location = new Point(6, 188);
             name1.Margin = new Padding(4, 0, 4, 0);
             name1.Name = "name1";
-            name1.Size = new Size(120, 36);
+            name1.Size = new Size(168, 36);
             name1.TabIndex = 53;
             name1.Text = "label14";
             name1.TextAlign = ContentAlignment.TopCenter;
             // 
             // button14
             // 
-            button14.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button14.Location = new Point(775, 788);
+            button14.AutoSize = true;
+            button14.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button14.Location = new Point(702, 871);
             button14.Margin = new Padding(4, 3, 4, 3);
             button14.Name = "button14";
-            button14.Size = new Size(63, 38);
+            button14.Size = new Size(80, 70);
             button14.TabIndex = 93;
             button14.Text = "5";
             button14.UseVisualStyleBackColor = true;
@@ -547,10 +558,10 @@
             // changetxtbox
             // 
             changetxtbox.Font = new Font("Microsoft Sans Serif", 32F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            changetxtbox.Location = new Point(400, 42);
+            changetxtbox.Location = new Point(473, 44);
             changetxtbox.Margin = new Padding(4, 3, 4, 3);
             changetxtbox.Name = "changetxtbox";
-            changetxtbox.Size = new Size(317, 56);
+            changetxtbox.Size = new Size(466, 56);
             changetxtbox.TabIndex = 18;
             // 
             // panel2
@@ -560,10 +571,10 @@
             panel2.Controls.Add(changetxtbox);
             panel2.Controls.Add(label13);
             panel2.Controls.Add(label12);
-            panel2.Location = new Point(208, 572);
+            panel2.Location = new Point(7, 577);
             panel2.Margin = new Padding(4, 3, 4, 3);
             panel2.Name = "panel2";
-            panel2.Size = new Size(735, 120);
+            panel2.Size = new Size(945, 120);
             panel2.TabIndex = 80;
             // 
             // cashrenderedtxtbox
@@ -572,23 +583,24 @@
             cashrenderedtxtbox.Location = new Point(7, 43);
             cashrenderedtxtbox.Margin = new Padding(4, 3, 4, 3);
             cashrenderedtxtbox.Name = "cashrenderedtxtbox";
-            cashrenderedtxtbox.Size = new Size(386, 56);
+            cashrenderedtxtbox.Size = new Size(458, 56);
             cashrenderedtxtbox.TabIndex = 19;
             // 
             // label10
             // 
-            label10.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label10.Location = new Point(7, 68);
+            label10.AutoSize = true;
+            label10.Font = new Font("Tahoma", 18F);
+            label10.Location = new Point(8, 91);
             label10.Margin = new Padding(4, 0, 4, 0);
             label10.Name = "label10";
-            label10.Size = new Size(243, 23);
+            label10.Size = new Size(239, 29);
             label10.TabIndex = 6;
             label10.Text = "Total Discount Given:";
             // 
             // label1
             // 
             label1.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            label1.Location = new Point(208, 197);
+            label1.Location = new Point(126, 55);
             label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(138, 23);
@@ -597,65 +609,71 @@
             // 
             // button19
             // 
-            button19.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button19.Location = new Point(775, 835);
+            button19.AutoSize = true;
+            button19.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button19.Location = new Point(702, 942);
             button19.Margin = new Padding(4, 3, 4, 3);
             button19.Name = "button19";
-            button19.Size = new Size(63, 38);
+            button19.Size = new Size(80, 58);
             button19.TabIndex = 96;
             button19.Text = "1";
             button19.UseVisualStyleBackColor = true;
             // 
             // button20
             // 
-            button20.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button20.Location = new Point(705, 833);
+            button20.AutoSize = true;
+            button20.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button20.Location = new Point(621, 942);
             button20.Margin = new Padding(4, 3, 4, 3);
             button20.Name = "button20";
-            button20.Size = new Size(63, 38);
+            button20.Size = new Size(80, 58);
             button20.TabIndex = 95;
             button20.Text = ".";
             button20.UseVisualStyleBackColor = true;
+            button20.Click += button20_Click;
             // 
             // label9
             // 
-            label9.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.Location = new Point(5, 21);
+            label9.AutoSize = true;
+            label9.Font = new Font("Tahoma", 18F);
+            label9.Location = new Point(8, 29);
             label9.Margin = new Padding(4, 0, 4, 0);
             label9.Name = "label9";
-            label9.Size = new Size(243, 33);
+            label9.Size = new Size(171, 29);
             label9.TabIndex = 5;
             label9.Text = "Total Quantity:";
             // 
             // button16
             // 
-            button16.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button16.Location = new Point(634, 788);
+            button16.AutoSize = true;
+            button16.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button16.Location = new Point(540, 871);
             button16.Margin = new Padding(4, 3, 4, 3);
             button16.Name = "button16";
-            button16.Size = new Size(63, 38);
+            button16.Size = new Size(80, 70);
             button16.TabIndex = 91;
             button16.Text = "3";
             button16.UseVisualStyleBackColor = true;
             // 
             // button17
             // 
-            button17.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button17.Location = new Point(564, 788);
+            button17.AutoSize = true;
+            button17.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button17.Location = new Point(459, 871);
             button17.Margin = new Padding(4, 3, 4, 3);
             button17.Name = "button17";
-            button17.Size = new Size(63, 38);
+            button17.Size = new Size(80, 70);
             button17.TabIndex = 90;
             button17.Text = "2";
             button17.UseVisualStyleBackColor = true;
             // 
             // calculateBtn
             // 
-            calculateBtn.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            calculateBtn.Location = new Point(565, 39);
+            calculateBtn.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold);
+            calculateBtn.Location = new Point(760, 63);
             calculateBtn.Margin = new Padding(4, 3, 4, 3);
             calculateBtn.Name = "calculateBtn";
-            calculateBtn.Size = new Size(153, 23);
+            calculateBtn.Size = new Size(178, 34);
             calculateBtn.TabIndex = 10;
             calculateBtn.Text = "CALCULATE";
             calculateBtn.UseVisualStyleBackColor = true;
@@ -663,11 +681,12 @@
             // 
             // button21
             // 
-            button21.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button21.Location = new Point(564, 835);
+            button21.AutoSize = true;
+            button21.Font = new Font("Microsoft Sans Serif", 15.75F);
+            button21.Location = new Point(459, 942);
             button21.Margin = new Padding(4, 3, 4, 3);
             button21.Name = "button21";
-            button21.Size = new Size(133, 38);
+            button21.Size = new Size(161, 58);
             button21.TabIndex = 94;
             button21.Text = "0";
             button21.UseVisualStyleBackColor = true;
@@ -693,19 +712,20 @@
             panel1.Controls.Add(label6);
             panel1.Controls.Add(label5);
             panel1.Controls.Add(label4);
-            panel1.Location = new Point(209, 246);
+            panel1.Location = new Point(8, 106);
             panel1.Margin = new Padding(4, 3, 4, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(734, 157);
+            panel1.Size = new Size(944, 255);
             panel1.TabIndex = 78;
             // 
             // senior_radio_button
             // 
             senior_radio_button.AutoSize = true;
-            senior_radio_button.Location = new Point(440, 42);
+            senior_radio_button.Font = new Font("Microsoft Sans Serif", 20.25F);
+            senior_radio_button.Location = new Point(531, 57);
             senior_radio_button.Margin = new Padding(4, 3, 4, 3);
             senior_radio_button.Name = "senior_radio_button";
-            senior_radio_button.Size = new Size(97, 19);
+            senior_radio_button.Size = new Size(201, 35);
             senior_radio_button.TabIndex = 52;
             senior_radio_button.TabStop = true;
             senior_radio_button.Text = "Senior Citizen";
@@ -715,10 +735,11 @@
             // nodisc_radio_button
             // 
             nodisc_radio_button.AutoSize = true;
-            nodisc_radio_button.Location = new Point(440, 123);
+            nodisc_radio_button.Font = new Font("Microsoft Sans Serif", 20.25F);
+            nodisc_radio_button.Location = new Point(531, 208);
             nodisc_radio_button.Margin = new Padding(4, 3, 4, 3);
             nodisc_radio_button.Name = "nodisc_radio_button";
-            nodisc_radio_button.Size = new Size(91, 19);
+            nodisc_radio_button.Size = new Size(181, 35);
             nodisc_radio_button.TabIndex = 51;
             nodisc_radio_button.TabStop = true;
             nodisc_radio_button.Text = "No Discount";
@@ -728,10 +749,11 @@
             // emp_radio_button
             // 
             emp_radio_button.AutoSize = true;
-            emp_radio_button.Location = new Point(440, 97);
+            emp_radio_button.Font = new Font("Microsoft Sans Serif", 20.25F);
+            emp_radio_button.Location = new Point(531, 154);
             emp_radio_button.Margin = new Padding(4, 3, 4, 3);
             emp_radio_button.Name = "emp_radio_button";
-            emp_radio_button.Size = new Size(105, 19);
+            emp_radio_button.Size = new Size(221, 35);
             emp_radio_button.TabIndex = 50;
             emp_radio_button.TabStop = true;
             emp_radio_button.Text = "Employee Disc.";
@@ -741,10 +763,11 @@
             // disc_radio_button
             // 
             disc_radio_button.AutoSize = true;
-            disc_radio_button.Location = new Point(440, 69);
+            disc_radio_button.Font = new Font("Microsoft Sans Serif", 20.25F);
+            disc_radio_button.Location = new Point(531, 104);
             disc_radio_button.Margin = new Padding(4, 3, 4, 3);
             disc_radio_button.Name = "disc_radio_button";
-            disc_radio_button.Size = new Size(106, 19);
+            disc_radio_button.Size = new Size(221, 35);
             disc_radio_button.TabIndex = 49;
             disc_radio_button.TabStop = true;
             disc_radio_button.Text = "With Disc. Card";
@@ -753,11 +776,11 @@
             // 
             // extiBtn
             // 
-            extiBtn.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            extiBtn.Location = new Point(565, 121);
+            extiBtn.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold);
+            extiBtn.Location = new Point(760, 208);
             extiBtn.Margin = new Padding(4, 3, 4, 3);
             extiBtn.Name = "extiBtn";
-            extiBtn.Size = new Size(153, 23);
+            extiBtn.Size = new Size(178, 34);
             extiBtn.TabIndex = 13;
             extiBtn.Text = "EXIT";
             extiBtn.UseVisualStyleBackColor = true;
@@ -765,11 +788,11 @@
             // 
             // cancelBtn
             // 
-            cancelBtn.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            cancelBtn.Location = new Point(565, 95);
+            cancelBtn.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold);
+            cancelBtn.Location = new Point(760, 158);
             cancelBtn.Margin = new Padding(4, 3, 4, 3);
             cancelBtn.Name = "cancelBtn";
-            cancelBtn.Size = new Size(153, 23);
+            cancelBtn.Size = new Size(178, 38);
             cancelBtn.TabIndex = 12;
             cancelBtn.Text = "CANCEL";
             cancelBtn.UseVisualStyleBackColor = true;
@@ -777,11 +800,11 @@
             // 
             // newBtn
             // 
-            newBtn.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            newBtn.Location = new Point(565, 67);
+            newBtn.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold);
+            newBtn.Location = new Point(760, 110);
             newBtn.Margin = new Padding(4, 3, 4, 3);
             newBtn.Name = "newBtn";
-            newBtn.Size = new Size(153, 23);
+            newBtn.Size = new Size(178, 35);
             newBtn.TabIndex = 11;
             newBtn.Text = "NEW";
             newBtn.UseVisualStyleBackColor = true;
@@ -789,48 +812,53 @@
             // 
             // discountedtxtbox
             // 
-            discountedtxtbox.Location = new Point(183, 121);
+            discountedtxtbox.Font = new Font("Segoe UI", 15.75F);
+            discountedtxtbox.Location = new Point(271, 207);
             discountedtxtbox.Margin = new Padding(4, 3, 4, 3);
             discountedtxtbox.Name = "discountedtxtbox";
-            discountedtxtbox.Size = new Size(249, 23);
+            discountedtxtbox.Size = new Size(249, 35);
             discountedtxtbox.TabIndex = 9;
             // 
             // price_txtbox
             // 
-            price_txtbox.Location = new Point(183, 67);
+            price_txtbox.Font = new Font("Segoe UI", 15.75F);
+            price_txtbox.Location = new Point(271, 104);
             price_txtbox.Margin = new Padding(4, 3, 4, 3);
             price_txtbox.Name = "price_txtbox";
-            price_txtbox.Size = new Size(249, 23);
+            price_txtbox.Size = new Size(249, 35);
             price_txtbox.TabIndex = 47;
             // 
             // discountamounttxtbox
             // 
-            discountamounttxtbox.Location = new Point(183, 95);
+            discountamounttxtbox.Font = new Font("Segoe UI", 15.75F);
+            discountamounttxtbox.Location = new Point(271, 154);
             discountamounttxtbox.Margin = new Padding(4, 3, 4, 3);
             discountamounttxtbox.Name = "discountamounttxtbox";
-            discountamounttxtbox.Size = new Size(249, 23);
+            discountamounttxtbox.Size = new Size(249, 35);
             discountamounttxtbox.TabIndex = 8;
             // 
             // item_name_txtbox
             // 
-            item_name_txtbox.Location = new Point(183, 13);
+            item_name_txtbox.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            item_name_txtbox.Location = new Point(271, 7);
             item_name_txtbox.Margin = new Padding(4, 3, 4, 3);
             item_name_txtbox.Name = "item_name_txtbox";
-            item_name_txtbox.Size = new Size(532, 23);
+            item_name_txtbox.Size = new Size(532, 35);
             item_name_txtbox.TabIndex = 45;
             // 
             // qty_txtbox
             // 
-            qty_txtbox.Location = new Point(183, 39);
+            qty_txtbox.Font = new Font("Segoe UI", 15.75F);
+            qty_txtbox.Location = new Point(271, 55);
             qty_txtbox.Margin = new Padding(4, 3, 4, 3);
             qty_txtbox.Name = "qty_txtbox";
-            qty_txtbox.Size = new Size(249, 23);
+            qty_txtbox.Size = new Size(249, 35);
             qty_txtbox.TabIndex = 6;
             // 
             // label8
             // 
-            label8.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label8.Location = new Point(4, 121);
+            label8.Font = new Font("Tahoma", 15.75F);
+            label8.Location = new Point(6, 213);
             label8.Margin = new Padding(4, 0, 4, 0);
             label8.Name = "label8";
             label8.Size = new Size(243, 23);
@@ -839,8 +867,8 @@
             // 
             // label7
             // 
-            label7.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(4, 93);
+            label7.Font = new Font("Tahoma", 15.75F);
+            label7.Location = new Point(6, 160);
             label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
             label7.Size = new Size(243, 23);
@@ -849,8 +877,8 @@
             // 
             // label6
             // 
-            label6.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(4, 68);
+            label6.Font = new Font("Tahoma", 15.75F);
+            label6.Location = new Point(6, 116);
             label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
             label6.Size = new Size(172, 23);
@@ -859,8 +887,8 @@
             // 
             // label5
             // 
-            label5.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(2, 39);
+            label5.Font = new Font("Tahoma", 15.75F);
+            label5.Location = new Point(6, 61);
             label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
             label5.Size = new Size(172, 32);
@@ -869,8 +897,8 @@
             // 
             // label4
             // 
-            label4.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label4.Location = new Point(4, 13);
+            label4.Font = new Font("Tahoma", 15.75F);
+            label4.Location = new Point(6, 13);
             label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
             label4.Size = new Size(203, 23);
@@ -881,7 +909,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Algerian", 28F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(253, 157);
+            label3.Location = new Point(159, 12);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(653, 42);
@@ -972,11 +1000,11 @@
             groupBox1.Controls.Add(name1);
             groupBox1.FlatStyle = FlatStyle.System;
             groupBox1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox1.Location = new Point(997, 192);
+            groupBox1.Location = new Point(960, 12);
             groupBox1.Margin = new Padding(4, 3, 4, 3);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(4, 3, 4, 3);
-            groupBox1.Size = new Size(650, 648);
+            groupBox1.Size = new Size(896, 1017);
             groupBox1.TabIndex = 76;
             groupBox1.TabStop = false;
             groupBox1.Text = "Items Display";
@@ -986,7 +1014,7 @@
             Price7.AutoSize = true;
             Price7.BackColor = Color.Transparent;
             Price7.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price7.Location = new Point(164, 261);
+            Price7.Location = new Point(242, 402);
             Price7.Margin = new Padding(4, 0, 4, 0);
             Price7.Name = "Price7";
             Price7.Size = new Size(58, 16);
@@ -999,7 +1027,7 @@
             Price6.AutoSize = true;
             Price6.BackColor = Color.Transparent;
             Price6.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price6.Location = new Point(36, 262);
+            Price6.Location = new Point(67, 402);
             Price6.Margin = new Padding(4, 0, 4, 0);
             Price6.Name = "Price6";
             Price6.Size = new Size(58, 16);
@@ -1012,7 +1040,7 @@
             Price8.AutoSize = true;
             Price8.BackColor = Color.Transparent;
             Price8.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price8.Location = new Point(295, 265);
+            Price8.Location = new Point(422, 402);
             Price8.Margin = new Padding(4, 0, 4, 0);
             Price8.Name = "Price8";
             Price8.Size = new Size(58, 16);
@@ -1025,7 +1053,7 @@
             Price9.AutoSize = true;
             Price9.BackColor = Color.Transparent;
             Price9.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price9.Location = new Point(422, 265);
+            Price9.Location = new Point(598, 402);
             Price9.Margin = new Padding(4, 0, 4, 0);
             Price9.Name = "Price9";
             Price9.Size = new Size(58, 16);
@@ -1038,7 +1066,7 @@
             Price10.AutoSize = true;
             Price10.BackColor = Color.Transparent;
             Price10.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price10.Location = new Point(547, 265);
+            Price10.Location = new Point(777, 400);
             Price10.Margin = new Padding(4, 0, 4, 0);
             Price10.Name = "Price10";
             Price10.Size = new Size(58, 16);
@@ -1051,7 +1079,7 @@
             Price5.AutoSize = true;
             Price5.BackColor = Color.Transparent;
             Price5.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price5.Location = new Point(552, 109);
+            Price5.Location = new Point(773, 140);
             Price5.Margin = new Padding(4, 0, 4, 0);
             Price5.Name = "Price5";
             Price5.Size = new Size(58, 16);
@@ -1064,7 +1092,7 @@
             Price4.AutoSize = true;
             Price4.BackColor = Color.Transparent;
             Price4.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price4.Location = new Point(424, 110);
+            Price4.Location = new Point(594, 143);
             Price4.Margin = new Padding(4, 0, 4, 0);
             Price4.Name = "Price4";
             Price4.Size = new Size(58, 16);
@@ -1077,7 +1105,7 @@
             Price3.AutoSize = true;
             Price3.BackColor = Color.Transparent;
             Price3.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price3.Location = new Point(296, 109);
+            Price3.Location = new Point(418, 140);
             Price3.Margin = new Padding(4, 0, 4, 0);
             Price3.Name = "Price3";
             Price3.Size = new Size(58, 16);
@@ -1090,7 +1118,7 @@
             Price2.AutoSize = true;
             Price2.BackColor = Color.Transparent;
             Price2.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price2.Location = new Point(168, 110);
+            Price2.Location = new Point(238, 142);
             Price2.Margin = new Padding(4, 0, 4, 0);
             Price2.Name = "Price2";
             Price2.Size = new Size(58, 16);
@@ -1103,7 +1131,7 @@
             Price12.AutoSize = true;
             Price12.BackColor = Color.Transparent;
             Price12.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price12.Location = new Point(162, 420);
+            Price12.Location = new Point(242, 662);
             Price12.Margin = new Padding(4, 0, 4, 0);
             Price12.Name = "Price12";
             Price12.Size = new Size(58, 16);
@@ -1116,7 +1144,7 @@
             Price11.AutoSize = true;
             Price11.BackColor = Color.Transparent;
             Price11.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price11.Location = new Point(34, 421);
+            Price11.Location = new Point(67, 662);
             Price11.Margin = new Padding(4, 0, 4, 0);
             Price11.Name = "Price11";
             Price11.Size = new Size(58, 16);
@@ -1129,7 +1157,7 @@
             Price17.AutoSize = true;
             Price17.BackColor = Color.Transparent;
             Price17.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price17.Location = new Point(166, 574);
+            Price17.Location = new Point(240, 915);
             Price17.Margin = new Padding(4, 0, 4, 0);
             Price17.Name = "Price17";
             Price17.Size = new Size(58, 16);
@@ -1142,7 +1170,7 @@
             Price16.AutoSize = true;
             Price16.BackColor = Color.Transparent;
             Price16.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price16.Location = new Point(38, 575);
+            Price16.Location = new Point(65, 915);
             Price16.Margin = new Padding(4, 0, 4, 0);
             Price16.Name = "Price16";
             Price16.Size = new Size(58, 16);
@@ -1155,7 +1183,7 @@
             Price18.AutoSize = true;
             Price18.BackColor = Color.Transparent;
             Price18.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price18.Location = new Point(293, 574);
+            Price18.Location = new Point(420, 915);
             Price18.Margin = new Padding(4, 0, 4, 0);
             Price18.Name = "Price18";
             Price18.Size = new Size(58, 16);
@@ -1168,7 +1196,7 @@
             Price19.AutoSize = true;
             Price19.BackColor = Color.Transparent;
             Price19.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price19.Location = new Point(420, 574);
+            Price19.Location = new Point(596, 915);
             Price19.Margin = new Padding(4, 0, 4, 0);
             Price19.Name = "Price19";
             Price19.Size = new Size(58, 16);
@@ -1181,7 +1209,7 @@
             Price20.AutoSize = true;
             Price20.BackColor = Color.Transparent;
             Price20.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price20.Location = new Point(551, 574);
+            Price20.Location = new Point(775, 915);
             Price20.Margin = new Padding(4, 0, 4, 0);
             Price20.Name = "Price20";
             Price20.Size = new Size(58, 16);
@@ -1194,7 +1222,7 @@
             Price13.AutoSize = true;
             Price13.BackColor = Color.Transparent;
             Price13.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price13.Location = new Point(293, 424);
+            Price13.Location = new Point(422, 662);
             Price13.Margin = new Padding(4, 0, 4, 0);
             Price13.Name = "Price13";
             Price13.Size = new Size(58, 16);
@@ -1207,7 +1235,7 @@
             Price14.AutoSize = true;
             Price14.BackColor = Color.Transparent;
             Price14.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price14.Location = new Point(420, 424);
+            Price14.Location = new Point(598, 662);
             Price14.Margin = new Padding(4, 0, 4, 0);
             Price14.Name = "Price14";
             Price14.Size = new Size(58, 16);
@@ -1220,7 +1248,7 @@
             Price15.AutoSize = true;
             Price15.BackColor = Color.Transparent;
             Price15.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price15.Location = new Point(551, 424);
+            Price15.Location = new Point(777, 662);
             Price15.Margin = new Padding(4, 0, 4, 0);
             Price15.Name = "Price15";
             Price15.Size = new Size(58, 16);
@@ -1233,7 +1261,7 @@
             Price1.AutoSize = true;
             Price1.BackColor = Color.Transparent;
             Price1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold);
-            Price1.Location = new Point(40, 109);
+            Price1.Location = new Point(63, 143);
             Price1.Margin = new Padding(4, 0, 4, 0);
             Price1.Name = "Price1";
             Price1.Size = new Size(58, 16);
@@ -1243,151 +1271,151 @@
             // 
             // picpathtxtbox20
             // 
-            picpathtxtbox20.Location = new Point(523, 490);
+            picpathtxtbox20.Location = new Point(720, 799);
             picpathtxtbox20.Name = "picpathtxtbox20";
             picpathtxtbox20.Size = new Size(100, 22);
             picpathtxtbox20.TabIndex = 101;
             // 
             // picpathtxtbox19
             // 
-            picpathtxtbox19.Location = new Point(388, 492);
+            picpathtxtbox19.Location = new Point(540, 801);
             picpathtxtbox19.Name = "picpathtxtbox19";
             picpathtxtbox19.Size = new Size(100, 22);
             picpathtxtbox19.TabIndex = 101;
             // 
             // picpathtxtbox15
             // 
-            picpathtxtbox15.Location = new Point(523, 338);
+            picpathtxtbox15.Location = new Point(718, 545);
             picpathtxtbox15.Name = "picpathtxtbox15";
             picpathtxtbox15.Size = new Size(100, 22);
             picpathtxtbox15.TabIndex = 100;
             // 
             // picpathtxtbox18
             // 
-            picpathtxtbox18.Location = new Point(267, 491);
+            picpathtxtbox18.Location = new Point(364, 801);
             picpathtxtbox18.Name = "picpathtxtbox18";
             picpathtxtbox18.Size = new Size(100, 22);
             picpathtxtbox18.TabIndex = 101;
             // 
             // picpathtxtbox10
             // 
-            picpathtxtbox10.Location = new Point(523, 181);
+            picpathtxtbox10.Location = new Point(718, 289);
             picpathtxtbox10.Name = "picpathtxtbox10";
             picpathtxtbox10.Size = new Size(100, 22);
             picpathtxtbox10.TabIndex = 99;
             // 
             // picpathtxtbox14
             // 
-            picpathtxtbox14.Location = new Point(392, 338);
+            picpathtxtbox14.Location = new Point(542, 544);
             picpathtxtbox14.Name = "picpathtxtbox14";
             picpathtxtbox14.Size = new Size(100, 22);
             picpathtxtbox14.TabIndex = 100;
             // 
             // picpathtxtbox5
             // 
-            picpathtxtbox5.Location = new Point(523, 27);
+            picpathtxtbox5.Location = new Point(713, 35);
             picpathtxtbox5.Name = "picpathtxtbox5";
             picpathtxtbox5.Size = new Size(100, 22);
             picpathtxtbox5.TabIndex = 98;
             // 
             // picpathtxtbox17
             // 
-            picpathtxtbox17.Location = new Point(138, 491);
+            picpathtxtbox17.Location = new Point(186, 801);
             picpathtxtbox17.Name = "picpathtxtbox17";
             picpathtxtbox17.Size = new Size(100, 22);
             picpathtxtbox17.TabIndex = 101;
             // 
             // picpathtxtbox9
             // 
-            picpathtxtbox9.Location = new Point(392, 181);
+            picpathtxtbox9.Location = new Point(540, 289);
             picpathtxtbox9.Name = "picpathtxtbox9";
             picpathtxtbox9.Size = new Size(100, 22);
             picpathtxtbox9.TabIndex = 99;
             // 
             // picpathtxtbox13
             // 
-            picpathtxtbox13.Location = new Point(265, 337);
+            picpathtxtbox13.Location = new Point(363, 544);
             picpathtxtbox13.Name = "picpathtxtbox13";
             picpathtxtbox13.Size = new Size(100, 22);
             picpathtxtbox13.TabIndex = 100;
             // 
             // picpathtxtbox4
             // 
-            picpathtxtbox4.Location = new Point(392, 28);
+            picpathtxtbox4.Location = new Point(536, 35);
             picpathtxtbox4.Name = "picpathtxtbox4";
             picpathtxtbox4.Size = new Size(100, 22);
             picpathtxtbox4.TabIndex = 98;
             // 
             // picpathtxtbox12
             // 
-            picpathtxtbox12.Location = new Point(138, 337);
+            picpathtxtbox12.Location = new Point(185, 544);
             picpathtxtbox12.Name = "picpathtxtbox12";
             picpathtxtbox12.Size = new Size(100, 22);
             picpathtxtbox12.TabIndex = 100;
             // 
             // picpathtxtbox8
             // 
-            picpathtxtbox8.Location = new Point(265, 181);
+            picpathtxtbox8.Location = new Point(363, 289);
             picpathtxtbox8.Name = "picpathtxtbox8";
             picpathtxtbox8.Size = new Size(100, 22);
             picpathtxtbox8.TabIndex = 99;
             // 
             // picpathtxtbox7
             // 
-            picpathtxtbox7.Location = new Point(138, 181);
+            picpathtxtbox7.Location = new Point(188, 289);
             picpathtxtbox7.Name = "picpathtxtbox7";
             picpathtxtbox7.Size = new Size(100, 22);
             picpathtxtbox7.TabIndex = 99;
             // 
             // picpathtxtbox3
             // 
-            picpathtxtbox3.Location = new Point(265, 27);
+            picpathtxtbox3.Location = new Point(362, 35);
             picpathtxtbox3.Name = "picpathtxtbox3";
             picpathtxtbox3.Size = new Size(100, 22);
             picpathtxtbox3.TabIndex = 98;
             // 
             // picpathtxtbox2
             // 
-            picpathtxtbox2.Location = new Point(138, 27);
+            picpathtxtbox2.Location = new Point(184, 35);
             picpathtxtbox2.Name = "picpathtxtbox2";
             picpathtxtbox2.Size = new Size(100, 22);
             picpathtxtbox2.TabIndex = 98;
             // 
             // picpathtxtbox16
             // 
-            picpathtxtbox16.Location = new Point(10, 491);
+            picpathtxtbox16.Location = new Point(8, 801);
             picpathtxtbox16.Name = "picpathtxtbox16";
             picpathtxtbox16.Size = new Size(100, 22);
             picpathtxtbox16.TabIndex = 97;
             // 
             // picpathtxtbox11
             // 
-            picpathtxtbox11.Location = new Point(10, 337);
+            picpathtxtbox11.Location = new Point(8, 545);
             picpathtxtbox11.Name = "picpathtxtbox11";
             picpathtxtbox11.Size = new Size(100, 22);
             picpathtxtbox11.TabIndex = 96;
             // 
             // picpathtxtbox6
             // 
-            picpathtxtbox6.Location = new Point(10, 181);
+            picpathtxtbox6.Location = new Point(8, 289);
             picpathtxtbox6.Name = "picpathtxtbox6";
             picpathtxtbox6.Size = new Size(100, 22);
             picpathtxtbox6.TabIndex = 95;
             // 
             // picpathtxtbox1
             // 
-            picpathtxtbox1.Location = new Point(10, 27);
+            picpathtxtbox1.Location = new Point(4, 35);
             picpathtxtbox1.Name = "picpathtxtbox1";
             picpathtxtbox1.Size = new Size(100, 22);
             picpathtxtbox1.TabIndex = 94;
             // 
             // name17
             // 
-            name17.Font = new Font("Microsoft Sans Serif", 8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            name17.Location = new Point(138, 606);
+            name17.Font = new Font("Tahoma", 11.25F);
+            name17.Location = new Point(186, 952);
             name17.Margin = new Padding(4, 0, 4, 0);
             name17.Name = "name17";
-            name17.Size = new Size(120, 36);
+            name17.Size = new Size(168, 36);
             name17.TabIndex = 93;
             name17.Text = "label30";
             name17.TextAlign = ContentAlignment.TopCenter;
@@ -1397,10 +1425,10 @@
             pictureBox5.BorderStyle = BorderStyle.FixedSingle;
             pictureBox5.Image = (Image)resources.GetObject("pictureBox5.Image");
             pictureBox5.ImageLocation = "";
-            pictureBox5.Location = new Point(522, 28);
+            pictureBox5.Location = new Point(714, 35);
             pictureBox5.Margin = new Padding(4, 3, 4, 3);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(120, 112);
+            pictureBox5.Size = new Size(170, 150);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 77;
             pictureBox5.TabStop = false;
@@ -1412,10 +1440,10 @@
             pictureBox1.BorderStyle = BorderStyle.FixedSingle;
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.ImageLocation = "";
-            pictureBox1.Location = new Point(10, 28);
+            pictureBox1.Location = new Point(4, 35);
             pictureBox1.Margin = new Padding(4, 3, 4, 3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(120, 112);
+            pictureBox1.Size = new Size(170, 150);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 73;
             pictureBox1.TabStop = false;
@@ -1426,10 +1454,10 @@
             // 
             pictureBox20.BorderStyle = BorderStyle.FixedSingle;
             pictureBox20.Image = Properties.Resources.Full_Creamy_Pizza;
-            pictureBox20.Location = new Point(523, 490);
+            pictureBox20.Location = new Point(720, 799);
             pictureBox20.Margin = new Padding(4, 3, 4, 3);
             pictureBox20.Name = "pictureBox20";
-            pictureBox20.Size = new Size(119, 112);
+            pictureBox20.Size = new Size(170, 150);
             pictureBox20.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox20.TabIndex = 92;
             pictureBox20.TabStop = false;
@@ -1440,10 +1468,10 @@
             pictureBox2.BorderStyle = BorderStyle.FixedSingle;
             pictureBox2.Image = Properties.Resources.Friend_Meal_A;
             pictureBox2.ImageLocation = "";
-            pictureBox2.Location = new Point(138, 28);
+            pictureBox2.Location = new Point(184, 35);
             pictureBox2.Margin = new Padding(4, 3, 4, 3);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(120, 112);
+            pictureBox2.Size = new Size(170, 150);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 74;
             pictureBox2.TabStop = false;
@@ -1454,10 +1482,10 @@
             // 
             pictureBox19.BorderStyle = BorderStyle.FixedSingle;
             pictureBox19.Image = Properties.Resources.Mojos_Meal;
-            pictureBox19.Location = new Point(392, 492);
+            pictureBox19.Location = new Point(540, 801);
             pictureBox19.Margin = new Padding(4, 3, 4, 3);
             pictureBox19.Name = "pictureBox19";
-            pictureBox19.Size = new Size(123, 112);
+            pictureBox19.Size = new Size(170, 150);
             pictureBox19.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox19.TabIndex = 91;
             pictureBox19.TabStop = false;
@@ -1468,10 +1496,10 @@
             pictureBox4.BorderStyle = BorderStyle.FixedSingle;
             pictureBox4.Image = Properties.Resources.Family_Combo_Meal_B;
             pictureBox4.ImageLocation = "";
-            pictureBox4.Location = new Point(392, 28);
+            pictureBox4.Location = new Point(536, 35);
             pictureBox4.Margin = new Padding(4, 3, 4, 3);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(122, 112);
+            pictureBox4.Size = new Size(170, 150);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 75;
             pictureBox4.TabStop = false;
@@ -1482,10 +1510,10 @@
             // 
             pictureBox18.BorderStyle = BorderStyle.FixedSingle;
             pictureBox18.Image = (Image)resources.GetObject("pictureBox18.Image");
-            pictureBox18.Location = new Point(265, 492);
+            pictureBox18.Location = new Point(364, 799);
             pictureBox18.Margin = new Padding(4, 3, 4, 3);
             pictureBox18.Name = "pictureBox18";
-            pictureBox18.Size = new Size(120, 112);
+            pictureBox18.Size = new Size(170, 150);
             pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox18.TabIndex = 90;
             pictureBox18.TabStop = false;
@@ -1496,10 +1524,10 @@
             pictureBox3.BorderStyle = BorderStyle.FixedSingle;
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
             pictureBox3.ImageLocation = "";
-            pictureBox3.Location = new Point(265, 28);
+            pictureBox3.Location = new Point(362, 35);
             pictureBox3.Margin = new Padding(4, 3, 4, 3);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(120, 112);
+            pictureBox3.Size = new Size(170, 150);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 76;
             pictureBox3.TabStop = false;
@@ -1510,10 +1538,10 @@
             // 
             pictureBox17.BorderStyle = BorderStyle.FixedSingle;
             pictureBox17.Image = Properties.Resources.Tuna_Ceasar_Salad_Meal;
-            pictureBox17.Location = new Point(138, 492);
+            pictureBox17.Location = new Point(186, 801);
             pictureBox17.Margin = new Padding(4, 3, 4, 3);
             pictureBox17.Name = "pictureBox17";
-            pictureBox17.Size = new Size(120, 112);
+            pictureBox17.Size = new Size(170, 150);
             pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox17.TabIndex = 89;
             pictureBox17.TabStop = false;
@@ -1524,10 +1552,10 @@
             pictureBox10.BorderStyle = BorderStyle.FixedSingle;
             pictureBox10.Image = Properties.Resources.Lunch_Value_Meal_1;
             pictureBox10.ImageLocation = "";
-            pictureBox10.Location = new Point(522, 182);
+            pictureBox10.Location = new Point(718, 289);
             pictureBox10.Margin = new Padding(4, 3, 4, 3);
             pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(120, 112);
+            pictureBox10.Size = new Size(170, 150);
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox10.TabIndex = 78;
             pictureBox10.TabStop = false;
@@ -1538,10 +1566,10 @@
             // 
             pictureBox16.BorderStyle = BorderStyle.FixedSingle;
             pictureBox16.Image = (Image)resources.GetObject("pictureBox16.Image");
-            pictureBox16.Location = new Point(10, 492);
+            pictureBox16.Location = new Point(8, 801);
             pictureBox16.Margin = new Padding(4, 3, 4, 3);
             pictureBox16.Name = "pictureBox16";
-            pictureBox16.Size = new Size(120, 112);
+            pictureBox16.Size = new Size(170, 150);
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox16.TabIndex = 88;
             pictureBox16.TabStop = false;
@@ -1552,10 +1580,10 @@
             pictureBox9.BorderStyle = BorderStyle.FixedSingle;
             pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
             pictureBox9.ImageLocation = "";
-            pictureBox9.Location = new Point(392, 181);
+            pictureBox9.Location = new Point(540, 289);
             pictureBox9.Margin = new Padding(4, 3, 4, 3);
             pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(122, 112);
+            pictureBox9.Size = new Size(170, 150);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 79;
             pictureBox9.TabStop = false;
@@ -1567,10 +1595,10 @@
             pictureBox8.BorderStyle = BorderStyle.FixedSingle;
             pictureBox8.Image = Properties.Resources.Family_Combo_Meal_A;
             pictureBox8.ImageLocation = "";
-            pictureBox8.Location = new Point(265, 181);
+            pictureBox8.Location = new Point(364, 289);
             pictureBox8.Margin = new Padding(4, 3, 4, 3);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(120, 112);
+            pictureBox8.Size = new Size(170, 150);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 80;
             pictureBox8.TabStop = false;
@@ -1582,10 +1610,10 @@
             pictureBox7.BorderStyle = BorderStyle.FixedSingle;
             pictureBox7.Image = Properties.Resources.Pasta_Meal_101;
             pictureBox7.ImageLocation = "";
-            pictureBox7.Location = new Point(138, 182);
+            pictureBox7.Location = new Point(188, 289);
             pictureBox7.Margin = new Padding(4, 3, 4, 3);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(120, 112);
+            pictureBox7.Size = new Size(170, 150);
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 81;
             pictureBox7.TabStop = false;
@@ -1597,10 +1625,10 @@
             pictureBox6.BorderStyle = BorderStyle.FixedSingle;
             pictureBox6.Image = Properties.Resources.Breakfast_Meal_C;
             pictureBox6.ImageLocation = "";
-            pictureBox6.Location = new Point(10, 181);
+            pictureBox6.Location = new Point(8, 289);
             pictureBox6.Margin = new Padding(4, 3, 4, 3);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(120, 112);
+            pictureBox6.Size = new Size(170, 150);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 82;
             pictureBox6.TabStop = false;
@@ -1612,10 +1640,10 @@
             pictureBox15.BorderStyle = BorderStyle.FixedSingle;
             pictureBox15.Image = Properties.Resources.Lunch_Value_Meal_B;
             pictureBox15.ImageLocation = "";
-            pictureBox15.Location = new Point(523, 340);
+            pictureBox15.Location = new Point(718, 545);
             pictureBox15.Margin = new Padding(4, 3, 4, 3);
             pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(119, 112);
+            pictureBox15.Size = new Size(170, 150);
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox15.TabIndex = 83;
             pictureBox15.TabStop = false;
@@ -1627,10 +1655,10 @@
             pictureBox11.BorderStyle = BorderStyle.FixedSingle;
             pictureBox11.Image = (Image)resources.GetObject("pictureBox11.Image");
             pictureBox11.ImageLocation = "";
-            pictureBox11.Location = new Point(10, 340);
+            pictureBox11.Location = new Point(8, 545);
             pictureBox11.Margin = new Padding(4, 3, 4, 3);
             pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(120, 112);
+            pictureBox11.Size = new Size(170, 150);
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 87;
             pictureBox11.TabStop = false;
@@ -1642,10 +1670,10 @@
             pictureBox14.BorderStyle = BorderStyle.FixedSingle;
             pictureBox14.Image = (Image)resources.GetObject("pictureBox14.Image");
             pictureBox14.ImageLocation = "";
-            pictureBox14.Location = new Point(392, 340);
+            pictureBox14.Location = new Point(542, 545);
             pictureBox14.Margin = new Padding(4, 3, 4, 3);
             pictureBox14.Name = "pictureBox14";
-            pictureBox14.Size = new Size(123, 112);
+            pictureBox14.Size = new Size(170, 150);
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox14.TabIndex = 84;
             pictureBox14.TabStop = false;
@@ -1657,10 +1685,10 @@
             pictureBox12.BorderStyle = BorderStyle.FixedSingle;
             pictureBox12.Image = (Image)resources.GetObject("pictureBox12.Image");
             pictureBox12.ImageLocation = "";
-            pictureBox12.Location = new Point(138, 340);
+            pictureBox12.Location = new Point(186, 545);
             pictureBox12.Margin = new Padding(4, 3, 4, 3);
             pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(120, 112);
+            pictureBox12.Size = new Size(170, 150);
             pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox12.TabIndex = 86;
             pictureBox12.TabStop = false;
@@ -1672,10 +1700,10 @@
             pictureBox13.BorderStyle = BorderStyle.FixedSingle;
             pictureBox13.Image = Properties.Resources.Pancake_Value_Meal_A;
             pictureBox13.ImageLocation = "";
-            pictureBox13.Location = new Point(265, 340);
+            pictureBox13.Location = new Point(364, 545);
             pictureBox13.Margin = new Padding(4, 3, 4, 3);
             pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(120, 112);
+            pictureBox13.Size = new Size(170, 150);
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox13.TabIndex = 85;
             pictureBox13.TabStop = false;
@@ -1684,11 +1712,12 @@
             // 
             // label11
             // 
-            label11.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label11.Location = new Point(7, 113);
+            label11.AutoSize = true;
+            label11.Font = new Font("Tahoma", 18F);
+            label11.Location = new Point(8, 155);
             label11.Margin = new Padding(4, 0, 4, 0);
             label11.Name = "label11";
-            label11.Size = new Size(271, 23);
+            label11.Size = new Size(287, 29);
             label11.TabIndex = 7;
             label11.Text = "Total Discounted Amount:";
             // 
@@ -1701,43 +1730,46 @@
             groupBox2.Controls.Add(label10);
             groupBox2.Controls.Add(label9);
             groupBox2.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox2.Location = new Point(208, 410);
+            groupBox2.Location = new Point(8, 367);
             groupBox2.Margin = new Padding(4, 3, 4, 3);
             groupBox2.Name = "groupBox2";
             groupBox2.Padding = new Padding(4, 3, 4, 3);
-            groupBox2.Size = new Size(735, 155);
+            groupBox2.Size = new Size(944, 204);
             groupBox2.TabIndex = 79;
             groupBox2.TabStop = false;
             groupBox2.Text = "Summary";
             // 
             // discounted_totaltxtbox
             // 
-            discounted_totaltxtbox.Location = new Point(230, 111);
+            discounted_totaltxtbox.Font = new Font("Tahoma", 20.25F, FontStyle.Bold);
+            discounted_totaltxtbox.Location = new Point(306, 149);
             discounted_totaltxtbox.Margin = new Padding(4, 3, 4, 3);
             discounted_totaltxtbox.Name = "discounted_totaltxtbox";
-            discounted_totaltxtbox.Size = new Size(489, 22);
+            discounted_totaltxtbox.Size = new Size(633, 40);
             discounted_totaltxtbox.TabIndex = 16;
             // 
             // discount_totaltxtbox
             // 
-            discount_totaltxtbox.Location = new Point(230, 66);
+            discount_totaltxtbox.Font = new Font("Tahoma", 20.25F, FontStyle.Bold);
+            discount_totaltxtbox.Location = new Point(306, 85);
             discount_totaltxtbox.Margin = new Padding(4, 3, 4, 3);
             discount_totaltxtbox.Name = "discount_totaltxtbox";
-            discount_totaltxtbox.Size = new Size(489, 22);
+            discount_totaltxtbox.Size = new Size(633, 40);
             discount_totaltxtbox.TabIndex = 15;
             // 
             // qty_totaltxtbox
             // 
-            qty_totaltxtbox.Location = new Point(230, 21);
+            qty_totaltxtbox.Font = new Font("Tahoma", 20.25F, FontStyle.Bold);
+            qty_totaltxtbox.Location = new Point(306, 23);
             qty_totaltxtbox.Margin = new Padding(4, 3, 4, 3);
             qty_totaltxtbox.Name = "qty_totaltxtbox";
-            qty_totaltxtbox.Size = new Size(489, 22);
+            qty_totaltxtbox.Size = new Size(633, 40);
             qty_totaltxtbox.TabIndex = 14;
             // 
             // label2
             // 
             label2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            label2.Location = new Point(364, 197);
+            label2.Location = new Point(282, 55);
             label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(138, 23);
@@ -1747,7 +1779,7 @@
             // label34
             // 
             label34.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            label34.Location = new Point(519, 199);
+            label34.Location = new Point(437, 57);
             label34.Margin = new Padding(4, 0, 4, 0);
             label34.Name = "label34";
             label34.Size = new Size(164, 23);
@@ -1757,7 +1789,7 @@
             // label35
             // 
             label35.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold);
-            label35.Location = new Point(787, 199);
+            label35.Location = new Point(705, 57);
             label35.Margin = new Padding(4, 0, 4, 0);
             label35.Name = "label35";
             label35.Size = new Size(156, 23);
@@ -1767,7 +1799,7 @@
             // data_time_lbl
             // 
             data_time_lbl.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            data_time_lbl.Location = new Point(208, 220);
+            data_time_lbl.Location = new Point(126, 78);
             data_time_lbl.Margin = new Padding(4, 0, 4, 0);
             data_time_lbl.Name = "data_time_lbl";
             data_time_lbl.Size = new Size(156, 23);
@@ -1777,7 +1809,7 @@
             // emp_id_lbl
             // 
             emp_id_lbl.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            emp_id_lbl.Location = new Point(364, 220);
+            emp_id_lbl.Location = new Point(282, 78);
             emp_id_lbl.Margin = new Padding(4, 0, 4, 0);
             emp_id_lbl.Name = "emp_id_lbl";
             emp_id_lbl.Size = new Size(147, 23);
@@ -1787,7 +1819,7 @@
             // firstname_lbl
             // 
             firstname_lbl.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            firstname_lbl.Location = new Point(519, 222);
+            firstname_lbl.Location = new Point(437, 80);
             firstname_lbl.Margin = new Padding(4, 0, 4, 0);
             firstname_lbl.Name = "firstname_lbl";
             firstname_lbl.Size = new Size(119, 23);
@@ -1797,7 +1829,7 @@
             // surname_lbl
             // 
             surname_lbl.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            surname_lbl.Location = new Point(646, 222);
+            surname_lbl.Location = new Point(564, 80);
             surname_lbl.Margin = new Padding(4, 0, 4, 0);
             surname_lbl.Name = "surname_lbl";
             surname_lbl.Size = new Size(133, 23);
@@ -1807,7 +1839,7 @@
             // Terminal_No_lbl
             // 
             Terminal_No_lbl.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Terminal_No_lbl.Location = new Point(787, 222);
+            Terminal_No_lbl.Location = new Point(705, 80);
             Terminal_No_lbl.Margin = new Padding(4, 0, 4, 0);
             Terminal_No_lbl.Name = "Terminal_No_lbl";
             Terminal_No_lbl.Size = new Size(156, 23);
@@ -1819,7 +1851,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AliceBlue;
-            ClientSize = new Size(1904, 1041);
+            ClientSize = new Size(1864, 1041);
             Controls.Add(Terminal_No_lbl);
             Controls.Add(surname_lbl);
             Controls.Add(firstname_lbl);

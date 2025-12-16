@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace BERLANDINO_DSAL01E
 {
-    public partial class L9_Activity3 : Form
+    public partial class L8_Activity3 : Form
     {
         #region Class-Level References
         // Access Payroll_Functions and shared Variables
@@ -15,7 +15,7 @@ namespace BERLANDINO_DSAL01E
         #endregion
 
         #region Form Initialization
-        public L9_Activity3()
+        public L8_Activity3()
         {
             InitializeComponent();
         }
@@ -185,7 +185,7 @@ namespace BERLANDINO_DSAL01E
         // Print payslip to another form
         private void print_payslip_button_Click(object sender, EventArgs e)
         {
-            L9_Activity3_Prnt print1 = new L9_Activity3_Prnt();
+            L8_Activity3_Prnt print1 = new L8_Activity3_Prnt();
             print1.prntDisplayListbox.Items.AddRange(this.payslip_view_listbox.Items);
             print1.prntDisplayListbox.Font = new Font("Courier New", 12, FontStyle.Regular);
             print1.Show();

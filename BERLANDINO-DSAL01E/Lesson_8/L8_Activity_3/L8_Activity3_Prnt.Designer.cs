@@ -1,6 +1,6 @@
-﻿namespace BERLANDINO_DSAL01E.Lesson_7
+﻿namespace BERLANDINO_DSAL01E
 {
-    partial class L7_Activity4
+    partial class L8_Activity3_Prnt
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
+            prntDisplayListbox = new ListBox();
             SuspendLayout();
             // 
-            // L7_Activity4
+            // prntDisplayListbox
+            // 
+            prntDisplayListbox.FormattingEnabled = true;
+            prntDisplayListbox.ItemHeight = 15;
+            prntDisplayListbox.Location = new Point(15, 15);
+            prntDisplayListbox.Margin = new Padding(4, 3, 4, 3);
+            prntDisplayListbox.Name = "prntDisplayListbox";
+            prntDisplayListbox.Size = new Size(638, 769);
+            prntDisplayListbox.TabIndex = 0;
+            // 
+            // L3_Activity5_Prnt
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1294, 650);
-            Name = "L7_Activity4";
-            Text = "Example 4";
+            ClientSize = new Size(667, 798);
+            Controls.Add(prntDisplayListbox);
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "L3_Activity5_Prnt";
+            Text = "Example 5 Print Form";
+            Load += Form1_Load;
             ResumeLayout(false);
+
         }
 
         #endregion
+
+        public System.Windows.Forms.ListBox prntDisplayListbox;
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace BERLANDINO_DSAL01E
 {
-    partial class L9_Activity2
+    partial class L8_Activity2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(L9_Activity2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(L8_Activity2));
             button11 = new Button();
             button9 = new Button();
             button8 = new Button();

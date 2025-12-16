@@ -15,7 +15,7 @@ using System.Windows.Forms;
 
 namespace BERLANDINO_DSAL01E
 {
-    public partial class L9_Activity1 : Form
+    public partial class L8_Activity1 : Form
     {
         #region Class References
         // Helper classes for POS operations
@@ -24,7 +24,7 @@ namespace BERLANDINO_DSAL01E
         #endregion
 
         #region Constructor
-        public L9_Activity1()
+        public L8_Activity1()
         {
             InitializeComponent();
         }
@@ -186,7 +186,7 @@ namespace BERLANDINO_DSAL01E
             try
             {
                 // Create instance of print form
-                L9_Activity1_Prnt print = new L9_Activity1_Prnt();
+                L8_Activity1_Prnt print = new L8_Activity1_Prnt();
 
                 // Transfer listbox contents to print form
                 print.prntDisplayListBox.Items.AddRange(this.displayListBox.Items);

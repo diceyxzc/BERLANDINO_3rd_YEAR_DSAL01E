@@ -41,7 +41,7 @@ namespace BERLANDINO_DSAL01E.Lesson_5
             {
                 // Cashier 1 Form
                 MessageBox.Show("Welcome to Cashier 1 Page!");
-                L9_Activity1 cashier1frm = new L9_Activity1();
+                L8_Activity1 cashier1frm = new L8_Activity1();
                 cashier1frm.Show();
                 this.Hide();
             }

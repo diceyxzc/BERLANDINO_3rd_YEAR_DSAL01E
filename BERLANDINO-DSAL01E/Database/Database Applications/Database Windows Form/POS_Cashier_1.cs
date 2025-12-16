@@ -510,5 +510,10 @@ namespace BERLANDINO_DSAL01E
                 clear_txtboses();
             }
         }
+
+        private void button20_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

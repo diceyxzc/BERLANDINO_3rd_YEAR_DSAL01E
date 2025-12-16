@@ -16,9 +16,9 @@ using System.Windows.Forms;
 
 namespace BERLANDINO_DSAL01E
 {
-    public partial class L9_Activity2 : Form
+    public partial class L8_Activity2 : Form
     {
-        public L9_Activity2()
+        public L8_Activity2()
         {
             InitializeComponent();
         }

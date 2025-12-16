@@ -23,7 +23,7 @@ namespace BERLANDINO_DSAL01E.Database.Main_DB_Classes
         {
             // Establishes a connection from C# forms to the SQL Server Database
             pos_sql_connection = new SqlConnection();
-            pos_connectionString = "Data Source=LAPTOP-CDS0O04L\\SQLEXPRESS;Initial Catalog=POSDB;Trusted_Connection=True;TrustServerCertificate=True";
+            pos_connectionString = "Data Source=172.20.10.8;Initial Catalog=POSDB;User Id=sa;Password=calvin123;TrustServerCertificate=True;";
 
             pos_sql_connection = new SqlConnection(pos_connectionString);
             pos_sql_connection.ConnectionString = pos_connectionString;
@@ -89,7 +89,7 @@ namespace BERLANDINO_DSAL01E.Database.Main_DB_Classes
             pos_sql = "SELECT * FROM pos_nameTbl " +
                       "INNER JOIN pos_picTbl ON pos_nameTbl.pos_id = pos_picTbl.pos_id " +
                       "INNER JOIN pos_priceTbl ON pos_picTbl.pos_id = pos_priceTbl.pos_id " +
-                      "WHERE pos_nameTbl.pos_id = 1";
+                      "WHERE pos_nameTbl.pos_id = 3";
         }
 
         public void pos_select_cashier1()

@@ -150,6 +150,7 @@
             B_Carbonara_Checkbox = new CheckBox();
             B_Fries_Checkbox = new CheckBox();
             B_Hawaiian_Checkbox = new CheckBox();
+            groupBox2 = new GroupBox();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -172,13 +173,14 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             ((System.ComponentModel.ISupportInitialize)display_picbox).BeginInit();
+            groupBox2.SuspendLayout();
             SuspendLayout();
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Algerian", 28F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(633, 125);
+            label3.Location = new Point(52, 12);
             label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(721, 42);
@@ -269,152 +271,152 @@
             groupBox1.Controls.Add(pictureBox13);
             groupBox1.FlatStyle = FlatStyle.System;
             groupBox1.Font = new Font("Microsoft Sans Serif", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox1.Location = new Point(971, 184);
+            groupBox1.Location = new Point(816, 12);
             groupBox1.Margin = new Padding(4, 3, 4, 3);
             groupBox1.Name = "groupBox1";
             groupBox1.Padding = new Padding(4, 3, 4, 3);
             groupBox1.RightToLeft = RightToLeft.No;
-            groupBox1.Size = new Size(650, 648);
+            groupBox1.Size = new Size(1048, 1017);
             groupBox1.TabIndex = 76;
             groupBox1.TabStop = false;
             groupBox1.Text = "PIZZA CHOICES";
             // 
             // picpathtxtbox20
             // 
-            picpathtxtbox20.Location = new Point(523, 490);
+            picpathtxtbox20.Location = new Point(839, 800);
             picpathtxtbox20.Name = "picpathtxtbox20";
             picpathtxtbox20.Size = new Size(102, 22);
             picpathtxtbox20.TabIndex = 151;
             // 
             // picpathtxtbox19
             // 
-            picpathtxtbox19.Location = new Point(392, 490);
+            picpathtxtbox19.Location = new Point(631, 800);
             picpathtxtbox19.Name = "picpathtxtbox19";
             picpathtxtbox19.Size = new Size(102, 22);
             picpathtxtbox19.TabIndex = 150;
             // 
             // picpathtxtbox18
             // 
-            picpathtxtbox18.Location = new Point(266, 490);
+            picpathtxtbox18.Location = new Point(423, 800);
             picpathtxtbox18.Name = "picpathtxtbox18";
             picpathtxtbox18.Size = new Size(102, 22);
             picpathtxtbox18.TabIndex = 149;
             // 
             // picpathtxtbox17
             // 
-            picpathtxtbox17.Location = new Point(138, 490);
+            picpathtxtbox17.Location = new Point(216, 800);
             picpathtxtbox17.Name = "picpathtxtbox17";
             picpathtxtbox17.Size = new Size(102, 22);
             picpathtxtbox17.TabIndex = 148;
             // 
             // picpathtxtbox16
             // 
-            picpathtxtbox16.Location = new Point(7, 490);
+            picpathtxtbox16.Location = new Point(7, 800);
             picpathtxtbox16.Name = "picpathtxtbox16";
             picpathtxtbox16.Size = new Size(102, 22);
             picpathtxtbox16.TabIndex = 147;
             // 
             // picpathtxtbox15
             // 
-            picpathtxtbox15.Location = new Point(523, 341);
+            picpathtxtbox15.Location = new Point(840, 541);
             picpathtxtbox15.Name = "picpathtxtbox15";
             picpathtxtbox15.Size = new Size(102, 22);
             picpathtxtbox15.TabIndex = 146;
             // 
             // picpathtxtbox14
             // 
-            picpathtxtbox14.Location = new Point(392, 341);
+            picpathtxtbox14.Location = new Point(631, 541);
             picpathtxtbox14.Name = "picpathtxtbox14";
             picpathtxtbox14.Size = new Size(102, 22);
             picpathtxtbox14.TabIndex = 145;
             // 
             // picpathtxtbox13
             // 
-            picpathtxtbox13.Location = new Point(266, 341);
+            picpathtxtbox13.Location = new Point(423, 541);
             picpathtxtbox13.Name = "picpathtxtbox13";
             picpathtxtbox13.Size = new Size(102, 22);
             picpathtxtbox13.TabIndex = 144;
             // 
             // picpathtxtbox12
             // 
-            picpathtxtbox12.Location = new Point(138, 341);
+            picpathtxtbox12.Location = new Point(216, 541);
             picpathtxtbox12.Name = "picpathtxtbox12";
             picpathtxtbox12.Size = new Size(102, 22);
             picpathtxtbox12.TabIndex = 143;
             // 
             // picpathtxtbox11
             // 
-            picpathtxtbox11.Location = new Point(7, 341);
+            picpathtxtbox11.Location = new Point(8, 541);
             picpathtxtbox11.Name = "picpathtxtbox11";
             picpathtxtbox11.Size = new Size(102, 22);
             picpathtxtbox11.TabIndex = 142;
             // 
             // picpathtxtbox10
             // 
-            picpathtxtbox10.Location = new Point(523, 181);
+            picpathtxtbox10.Location = new Point(839, 280);
             picpathtxtbox10.Name = "picpathtxtbox10";
             picpathtxtbox10.Size = new Size(102, 22);
             picpathtxtbox10.TabIndex = 141;
             // 
             // picpathtxtbox9
             // 
-            picpathtxtbox9.Location = new Point(392, 181);
+            picpathtxtbox9.Location = new Point(632, 280);
             picpathtxtbox9.Name = "picpathtxtbox9";
             picpathtxtbox9.Size = new Size(102, 22);
             picpathtxtbox9.TabIndex = 140;
             // 
             // picpathtxtbox8
             // 
-            picpathtxtbox8.Location = new Point(266, 181);
+            picpathtxtbox8.Location = new Point(424, 280);
             picpathtxtbox8.Name = "picpathtxtbox8";
             picpathtxtbox8.Size = new Size(102, 22);
             picpathtxtbox8.TabIndex = 139;
             // 
             // picpathtxtbox7
             // 
-            picpathtxtbox7.Location = new Point(138, 181);
+            picpathtxtbox7.Location = new Point(216, 280);
             picpathtxtbox7.Name = "picpathtxtbox7";
             picpathtxtbox7.Size = new Size(102, 22);
             picpathtxtbox7.TabIndex = 138;
             // 
             // picpathtxtbox6
             // 
-            picpathtxtbox6.Location = new Point(7, 181);
+            picpathtxtbox6.Location = new Point(7, 280);
             picpathtxtbox6.Name = "picpathtxtbox6";
             picpathtxtbox6.Size = new Size(102, 22);
             picpathtxtbox6.TabIndex = 137;
             // 
             // picpathtxtbox5
             // 
-            picpathtxtbox5.Location = new Point(523, 28);
+            picpathtxtbox5.Location = new Point(840, 21);
             picpathtxtbox5.Name = "picpathtxtbox5";
             picpathtxtbox5.Size = new Size(102, 22);
             picpathtxtbox5.TabIndex = 136;
             // 
             // picpathtxtbox4
             // 
-            picpathtxtbox4.Location = new Point(392, 28);
+            picpathtxtbox4.Location = new Point(631, 21);
             picpathtxtbox4.Name = "picpathtxtbox4";
             picpathtxtbox4.Size = new Size(102, 22);
             picpathtxtbox4.TabIndex = 135;
             // 
             // picpathtxtbox3
             // 
-            picpathtxtbox3.Location = new Point(266, 28);
+            picpathtxtbox3.Location = new Point(424, 21);
             picpathtxtbox3.Name = "picpathtxtbox3";
             picpathtxtbox3.Size = new Size(102, 22);
             picpathtxtbox3.TabIndex = 134;
             // 
             // picpathtxtbox2
             // 
-            picpathtxtbox2.Location = new Point(138, 28);
+            picpathtxtbox2.Location = new Point(216, 21);
             picpathtxtbox2.Name = "picpathtxtbox2";
             picpathtxtbox2.Size = new Size(102, 22);
             picpathtxtbox2.TabIndex = 133;
             // 
             // picpathtxtbox1
             // 
-            picpathtxtbox1.Location = new Point(7, 28);
+            picpathtxtbox1.Location = new Point(10, 21);
             picpathtxtbox1.Name = "picpathtxtbox1";
             picpathtxtbox1.Size = new Size(102, 22);
             picpathtxtbox1.TabIndex = 123;
@@ -422,7 +424,7 @@
             // price20
             // 
             price20.AutoSize = true;
-            price20.Location = new Point(556, 572);
+            price20.Location = new Point(918, 938);
             price20.Name = "price20";
             price20.Size = new Size(58, 16);
             price20.TabIndex = 132;
@@ -431,7 +433,7 @@
             // price19
             // 
             price19.AutoSize = true;
-            price19.Location = new Point(426, 572);
+            price19.Location = new Point(706, 938);
             price19.Name = "price19";
             price19.Size = new Size(58, 16);
             price19.TabIndex = 131;
@@ -440,7 +442,7 @@
             // price18
             // 
             price18.AutoSize = true;
-            price18.Location = new Point(294, 572);
+            price18.Location = new Point(502, 938);
             price18.Name = "price18";
             price18.Size = new Size(58, 16);
             price18.TabIndex = 130;
@@ -449,7 +451,7 @@
             // price17
             // 
             price17.AutoSize = true;
-            price17.Location = new Point(168, 572);
+            price17.Location = new Point(278, 938);
             price17.Name = "price17";
             price17.Size = new Size(58, 16);
             price17.TabIndex = 129;
@@ -458,7 +460,7 @@
             // price16
             // 
             price16.AutoSize = true;
-            price16.Location = new Point(39, 572);
+            price16.Location = new Point(77, 938);
             price16.Name = "price16";
             price16.Size = new Size(58, 16);
             price16.TabIndex = 128;
@@ -467,7 +469,7 @@
             // price15
             // 
             price15.AutoSize = true;
-            price15.Location = new Point(556, 420);
+            price15.Location = new Point(918, 666);
             price15.Name = "price15";
             price15.Size = new Size(58, 16);
             price15.TabIndex = 127;
@@ -476,7 +478,7 @@
             // price14
             // 
             price14.AutoSize = true;
-            price14.Location = new Point(426, 420);
+            price14.Location = new Point(706, 671);
             price14.Name = "price14";
             price14.Size = new Size(58, 16);
             price14.TabIndex = 126;
@@ -485,7 +487,7 @@
             // price13
             // 
             price13.AutoSize = true;
-            price13.Location = new Point(294, 420);
+            price13.Location = new Point(502, 671);
             price13.Name = "price13";
             price13.Size = new Size(58, 16);
             price13.TabIndex = 125;
@@ -494,7 +496,7 @@
             // price12
             // 
             price12.AutoSize = true;
-            price12.Location = new Point(168, 420);
+            price12.Location = new Point(278, 671);
             price12.Name = "price12";
             price12.Size = new Size(58, 16);
             price12.TabIndex = 124;
@@ -503,7 +505,7 @@
             // price11
             // 
             price11.AutoSize = true;
-            price11.Location = new Point(39, 420);
+            price11.Location = new Point(77, 671);
             price11.Name = "price11";
             price11.Size = new Size(58, 16);
             price11.TabIndex = 123;
@@ -512,7 +514,7 @@
             // price10
             // 
             price10.AutoSize = true;
-            price10.Location = new Point(556, 262);
+            price10.Location = new Point(918, 399);
             price10.Name = "price10";
             price10.Size = new Size(58, 16);
             price10.TabIndex = 122;
@@ -521,7 +523,7 @@
             // price9
             // 
             price9.AutoSize = true;
-            price9.Location = new Point(426, 262);
+            price9.Location = new Point(706, 409);
             price9.Name = "price9";
             price9.Size = new Size(58, 16);
             price9.TabIndex = 121;
@@ -530,7 +532,7 @@
             // price8
             // 
             price8.AutoSize = true;
-            price8.Location = new Point(294, 262);
+            price8.Location = new Point(502, 409);
             price8.Name = "price8";
             price8.Size = new Size(58, 16);
             price8.TabIndex = 120;
@@ -539,7 +541,7 @@
             // price7
             // 
             price7.AutoSize = true;
-            price7.Location = new Point(168, 262);
+            price7.Location = new Point(278, 409);
             price7.Name = "price7";
             price7.Size = new Size(58, 16);
             price7.TabIndex = 119;
@@ -548,7 +550,7 @@
             // price6
             // 
             price6.AutoSize = true;
-            price6.Location = new Point(39, 262);
+            price6.Location = new Point(77, 409);
             price6.Name = "price6";
             price6.Size = new Size(58, 16);
             price6.TabIndex = 118;
@@ -557,7 +559,7 @@
             // price5
             // 
             price5.AutoSize = true;
-            price5.Location = new Point(556, 109);
+            price5.Location = new Point(918, 150);
             price5.Name = "price5";
             price5.Size = new Size(58, 16);
             price5.TabIndex = 117;
@@ -566,7 +568,7 @@
             // price4
             // 
             price4.AutoSize = true;
-            price4.Location = new Point(426, 109);
+            price4.Location = new Point(706, 150);
             price4.Name = "price4";
             price4.Size = new Size(58, 16);
             price4.TabIndex = 116;
@@ -575,7 +577,7 @@
             // price3
             // 
             price3.AutoSize = true;
-            price3.Location = new Point(294, 109);
+            price3.Location = new Point(502, 151);
             price3.Name = "price3";
             price3.Size = new Size(58, 16);
             price3.TabIndex = 115;
@@ -584,7 +586,7 @@
             // price2
             // 
             price2.AutoSize = true;
-            price2.Location = new Point(168, 109);
+            price2.Location = new Point(278, 150);
             price2.Name = "price2";
             price2.Size = new Size(58, 16);
             price2.TabIndex = 114;
@@ -593,7 +595,7 @@
             // price1
             // 
             price1.AutoSize = true;
-            price1.Location = new Point(39, 109);
+            price1.Location = new Point(77, 150);
             price1.Name = "price1";
             price1.Size = new Size(58, 16);
             price1.TabIndex = 113;
@@ -601,10 +603,10 @@
             // 
             // checkBox16
             // 
-            checkBox16.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox16.Location = new Point(10, 608);
+            checkBox16.Font = new Font("Tahoma", 12F);
+            checkBox16.Location = new Point(8, 976);
             checkBox16.Name = "checkBox16";
-            checkBox16.Size = new Size(120, 29);
+            checkBox16.Size = new Size(200, 29);
             checkBox16.TabIndex = 112;
             checkBox16.Text = "checkBox16";
             checkBox16.UseVisualStyleBackColor = true;
@@ -612,10 +614,10 @@
             // 
             // checkBox17
             // 
-            checkBox17.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox17.Location = new Point(139, 608);
+            checkBox17.Font = new Font("Tahoma", 12F);
+            checkBox17.Location = new Point(216, 976);
             checkBox17.Name = "checkBox17";
-            checkBox17.Size = new Size(120, 29);
+            checkBox17.Size = new Size(200, 29);
             checkBox17.TabIndex = 111;
             checkBox17.Text = "checkBox17";
             checkBox17.UseVisualStyleBackColor = true;
@@ -623,10 +625,10 @@
             // 
             // checkBox19
             // 
-            checkBox19.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox19.Location = new Point(396, 608);
+            checkBox19.Font = new Font("Tahoma", 12F);
+            checkBox19.Location = new Point(632, 976);
             checkBox19.Name = "checkBox19";
-            checkBox19.Size = new Size(120, 29);
+            checkBox19.Size = new Size(200, 29);
             checkBox19.TabIndex = 109;
             checkBox19.Text = "checkBox19";
             checkBox19.UseVisualStyleBackColor = true;
@@ -634,10 +636,10 @@
             // 
             // checkBox18
             // 
-            checkBox18.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox18.Location = new Point(265, 608);
+            checkBox18.Font = new Font("Tahoma", 12F);
+            checkBox18.Location = new Point(424, 976);
             checkBox18.Name = "checkBox18";
-            checkBox18.Size = new Size(120, 29);
+            checkBox18.Size = new Size(200, 29);
             checkBox18.TabIndex = 110;
             checkBox18.Text = "checkBox18";
             checkBox18.UseVisualStyleBackColor = true;
@@ -645,10 +647,10 @@
             // 
             // checkBox20
             // 
-            checkBox20.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox20.Location = new Point(522, 608);
+            checkBox20.Font = new Font("Tahoma", 12F);
+            checkBox20.Location = new Point(840, 976);
             checkBox20.Name = "checkBox20";
-            checkBox20.Size = new Size(120, 29);
+            checkBox20.Size = new Size(200, 29);
             checkBox20.TabIndex = 108;
             checkBox20.Text = "checkBox20";
             checkBox20.UseVisualStyleBackColor = true;
@@ -656,10 +658,10 @@
             // 
             // checkBox11
             // 
-            checkBox11.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox11.Location = new Point(10, 458);
+            checkBox11.Font = new Font("Tahoma", 12F);
+            checkBox11.Location = new Point(12, 717);
             checkBox11.Name = "checkBox11";
-            checkBox11.Size = new Size(120, 29);
+            checkBox11.Size = new Size(200, 29);
             checkBox11.TabIndex = 107;
             checkBox11.Text = "checkBox11";
             checkBox11.UseVisualStyleBackColor = true;
@@ -667,10 +669,10 @@
             // 
             // checkBox12
             // 
-            checkBox12.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox12.Location = new Point(136, 458);
+            checkBox12.Font = new Font("Tahoma", 12F);
+            checkBox12.Location = new Point(216, 717);
             checkBox12.Name = "checkBox12";
-            checkBox12.Size = new Size(123, 29);
+            checkBox12.Size = new Size(200, 29);
             checkBox12.TabIndex = 106;
             checkBox12.Text = "checkBox12";
             checkBox12.UseVisualStyleBackColor = true;
@@ -678,10 +680,10 @@
             // 
             // checkBox13
             // 
-            checkBox13.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox13.Location = new Point(265, 458);
+            checkBox13.Font = new Font("Tahoma", 12F);
+            checkBox13.Location = new Point(423, 717);
             checkBox13.Name = "checkBox13";
-            checkBox13.Size = new Size(120, 29);
+            checkBox13.Size = new Size(200, 29);
             checkBox13.TabIndex = 105;
             checkBox13.Text = "checkBox13";
             checkBox13.UseVisualStyleBackColor = true;
@@ -689,10 +691,10 @@
             // 
             // checkBox14
             // 
-            checkBox14.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox14.Location = new Point(391, 458);
+            checkBox14.Font = new Font("Tahoma", 12F);
+            checkBox14.Location = new Point(632, 717);
             checkBox14.Name = "checkBox14";
-            checkBox14.Size = new Size(125, 29);
+            checkBox14.Size = new Size(200, 29);
             checkBox14.TabIndex = 104;
             checkBox14.Text = "checkBox14";
             checkBox14.UseVisualStyleBackColor = true;
@@ -700,10 +702,10 @@
             // 
             // checkBox15
             // 
-            checkBox15.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox15.Location = new Point(522, 455);
+            checkBox15.Font = new Font("Tahoma", 12F);
+            checkBox15.Location = new Point(840, 717);
             checkBox15.Name = "checkBox15";
-            checkBox15.Size = new Size(120, 29);
+            checkBox15.Size = new Size(200, 29);
             checkBox15.TabIndex = 103;
             checkBox15.Text = "checkBox15";
             checkBox15.UseVisualStyleBackColor = true;
@@ -711,10 +713,10 @@
             // 
             // checkBox6
             // 
-            checkBox6.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox6.Location = new Point(10, 299);
+            checkBox6.Font = new Font("Tahoma", 12F);
+            checkBox6.Location = new Point(8, 456);
             checkBox6.Name = "checkBox6";
-            checkBox6.Size = new Size(120, 29);
+            checkBox6.Size = new Size(202, 29);
             checkBox6.TabIndex = 102;
             checkBox6.Text = "checkBox6";
             checkBox6.UseVisualStyleBackColor = true;
@@ -722,10 +724,10 @@
             // 
             // checkBox7
             // 
-            checkBox7.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox7.Location = new Point(139, 299);
+            checkBox7.Font = new Font("Tahoma", 12F);
+            checkBox7.Location = new Point(216, 456);
             checkBox7.Name = "checkBox7";
-            checkBox7.Size = new Size(120, 29);
+            checkBox7.Size = new Size(200, 29);
             checkBox7.TabIndex = 101;
             checkBox7.Text = "checkBox7";
             checkBox7.UseVisualStyleBackColor = true;
@@ -733,10 +735,10 @@
             // 
             // checkBox8
             // 
-            checkBox8.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox8.Location = new Point(266, 299);
+            checkBox8.Font = new Font("Tahoma", 12F);
+            checkBox8.Location = new Point(423, 456);
             checkBox8.Name = "checkBox8";
-            checkBox8.Size = new Size(120, 29);
+            checkBox8.Size = new Size(200, 29);
             checkBox8.TabIndex = 100;
             checkBox8.Text = "checkBox8";
             checkBox8.UseVisualStyleBackColor = true;
@@ -744,10 +746,10 @@
             // 
             // checkBox9
             // 
-            checkBox9.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox9.Location = new Point(392, 299);
+            checkBox9.Font = new Font("Tahoma", 12F);
+            checkBox9.Location = new Point(633, 456);
             checkBox9.Name = "checkBox9";
-            checkBox9.Size = new Size(124, 29);
+            checkBox9.Size = new Size(200, 29);
             checkBox9.TabIndex = 99;
             checkBox9.Text = "checkBox9";
             checkBox9.UseVisualStyleBackColor = true;
@@ -755,10 +757,10 @@
             // 
             // checkBox10
             // 
-            checkBox10.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox10.Location = new Point(522, 299);
+            checkBox10.Font = new Font("Tahoma", 12F);
+            checkBox10.Location = new Point(840, 456);
             checkBox10.Name = "checkBox10";
-            checkBox10.Size = new Size(120, 29);
+            checkBox10.Size = new Size(200, 29);
             checkBox10.TabIndex = 98;
             checkBox10.Text = "checkBox10";
             checkBox10.UseVisualStyleBackColor = true;
@@ -766,10 +768,10 @@
             // 
             // checkBox5
             // 
-            checkBox5.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox5.Location = new Point(522, 146);
+            checkBox5.Font = new Font("Tahoma", 12F);
+            checkBox5.Location = new Point(839, 197);
             checkBox5.Name = "checkBox5";
-            checkBox5.Size = new Size(120, 29);
+            checkBox5.Size = new Size(200, 29);
             checkBox5.TabIndex = 97;
             checkBox5.Text = "checkBox5";
             checkBox5.UseVisualStyleBackColor = true;
@@ -777,10 +779,10 @@
             // 
             // checkBox4
             // 
-            checkBox4.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox4.Location = new Point(392, 146);
+            checkBox4.Font = new Font("Tahoma", 12F);
+            checkBox4.Location = new Point(631, 197);
             checkBox4.Name = "checkBox4";
-            checkBox4.Size = new Size(124, 29);
+            checkBox4.Size = new Size(200, 29);
             checkBox4.TabIndex = 96;
             checkBox4.Text = "checkBox4";
             checkBox4.UseVisualStyleBackColor = true;
@@ -788,10 +790,10 @@
             // 
             // checkBox3
             // 
-            checkBox3.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox3.Location = new Point(265, 146);
+            checkBox3.Font = new Font("Tahoma", 12F);
+            checkBox3.Location = new Point(423, 197);
             checkBox3.Name = "checkBox3";
-            checkBox3.Size = new Size(120, 29);
+            checkBox3.Size = new Size(200, 29);
             checkBox3.TabIndex = 95;
             checkBox3.Text = "checkBox3";
             checkBox3.UseVisualStyleBackColor = true;
@@ -799,10 +801,10 @@
             // 
             // checkBox2
             // 
-            checkBox2.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox2.Location = new Point(138, 146);
+            checkBox2.Font = new Font("Tahoma", 12F);
+            checkBox2.Location = new Point(216, 197);
             checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(120, 29);
+            checkBox2.Size = new Size(200, 29);
             checkBox2.TabIndex = 94;
             checkBox2.Text = "checkBox2";
             checkBox2.UseVisualStyleBackColor = true;
@@ -810,10 +812,10 @@
             // 
             // checkBox1
             // 
-            checkBox1.Font = new Font("Microsoft Sans Serif", 8.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            checkBox1.Location = new Point(10, 146);
+            checkBox1.Font = new Font("Tahoma", 12F);
+            checkBox1.Location = new Point(10, 197);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(120, 29);
+            checkBox1.Size = new Size(200, 29);
             checkBox1.TabIndex = 93;
             checkBox1.Text = "checkBox1";
             checkBox1.UseVisualStyleBackColor = true;
@@ -824,10 +826,10 @@
             pictureBox5.BorderStyle = BorderStyle.FixedSingle;
             pictureBox5.Image = Properties.Resources.Dominos_Pizza;
             pictureBox5.ImageLocation = "";
-            pictureBox5.Location = new Point(522, 28);
+            pictureBox5.Location = new Point(840, 21);
             pictureBox5.Margin = new Padding(4, 3, 4, 3);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(120, 112);
+            pictureBox5.Size = new Size(200, 170);
             pictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox5.TabIndex = 77;
             pictureBox5.TabStop = false;
@@ -838,10 +840,10 @@
             pictureBox1.BorderStyle = BorderStyle.FixedSingle;
             pictureBox1.Image = Properties.Resources.Hawaiian_Pizza;
             pictureBox1.ImageLocation = "";
-            pictureBox1.Location = new Point(10, 28);
+            pictureBox1.Location = new Point(10, 21);
             pictureBox1.Margin = new Padding(4, 3, 4, 3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(120, 112);
+            pictureBox1.Size = new Size(200, 170);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 73;
             pictureBox1.TabStop = false;
@@ -851,10 +853,10 @@
             // 
             pictureBox20.BorderStyle = BorderStyle.FixedSingle;
             pictureBox20.Image = Properties.Resources.Amanos_Pizza;
-            pictureBox20.Location = new Point(523, 490);
+            pictureBox20.Location = new Point(840, 800);
             pictureBox20.Margin = new Padding(4, 3, 4, 3);
             pictureBox20.Name = "pictureBox20";
-            pictureBox20.Size = new Size(119, 112);
+            pictureBox20.Size = new Size(200, 170);
             pictureBox20.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox20.TabIndex = 92;
             pictureBox20.TabStop = false;
@@ -864,10 +866,10 @@
             pictureBox2.BorderStyle = BorderStyle.FixedSingle;
             pictureBox2.Image = Properties.Resources.New_York_Style_Pizza;
             pictureBox2.ImageLocation = "";
-            pictureBox2.Location = new Point(138, 28);
+            pictureBox2.Location = new Point(216, 21);
             pictureBox2.Margin = new Padding(4, 3, 4, 3);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(120, 112);
+            pictureBox2.Size = new Size(200, 170);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 74;
             pictureBox2.TabStop = false;
@@ -877,10 +879,10 @@
             // 
             pictureBox19.BorderStyle = BorderStyle.FixedSingle;
             pictureBox19.Image = Properties.Resources.Pizza_9;
-            pictureBox19.Location = new Point(392, 492);
+            pictureBox19.Location = new Point(632, 800);
             pictureBox19.Margin = new Padding(4, 3, 4, 3);
             pictureBox19.Name = "pictureBox19";
-            pictureBox19.Size = new Size(123, 112);
+            pictureBox19.Size = new Size(200, 170);
             pictureBox19.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox19.TabIndex = 91;
             pictureBox19.TabStop = false;
@@ -890,10 +892,10 @@
             pictureBox4.BorderStyle = BorderStyle.FixedSingle;
             pictureBox4.Image = Properties.Resources.Cauliflower_Pizza;
             pictureBox4.ImageLocation = "";
-            pictureBox4.Location = new Point(392, 28);
+            pictureBox4.Location = new Point(632, 21);
             pictureBox4.Margin = new Padding(4, 3, 4, 3);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(122, 112);
+            pictureBox4.Size = new Size(200, 170);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 75;
             pictureBox4.TabStop = false;
@@ -903,10 +905,10 @@
             // 
             pictureBox18.BorderStyle = BorderStyle.FixedSingle;
             pictureBox18.Image = Properties.Resources.Pizza_8;
-            pictureBox18.Location = new Point(265, 492);
+            pictureBox18.Location = new Point(424, 800);
             pictureBox18.Margin = new Padding(4, 3, 4, 3);
             pictureBox18.Name = "pictureBox18";
-            pictureBox18.Size = new Size(120, 112);
+            pictureBox18.Size = new Size(200, 170);
             pictureBox18.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox18.TabIndex = 90;
             pictureBox18.TabStop = false;
@@ -916,10 +918,10 @@
             pictureBox3.BorderStyle = BorderStyle.FixedSingle;
             pictureBox3.Image = Properties.Resources.Pepperoni_Pizza;
             pictureBox3.ImageLocation = "";
-            pictureBox3.Location = new Point(265, 28);
+            pictureBox3.Location = new Point(424, 21);
             pictureBox3.Margin = new Padding(4, 3, 4, 3);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(120, 112);
+            pictureBox3.Size = new Size(200, 170);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 76;
             pictureBox3.TabStop = false;
@@ -929,10 +931,10 @@
             // 
             pictureBox17.BorderStyle = BorderStyle.FixedSingle;
             pictureBox17.Image = Properties.Resources.Pizza_7;
-            pictureBox17.Location = new Point(138, 492);
+            pictureBox17.Location = new Point(216, 800);
             pictureBox17.Margin = new Padding(4, 3, 4, 3);
             pictureBox17.Name = "pictureBox17";
-            pictureBox17.Size = new Size(120, 112);
+            pictureBox17.Size = new Size(200, 170);
             pictureBox17.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox17.TabIndex = 89;
             pictureBox17.TabStop = false;
@@ -942,10 +944,10 @@
             pictureBox10.BorderStyle = BorderStyle.FixedSingle;
             pictureBox10.Image = Properties.Resources.Pizza_Barbecue;
             pictureBox10.ImageLocation = "";
-            pictureBox10.Location = new Point(522, 182);
+            pictureBox10.Location = new Point(840, 280);
             pictureBox10.Margin = new Padding(4, 3, 4, 3);
             pictureBox10.Name = "pictureBox10";
-            pictureBox10.Size = new Size(120, 112);
+            pictureBox10.Size = new Size(200, 170);
             pictureBox10.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox10.TabIndex = 78;
             pictureBox10.TabStop = false;
@@ -955,10 +957,10 @@
             // 
             pictureBox16.BorderStyle = BorderStyle.FixedSingle;
             pictureBox16.Image = Properties.Resources.Pizza_6;
-            pictureBox16.Location = new Point(10, 492);
+            pictureBox16.Location = new Point(8, 800);
             pictureBox16.Margin = new Padding(4, 3, 4, 3);
             pictureBox16.Name = "pictureBox16";
-            pictureBox16.Size = new Size(120, 112);
+            pictureBox16.Size = new Size(200, 170);
             pictureBox16.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox16.TabIndex = 88;
             pictureBox16.TabStop = false;
@@ -968,10 +970,10 @@
             pictureBox9.BorderStyle = BorderStyle.FixedSingle;
             pictureBox9.Image = Properties.Resources.Pizza_Special_D;
             pictureBox9.ImageLocation = "";
-            pictureBox9.Location = new Point(392, 181);
+            pictureBox9.Location = new Point(632, 280);
             pictureBox9.Margin = new Padding(4, 3, 4, 3);
             pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(122, 112);
+            pictureBox9.Size = new Size(200, 170);
             pictureBox9.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox9.TabIndex = 79;
             pictureBox9.TabStop = false;
@@ -982,10 +984,10 @@
             pictureBox8.BorderStyle = BorderStyle.FixedSingle;
             pictureBox8.Image = Properties.Resources.Pizza_Special_C;
             pictureBox8.ImageLocation = "";
-            pictureBox8.Location = new Point(265, 181);
+            pictureBox8.Location = new Point(424, 280);
             pictureBox8.Margin = new Padding(4, 3, 4, 3);
             pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(120, 112);
+            pictureBox8.Size = new Size(200, 170);
             pictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox8.TabIndex = 80;
             pictureBox8.TabStop = false;
@@ -996,10 +998,10 @@
             pictureBox7.BorderStyle = BorderStyle.FixedSingle;
             pictureBox7.Image = Properties.Resources.Pizza_Special_B;
             pictureBox7.ImageLocation = "";
-            pictureBox7.Location = new Point(138, 182);
+            pictureBox7.Location = new Point(216, 280);
             pictureBox7.Margin = new Padding(4, 3, 4, 3);
             pictureBox7.Name = "pictureBox7";
-            pictureBox7.Size = new Size(120, 112);
+            pictureBox7.Size = new Size(200, 170);
             pictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox7.TabIndex = 81;
             pictureBox7.TabStop = false;
@@ -1010,10 +1012,10 @@
             pictureBox6.BorderStyle = BorderStyle.FixedSingle;
             pictureBox6.Image = Properties.Resources.Pizza_Special_A;
             pictureBox6.ImageLocation = "";
-            pictureBox6.Location = new Point(10, 181);
+            pictureBox6.Location = new Point(10, 280);
             pictureBox6.Margin = new Padding(4, 3, 4, 3);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(120, 112);
+            pictureBox6.Size = new Size(200, 170);
             pictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox6.TabIndex = 82;
             pictureBox6.TabStop = false;
@@ -1024,10 +1026,10 @@
             pictureBox15.BorderStyle = BorderStyle.FixedSingle;
             pictureBox15.Image = Properties.Resources.Pizza_5;
             pictureBox15.ImageLocation = "";
-            pictureBox15.Location = new Point(523, 340);
+            pictureBox15.Location = new Point(840, 541);
             pictureBox15.Margin = new Padding(4, 3, 4, 3);
             pictureBox15.Name = "pictureBox15";
-            pictureBox15.Size = new Size(119, 112);
+            pictureBox15.Size = new Size(200, 170);
             pictureBox15.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox15.TabIndex = 83;
             pictureBox15.TabStop = false;
@@ -1038,10 +1040,10 @@
             pictureBox11.BorderStyle = BorderStyle.FixedSingle;
             pictureBox11.Image = Properties.Resources.Pizza_1;
             pictureBox11.ImageLocation = "";
-            pictureBox11.Location = new Point(10, 340);
+            pictureBox11.Location = new Point(10, 541);
             pictureBox11.Margin = new Padding(4, 3, 4, 3);
             pictureBox11.Name = "pictureBox11";
-            pictureBox11.Size = new Size(120, 112);
+            pictureBox11.Size = new Size(200, 170);
             pictureBox11.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox11.TabIndex = 87;
             pictureBox11.TabStop = false;
@@ -1052,10 +1054,10 @@
             pictureBox14.BorderStyle = BorderStyle.FixedSingle;
             pictureBox14.Image = Properties.Resources.Pizza_4;
             pictureBox14.ImageLocation = "";
-            pictureBox14.Location = new Point(392, 340);
+            pictureBox14.Location = new Point(632, 541);
             pictureBox14.Margin = new Padding(4, 3, 4, 3);
             pictureBox14.Name = "pictureBox14";
-            pictureBox14.Size = new Size(123, 112);
+            pictureBox14.Size = new Size(200, 170);
             pictureBox14.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox14.TabIndex = 84;
             pictureBox14.TabStop = false;
@@ -1066,10 +1068,10 @@
             pictureBox12.BorderStyle = BorderStyle.FixedSingle;
             pictureBox12.Image = Properties.Resources.Pizza_2;
             pictureBox12.ImageLocation = "";
-            pictureBox12.Location = new Point(138, 340);
+            pictureBox12.Location = new Point(216, 541);
             pictureBox12.Margin = new Padding(4, 3, 4, 3);
             pictureBox12.Name = "pictureBox12";
-            pictureBox12.Size = new Size(120, 112);
+            pictureBox12.Size = new Size(200, 170);
             pictureBox12.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox12.TabIndex = 86;
             pictureBox12.TabStop = false;
@@ -1080,10 +1082,10 @@
             pictureBox13.BorderStyle = BorderStyle.FixedSingle;
             pictureBox13.Image = Properties.Resources.Pizza_3;
             pictureBox13.ImageLocation = "";
-            pictureBox13.Location = new Point(265, 340);
+            pictureBox13.Location = new Point(424, 541);
             pictureBox13.Margin = new Padding(4, 3, 4, 3);
             pictureBox13.Name = "pictureBox13";
-            pictureBox13.Size = new Size(120, 112);
+            pictureBox13.Size = new Size(200, 170);
             pictureBox13.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox13.TabIndex = 85;
             pictureBox13.TabStop = false;
@@ -1091,10 +1093,10 @@
             // 
             // exit_btn
             // 
-            exit_btn.Font = new Font("Segoe UI", 9.75F);
-            exit_btn.Location = new Point(1501, 840);
+            exit_btn.Font = new Font("Tahoma", 14.25F, FontStyle.Bold);
+            exit_btn.Location = new Point(688, 945);
             exit_btn.Name = "exit_btn";
-            exit_btn.Size = new Size(120, 45);
+            exit_btn.Size = new Size(120, 84);
             exit_btn.TabIndex = 78;
             exit_btn.Text = "EXIT";
             exit_btn.UseVisualStyleBackColor = true;
@@ -1102,10 +1104,10 @@
             // 
             // new_btn
             // 
-            new_btn.Font = new Font("Segoe UI", 9.75F);
-            new_btn.Location = new Point(1368, 840);
+            new_btn.Font = new Font("Tahoma", 14.25F, FontStyle.Bold);
+            new_btn.Location = new Point(555, 945);
             new_btn.Name = "new_btn";
-            new_btn.Size = new Size(127, 45);
+            new_btn.Size = new Size(127, 84);
             new_btn.TabIndex = 79;
             new_btn.Text = "NEW";
             new_btn.UseVisualStyleBackColor = true;
@@ -1113,10 +1115,10 @@
             // 
             // remove_btn
             // 
-            remove_btn.Font = new Font("Segoe UI", 9.75F);
-            remove_btn.Location = new Point(1235, 840);
+            remove_btn.Font = new Font("Tahoma", 14.25F, FontStyle.Bold);
+            remove_btn.Location = new Point(408, 945);
             remove_btn.Name = "remove_btn";
-            remove_btn.Size = new Size(127, 45);
+            remove_btn.Size = new Size(141, 84);
             remove_btn.TabIndex = 80;
             remove_btn.Text = "REMOVE ORDER";
             remove_btn.UseVisualStyleBackColor = true;
@@ -1124,10 +1126,10 @@
             // 
             // print_btn
             // 
-            print_btn.Font = new Font("Segoe UI", 9.75F);
-            print_btn.Location = new Point(1102, 840);
+            print_btn.Font = new Font("Tahoma", 14.25F, FontStyle.Bold);
+            print_btn.Location = new Point(188, 945);
             print_btn.Name = "print_btn";
-            print_btn.Size = new Size(127, 45);
+            print_btn.Size = new Size(214, 84);
             print_btn.TabIndex = 81;
             print_btn.Text = "PRINT\r\nTRANSACTION";
             print_btn.UseVisualStyleBackColor = true;
@@ -1135,10 +1137,10 @@
             // 
             // calculate_btn
             // 
-            calculate_btn.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            calculate_btn.Location = new Point(971, 840);
+            calculate_btn.Font = new Font("Tahoma", 14.25F, FontStyle.Bold);
+            calculate_btn.Location = new Point(6, 945);
             calculate_btn.Name = "calculate_btn";
-            calculate_btn.Size = new Size(127, 45);
+            calculate_btn.Size = new Size(176, 84);
             calculate_btn.TabIndex = 82;
             calculate_btn.Text = "CALCULATE BILLS";
             calculate_btn.UseVisualStyleBackColor = true;
@@ -1147,19 +1149,20 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(246, 184);
+            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(20, 41);
             label1.Name = "label1";
-            label1.Size = new Size(133, 17);
+            label1.Size = new Size(245, 32);
             label1.TabIndex = 83;
             label1.Text = "Food Order Choices:";
             // 
             // bundle_A_rdbtn
             // 
             bundle_A_rdbtn.AutoSize = true;
-            bundle_A_rdbtn.Location = new Point(281, 212);
+            bundle_A_rdbtn.Font = new Font("Tahoma", 12F);
+            bundle_A_rdbtn.Location = new Point(25, 83);
             bundle_A_rdbtn.Name = "bundle_A_rdbtn";
-            bundle_A_rdbtn.Size = new Size(103, 19);
+            bundle_A_rdbtn.Size = new Size(131, 23);
             bundle_A_rdbtn.TabIndex = 84;
             bundle_A_rdbtn.TabStop = true;
             bundle_A_rdbtn.Text = "Food Bundle A";
@@ -1169,9 +1172,10 @@
             // bundle_B_rdbtn
             // 
             bundle_B_rdbtn.AutoSize = true;
-            bundle_B_rdbtn.Location = new Point(281, 237);
+            bundle_B_rdbtn.Font = new Font("Tahoma", 12F);
+            bundle_B_rdbtn.Location = new Point(26, 120);
             bundle_B_rdbtn.Name = "bundle_B_rdbtn";
-            bundle_B_rdbtn.Size = new Size(102, 19);
+            bundle_B_rdbtn.Size = new Size(129, 23);
             bundle_B_rdbtn.TabIndex = 85;
             bundle_B_rdbtn.TabStop = true;
             bundle_B_rdbtn.Text = "Food Bundle B";
@@ -1181,141 +1185,155 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(246, 271);
+            label2.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(20, 156);
             label2.Name = "label2";
-            label2.Size = new Size(94, 17);
+            label2.Size = new Size(172, 32);
             label2.TabIndex = 86;
             label2.Text = "Order Details:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(260, 309);
+            label4.Font = new Font("Tahoma", 14.25F);
+            label4.Location = new Point(26, 198);
             label4.Name = "label4";
-            label4.Size = new Size(36, 15);
+            label4.Size = new Size(57, 23);
             label4.TabIndex = 87;
             label4.Text = "Price:";
             // 
             // price_txtbox
             // 
-            price_txtbox.Location = new Point(364, 306);
+            price_txtbox.Font = new Font("Tahoma", 12F);
+            price_txtbox.Location = new Point(218, 198);
             price_txtbox.Name = "price_txtbox";
-            price_txtbox.Size = new Size(176, 23);
+            price_txtbox.Size = new Size(242, 27);
             price_txtbox.TabIndex = 88;
             // 
             // qty_txtbox
             // 
-            qty_txtbox.Location = new Point(364, 335);
+            qty_txtbox.Font = new Font("Tahoma", 12F);
+            qty_txtbox.Location = new Point(218, 231);
             qty_txtbox.Name = "qty_txtbox";
-            qty_txtbox.Size = new Size(176, 23);
+            qty_txtbox.Size = new Size(242, 27);
             qty_txtbox.TabIndex = 89;
             qty_txtbox.TextChanged += qty_txtbox_TextChanged;
             // 
             // disc_txtbox
             // 
-            disc_txtbox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            disc_txtbox.Location = new Point(364, 369);
+            disc_txtbox.Font = new Font("Tahoma", 12F);
+            disc_txtbox.Location = new Point(218, 264);
             disc_txtbox.Name = "disc_txtbox";
-            disc_txtbox.Size = new Size(176, 29);
+            disc_txtbox.Size = new Size(242, 27);
             disc_txtbox.TabIndex = 90;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(260, 338);
+            label5.Font = new Font("Tahoma", 14.25F);
+            label5.Location = new Point(26, 231);
             label5.Name = "label5";
-            label5.Size = new Size(56, 15);
+            label5.Size = new Size(87, 23);
             label5.TabIndex = 96;
             label5.Text = "Quantity:";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(260, 367);
+            label6.Font = new Font("Tahoma", 14.25F);
+            label6.Location = new Point(25, 264);
             label6.Name = "label6";
-            label6.Size = new Size(54, 30);
+            label6.Size = new Size(160, 23);
             label6.TabIndex = 97;
-            label6.Text = "Discount\r\nAmount:";
+            label6.Text = "Discount Amount:";
             // 
             // disced_txtbox
             // 
-            disced_txtbox.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            disced_txtbox.Location = new Point(364, 404);
+            disced_txtbox.Font = new Font("Tahoma", 12F);
+            disced_txtbox.Location = new Point(218, 297);
             disced_txtbox.Name = "disced_txtbox";
-            disced_txtbox.Size = new Size(176, 29);
+            disced_txtbox.Size = new Size(242, 27);
             disced_txtbox.TabIndex = 98;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(262, 403);
+            label7.Font = new Font("Tahoma", 14.25F);
+            label7.Location = new Point(25, 297);
             label7.Name = "label7";
-            label7.Size = new Size(67, 30);
+            label7.Size = new Size(181, 23);
             label7.TabIndex = 99;
-            label7.Text = "Discounted\r\nAmount:";
+            label7.Text = "Discounted Amount:";
             // 
             // bills_txtbox
             // 
-            bills_txtbox.Location = new Point(364, 439);
+            bills_txtbox.Font = new Font("Tahoma", 12F);
+            bills_txtbox.Location = new Point(218, 330);
             bills_txtbox.Name = "bills_txtbox";
-            bills_txtbox.Size = new Size(176, 23);
+            bills_txtbox.Size = new Size(242, 27);
             bills_txtbox.TabIndex = 100;
             // 
             // total_qty_txtbox
             // 
-            total_qty_txtbox.Location = new Point(364, 468);
+            total_qty_txtbox.Font = new Font("Tahoma", 12F);
+            total_qty_txtbox.Location = new Point(218, 363);
             total_qty_txtbox.Name = "total_qty_txtbox";
-            total_qty_txtbox.Size = new Size(176, 23);
+            total_qty_txtbox.Size = new Size(242, 27);
             total_qty_txtbox.TabIndex = 101;
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(260, 442);
+            label8.Font = new Font("Tahoma", 14.25F);
+            label8.Location = new Point(26, 332);
             label8.Name = "label8";
-            label8.Size = new Size(60, 15);
+            label8.Size = new Size(95, 23);
             label8.TabIndex = 102;
             label8.Text = "Total Bills:";
             // 
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(260, 471);
+            label9.Font = new Font("Tahoma", 14.25F);
+            label9.Location = new Point(26, 363);
             label9.Name = "label9";
-            label9.Size = new Size(85, 15);
+            label9.Size = new Size(134, 23);
             label9.TabIndex = 103;
             label9.Text = "Total Quantity:";
             // 
             // cash_txtbox
             // 
-            cash_txtbox.Location = new Point(364, 497);
+            cash_txtbox.Font = new Font("Tahoma", 12F);
+            cash_txtbox.Location = new Point(218, 396);
             cash_txtbox.Name = "cash_txtbox";
-            cash_txtbox.Size = new Size(176, 23);
+            cash_txtbox.Size = new Size(242, 27);
             cash_txtbox.TabIndex = 104;
             // 
             // change_txtbox
             // 
-            change_txtbox.Location = new Point(364, 526);
+            change_txtbox.Font = new Font("Tahoma", 12F);
+            change_txtbox.Location = new Point(218, 429);
             change_txtbox.Name = "change_txtbox";
-            change_txtbox.Size = new Size(176, 23);
+            change_txtbox.Size = new Size(242, 27);
             change_txtbox.TabIndex = 105;
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(260, 500);
+            label10.Font = new Font("Tahoma", 14.25F);
+            label10.Location = new Point(26, 398);
             label10.Name = "label10";
-            label10.Size = new Size(69, 15);
+            label10.Size = new Size(110, 23);
             label10.TabIndex = 106;
             label10.Text = "Cash Given:";
             // 
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(260, 529);
+            label11.Font = new Font("Tahoma", 14.25F);
+            label11.Location = new Point(26, 429);
             label11.Name = "label11";
-            label11.Size = new Size(51, 15);
+            label11.Size = new Size(81, 23);
             label11.TabIndex = 107;
             label11.Text = "Change:";
             // 
@@ -1325,9 +1343,9 @@
             displayListBox.FormattingEnabled = true;
             displayListBox.IntegralHeight = false;
             displayListBox.ItemHeight = 21;
-            displayListBox.Location = new Point(246, 574);
+            displayListBox.Location = new Point(6, 543);
             displayListBox.Name = "displayListBox";
-            displayListBox.Size = new Size(454, 298);
+            displayListBox.Size = new Size(460, 396);
             displayListBox.TabIndex = 108;
             displayListBox.TabStop = false;
             displayListBox.UseTabStops = false;
@@ -1335,9 +1353,9 @@
             // display_picbox
             // 
             display_picbox.BorderStyle = BorderStyle.FixedSingle;
-            display_picbox.Location = new Point(706, 574);
+            display_picbox.Location = new Point(480, 593);
             display_picbox.Name = "display_picbox";
-            display_picbox.Size = new Size(258, 277);
+            display_picbox.Size = new Size(328, 291);
             display_picbox.SizeMode = PictureBoxSizeMode.StretchImage;
             display_picbox.TabIndex = 109;
             display_picbox.TabStop = false;
@@ -1345,29 +1363,30 @@
             // label12
             // 
             label12.AutoSize = true;
-            label12.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label12.Location = new Point(794, 854);
+            label12.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label12.Location = new Point(537, 887);
             label12.Name = "label12";
-            label12.Size = new Size(85, 17);
+            label12.Size = new Size(236, 32);
             label12.TabIndex = 110;
-            label12.Text = "Order Image";
+            label12.Text = "Food Bundle Image";
             // 
             // label13
             // 
             label13.AutoSize = true;
-            label13.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label13.Location = new Point(601, 184);
+            label13.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
+            label13.Location = new Point(478, 41);
             label13.Name = "label13";
-            label13.Size = new Size(99, 17);
+            label13.Size = new Size(182, 32);
             label13.TabIndex = 111;
             label13.Text = "Food Bundle A";
             // 
             // A_Chicken_CheckBox
             // 
             A_Chicken_CheckBox.AutoSize = true;
-            A_Chicken_CheckBox.Location = new Point(633, 212);
+            A_Chicken_CheckBox.Font = new Font("Tahoma", 12F);
+            A_Chicken_CheckBox.Location = new Point(485, 83);
             A_Chicken_CheckBox.Name = "A_Chicken_CheckBox";
-            A_Chicken_CheckBox.Size = new Size(188, 19);
+            A_Chicken_CheckBox.Size = new Size(247, 23);
             A_Chicken_CheckBox.TabIndex = 112;
             A_Chicken_CheckBox.Text = "10 Pcs. Delicious Fried Chicken";
             A_Chicken_CheckBox.UseVisualStyleBackColor = true;
@@ -1375,9 +1394,10 @@
             // A_Fries_CheckBox
             // 
             A_Fries_CheckBox.AutoSize = true;
-            A_Fries_CheckBox.Location = new Point(633, 243);
+            A_Fries_CheckBox.Font = new Font("Tahoma", 12F);
+            A_Fries_CheckBox.Location = new Point(485, 114);
             A_Fries_CheckBox.Name = "A_Fries_CheckBox";
-            A_Fries_CheckBox.Size = new Size(91, 19);
+            A_Fries_CheckBox.Size = new Size(119, 23);
             A_Fries_CheckBox.TabIndex = 113;
             A_Fries_CheckBox.Text = "2 Large Fries";
             A_Fries_CheckBox.UseVisualStyleBackColor = true;
@@ -1385,9 +1405,10 @@
             // A_Coke_CheckBox
             // 
             A_Coke_CheckBox.AutoSize = true;
-            A_Coke_CheckBox.Location = new Point(633, 276);
+            A_Coke_CheckBox.Font = new Font("Tahoma", 12F);
+            A_Coke_CheckBox.Location = new Point(485, 147);
             A_Coke_CheckBox.Name = "A_Coke_CheckBox";
-            A_Coke_CheckBox.Size = new Size(71, 19);
+            A_Coke_CheckBox.Size = new Size(91, 23);
             A_Coke_CheckBox.TabIndex = 114;
             A_Coke_CheckBox.Text = "1.5 Coke";
             A_Coke_CheckBox.UseVisualStyleBackColor = true;
@@ -1395,9 +1416,10 @@
             // A_Sides_CheckBox
             // 
             A_Sides_CheckBox.AutoSize = true;
-            A_Sides_CheckBox.Location = new Point(633, 309);
+            A_Sides_CheckBox.Font = new Font("Tahoma", 12F);
+            A_Sides_CheckBox.Location = new Point(485, 180);
             A_Sides_CheckBox.Name = "A_Sides_CheckBox";
-            A_Sides_CheckBox.Size = new Size(94, 19);
+            A_Sides_CheckBox.Size = new Size(123, 23);
             A_Sides_CheckBox.TabIndex = 115;
             A_Sides_CheckBox.Text = "4 Side Dishes";
             A_Sides_CheckBox.UseVisualStyleBackColor = true;
@@ -1405,9 +1427,10 @@
             // A_Special_CheckBox
             // 
             A_Special_CheckBox.AutoSize = true;
-            A_Special_CheckBox.Location = new Point(633, 344);
+            A_Special_CheckBox.Font = new Font("Tahoma", 12F);
+            A_Special_CheckBox.Location = new Point(485, 215);
             A_Special_CheckBox.Name = "A_Special_CheckBox";
-            A_Special_CheckBox.Size = new Size(138, 19);
+            A_Special_CheckBox.Size = new Size(179, 23);
             A_Special_CheckBox.TabIndex = 116;
             A_Special_CheckBox.Text = "Special Pizza Delights";
             A_Special_CheckBox.UseVisualStyleBackColor = true;
@@ -1415,19 +1438,20 @@
             // label14
             // 
             label14.AutoSize = true;
-            label14.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label14.Location = new Point(601, 374);
+            label14.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
+            label14.Location = new Point(478, 252);
             label14.Name = "label14";
-            label14.Size = new Size(98, 17);
+            label14.Size = new Size(180, 32);
             label14.TabIndex = 117;
             label14.Text = "Food Bundle B";
             // 
             // B_HaloHalo_Checkbox
             // 
             B_HaloHalo_Checkbox.AutoSize = true;
-            B_HaloHalo_Checkbox.Location = new Point(633, 405);
+            B_HaloHalo_Checkbox.Font = new Font("Tahoma", 12F);
+            B_HaloHalo_Checkbox.Location = new Point(485, 294);
             B_HaloHalo_Checkbox.Name = "B_HaloHalo_Checkbox";
-            B_HaloHalo_Checkbox.Size = new Size(201, 19);
+            B_HaloHalo_Checkbox.Size = new Size(264, 23);
             B_HaloHalo_Checkbox.TabIndex = 118;
             B_HaloHalo_Checkbox.Text = "4 Cups Special Halo Halo Regular";
             B_HaloHalo_Checkbox.UseVisualStyleBackColor = true;
@@ -1435,9 +1459,10 @@
             // B_Chicken_Checkbox
             // 
             B_Chicken_Checkbox.AutoSize = true;
-            B_Chicken_Checkbox.Location = new Point(633, 437);
+            B_Chicken_Checkbox.Font = new Font("Tahoma", 12F);
+            B_Chicken_Checkbox.Location = new Point(485, 326);
             B_Chicken_Checkbox.Name = "B_Chicken_Checkbox";
-            B_Chicken_Checkbox.Size = new Size(182, 19);
+            B_Chicken_Checkbox.Size = new Size(238, 23);
             B_Chicken_Checkbox.TabIndex = 119;
             B_Chicken_Checkbox.Text = "6 Pcs. Delicious Fried Chicken";
             B_Chicken_Checkbox.UseVisualStyleBackColor = true;
@@ -1445,9 +1470,10 @@
             // B_Carbonara_Checkbox
             // 
             B_Carbonara_Checkbox.AutoSize = true;
-            B_Carbonara_Checkbox.Location = new Point(633, 470);
+            B_Carbonara_Checkbox.Font = new Font("Tahoma", 12F);
+            B_Carbonara_Checkbox.Location = new Point(485, 359);
             B_Carbonara_Checkbox.Name = "B_Carbonara_Checkbox";
-            B_Carbonara_Checkbox.Size = new Size(156, 19);
+            B_Carbonara_Checkbox.Size = new Size(203, 23);
             B_Carbonara_Checkbox.TabIndex = 120;
             B_Carbonara_Checkbox.Text = "1 Family Pack Carbonara";
             B_Carbonara_Checkbox.UseVisualStyleBackColor = true;
@@ -1455,9 +1481,10 @@
             // B_Fries_Checkbox
             // 
             B_Fries_Checkbox.AutoSize = true;
-            B_Fries_Checkbox.Location = new Point(633, 501);
+            B_Fries_Checkbox.Font = new Font("Tahoma", 12F);
+            B_Fries_Checkbox.Location = new Point(485, 390);
             B_Fries_Checkbox.Name = "B_Fries_Checkbox";
-            B_Fries_Checkbox.Size = new Size(125, 19);
+            B_Fries_Checkbox.Size = new Size(163, 23);
             B_Fries_Checkbox.TabIndex = 121;
             B_Fries_Checkbox.Text = "1 Family Pack Fries";
             B_Fries_Checkbox.UseVisualStyleBackColor = true;
@@ -1465,54 +1492,66 @@
             // B_Hawaiian_Checkbox
             // 
             B_Hawaiian_Checkbox.AutoSize = true;
-            B_Hawaiian_Checkbox.Location = new Point(633, 532);
+            B_Hawaiian_Checkbox.Font = new Font("Tahoma", 12F);
+            B_Hawaiian_Checkbox.Location = new Point(485, 421);
             B_Hawaiian_Checkbox.Name = "B_Hawaiian_Checkbox";
-            B_Hawaiian_Checkbox.Size = new Size(161, 19);
+            B_Hawaiian_Checkbox.Size = new Size(207, 23);
             B_Hawaiian_Checkbox.TabIndex = 122;
             B_Hawaiian_Checkbox.Text = "1 Medium Hawaiian Pizza";
             B_Hawaiian_Checkbox.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(B_Hawaiian_Checkbox);
+            groupBox2.Controls.Add(B_Fries_Checkbox);
+            groupBox2.Controls.Add(B_Carbonara_Checkbox);
+            groupBox2.Controls.Add(B_Chicken_Checkbox);
+            groupBox2.Controls.Add(B_HaloHalo_Checkbox);
+            groupBox2.Controls.Add(label14);
+            groupBox2.Controls.Add(A_Special_CheckBox);
+            groupBox2.Controls.Add(A_Sides_CheckBox);
+            groupBox2.Controls.Add(A_Coke_CheckBox);
+            groupBox2.Controls.Add(A_Fries_CheckBox);
+            groupBox2.Controls.Add(A_Chicken_CheckBox);
+            groupBox2.Controls.Add(label13);
+            groupBox2.Controls.Add(label11);
+            groupBox2.Controls.Add(label10);
+            groupBox2.Controls.Add(change_txtbox);
+            groupBox2.Controls.Add(cash_txtbox);
+            groupBox2.Controls.Add(label9);
+            groupBox2.Controls.Add(label8);
+            groupBox2.Controls.Add(total_qty_txtbox);
+            groupBox2.Controls.Add(bills_txtbox);
+            groupBox2.Controls.Add(label7);
+            groupBox2.Controls.Add(disced_txtbox);
+            groupBox2.Controls.Add(label6);
+            groupBox2.Controls.Add(label5);
+            groupBox2.Controls.Add(disc_txtbox);
+            groupBox2.Controls.Add(qty_txtbox);
+            groupBox2.Controls.Add(price_txtbox);
+            groupBox2.Controls.Add(label4);
+            groupBox2.Controls.Add(label2);
+            groupBox2.Controls.Add(bundle_B_rdbtn);
+            groupBox2.Controls.Add(bundle_A_rdbtn);
+            groupBox2.Controls.Add(label1);
+            groupBox2.Font = new Font("Tahoma", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox2.Location = new Point(6, 65);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(802, 472);
+            groupBox2.TabIndex = 123;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Menu Choices";
             // 
             // POS_Cashier_2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.AliceBlue;
-            ClientSize = new Size(1904, 1041);
-            Controls.Add(B_Hawaiian_Checkbox);
-            Controls.Add(B_Fries_Checkbox);
-            Controls.Add(B_Carbonara_Checkbox);
-            Controls.Add(B_Chicken_Checkbox);
-            Controls.Add(B_HaloHalo_Checkbox);
-            Controls.Add(label14);
-            Controls.Add(A_Special_CheckBox);
-            Controls.Add(A_Sides_CheckBox);
-            Controls.Add(A_Coke_CheckBox);
-            Controls.Add(A_Fries_CheckBox);
-            Controls.Add(A_Chicken_CheckBox);
-            Controls.Add(label13);
+            ClientSize = new Size(1870, 1041);
+            Controls.Add(groupBox2);
             Controls.Add(label12);
             Controls.Add(display_picbox);
             Controls.Add(displayListBox);
-            Controls.Add(label11);
-            Controls.Add(label10);
-            Controls.Add(change_txtbox);
-            Controls.Add(cash_txtbox);
-            Controls.Add(label9);
-            Controls.Add(label8);
-            Controls.Add(total_qty_txtbox);
-            Controls.Add(bills_txtbox);
-            Controls.Add(label7);
-            Controls.Add(disced_txtbox);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(disc_txtbox);
-            Controls.Add(qty_txtbox);
-            Controls.Add(price_txtbox);
-            Controls.Add(label4);
-            Controls.Add(label2);
-            Controls.Add(bundle_B_rdbtn);
-            Controls.Add(bundle_A_rdbtn);
-            Controls.Add(label1);
             Controls.Add(calculate_btn);
             Controls.Add(print_btn);
             Controls.Add(remove_btn);
@@ -1548,6 +1587,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).EndInit();
             ((System.ComponentModel.ISupportInitialize)display_picbox).EndInit();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
 
@@ -1676,5 +1717,6 @@
         private Label price5;
         private Label price4;
         private Label price3;
+        private GroupBox groupBox2;
     }
 }

@@ -164,7 +164,7 @@ namespace BERLANDINO_DSAL01E
         // Print payslip to another form
         private void print_payslip_button_Click(object sender, EventArgs e)
         {
-            L9_Activity3_Prnt print1 = new L9_Activity3_Prnt();
+            L8_Activity3_Prnt print1 = new L8_Activity3_Prnt();
             print1.prntDisplayListbox.Items.AddRange(this.payslip_view_listbox.Items);
             print1.prntDisplayListbox.Font = new Font("Courier New", 12, FontStyle.Regular);
             print1.Show();

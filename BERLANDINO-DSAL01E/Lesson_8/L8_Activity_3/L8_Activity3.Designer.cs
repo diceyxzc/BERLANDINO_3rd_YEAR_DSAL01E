@@ -1,6 +1,6 @@
 ﻿namespace BERLANDINO_DSAL01E
 {
-    partial class L9_Activity3
+    partial class L8_Activity3
     {
         /// <summary>
         /// Required designer variable.
